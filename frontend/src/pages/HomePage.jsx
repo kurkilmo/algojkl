@@ -1,5 +1,9 @@
 import React from "react";
 import ryhma from "../images/ryhma.png"
+import { IoDiamondSharp } from "react-icons/io5";
+
+const Calendar_key = process.env.REACT_APP_CALENDAR_URL
+
 const HomePage = () => {
 
      return (
@@ -7,7 +11,7 @@ const HomePage = () => {
         <img className="frontpage_picture" src={ryhma} alt="teampic" />
         
         <div className="welcome">
-          <p>Tervetuloa Algo ry:n sivuille! Algo ry on Jyväskyläläinen TietoTeekkarikilta.</p>
+          <p>Algo ry – Tulevaisuuden tekniikan tekijät</p>
         </div>
   
         <div className="news-events">
@@ -17,11 +21,20 @@ const HomePage = () => {
   
           <div className="events">
             <h2>Tulevat tapahtumat</h2>
+            <iframe 
+                title="Google calendar"
+                src={Calendar_key}
+                className="google-calendar"
+                frameBorder="0" 
+                scrolling="no"
+            ></iframe>
           </div>
         </div>
   
         <div className="diamond-partners">
+        <IoDiamondSharp />
           <h2>Timanttikumppanit</h2>
+        <IoDiamondSharp />
         </div>
   
         <div className="feedback">
