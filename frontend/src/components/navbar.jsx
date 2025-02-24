@@ -12,8 +12,12 @@ function NavBar() {
     <div className="navigation">
       <nav>
         <div className="left-section">
-          <img src={logo} alt="logo" />
-          <p className="kilta">ALGO ry</p>
+          <a href="/">
+            <img src={logo} alt="logo" />
+          </a>
+          <a href="/" className="kilta">
+            ALGO ry
+          </a>
           <div className="social">
             <a href="https://www.instagram.com/algo_jkl/"> 
                 <img src={insta} alt="instagram" /> 
@@ -34,7 +38,7 @@ function NavBar() {
           <ul>
             <li><Link to="/">ETUSIVU</Link></li>
             <li><Link to="/tapahtumat">TAPAHTUMAT</Link></li>
-            <li><Link to="/yhteistyöt">YHTEISTYÖT</Link></li>
+            <li><Link to="/yhteistyot">YHTEISTYÖT</Link></li>
 
             <DropdownMenu
                 title="KILTA"
@@ -64,7 +68,16 @@ function NavBar() {
             ]}
             />
 
-            <li><Link to="/Ohjesäännöt">OHJESÄÄNNÖT</Link></li>
+            <DropdownMenu
+                title="OHJESÄÄNNÖT"
+                links={[
+                    { label:"ANSIOMERKIT" , path: "/ansiomerkit"},
+                    { label:"HAALARIETIKETTI" , path: "/haalarit"},
+                    { label:"JÄSENDUT" , path: "/edut"},
+                    { label:"TEEKKARILAKKI" , path: "/lakki"},
+                    { label:"VUOSIJUHLAETIKETTI" , path: "/vujut"},
+            ]}
+            />
 
           </ul>
           <button className="jasen_nappi">LIITY JÄSENEKSI</button>

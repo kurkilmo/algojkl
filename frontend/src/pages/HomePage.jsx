@@ -1,5 +1,6 @@
 import React from "react";
 import ryhma from "../images/ryhma.png"
+import logo from "../images/algologo.jpeg"
 import { IoDiamondSharp } from "react-icons/io5";
 
 const Calendar_key = process.env.REACT_APP_CALENDAR_URL
@@ -11,7 +12,9 @@ const HomePage = () => {
         <img className="frontpage_picture" src={ryhma} alt="teampic" />
         
         <div className="welcome">
-          <p>Algo ry – Tulevaisuuden tekniikan tekijät</p>
+            <img src={logo} alt="Algon logo" width={150} />
+            <div className="separator"></div>
+          <p>Tulevaisuuden tekniikan tekijät</p>
         </div>
   
         <div className="news-events">
