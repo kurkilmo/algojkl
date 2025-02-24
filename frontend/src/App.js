@@ -4,13 +4,18 @@ import AdminPage from "./pages/AdminPage"
 import HomePage from "./pages/HomePage"
 import "./App.css"
 
+import NavBar from "./components/navbar"
+import Footer from "./components/footer"
+
 function App() {
   return (
     <Router>
+      <NavBar/>
       <Routes>
         <Route path="/admin" element={<AdminPage />} />
         <Route path="/" element={<HomePage/>} />
       </Routes>
+      <Footer/>
     </Router>
   )
 }

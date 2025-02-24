@@ -1,15 +1,13 @@
 import React from "react";
-import Nav from "../components/navbar"
 import ryhma from "../images/ryhma.png"
 const HomePage = () => {
 
      return (
         <div className="container">
-        <Nav />
         <img className="frontpage_picture" src={ryhma} alt="teampic" />
         
         <div className="welcome">
-          <p>Tervetuloa Algo ry:n sivuille! Algo ry on Jyväskylän TietoTeekkarikilta.</p>
+          <p>Tervetuloa Algo ry:n sivuille! Algo ry on Jyväskyläläinen TietoTeekkarikilta.</p>
         </div>
   
         <div className="news-events">
@@ -28,10 +26,10 @@ const HomePage = () => {
   
         <div className="feedback">
           <h2>Haluatko antaa meille palautetta?</h2>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_uGBf6NpWvJi_v3o7w3iJ2flnCMrxnNWMi6hIgMhD3kPBAw/viewform">Se onnistuu kun täytät tämän lomakkeen. Palautteet käsitellään täysin anonyymitse</a>
+          <p>Se onnistuu, kun täytät alla olevan lomakkeen. Palautteet käsitellään täysin anonyymitse</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_uGBf6NpWvJi_v3o7w3iJ2flnCMrxnNWMi6hIgMhD3kPBAw/viewform">Palautelomake</a>
         </div>
       </div>
-        
     )
 
 }
