@@ -9,7 +9,6 @@ body {
 /* -------------------------------------------- NavBar ---------------------------------------------------- */
 
 .navigation {
-  width: 100%;
   background-color: #322c2b;
   padding: 10px 10px 10px 10px;
 }
@@ -246,14 +245,52 @@ a {
   text-align: center;
 }
 
-.collab-h1 {
+.collab-h1, .ansiomerkit-container h1, .OverAll-container h1, .Lakki-container h1, .Vuju-container h1{
   background-color: #FBBEBD;
   color: #000000;
   padding: 20px;
   border-radius: 10px;
 }
 
+/* ---------------------------------Ansiomerkit----------------------------------------------------------- */
+
+.ansiomerkit-container h1 {
+  text-align: center;
+}
+
+.ansiomerkit-container p {
+  padding: 3%;
+  font-size: 1.12rem;
+}
+
+/* --------------------Overall-Page--------------------------------------------------------------------------- */
+
+.OverAll-container h1, .Lakki-container h1, .Vuju-container h1{
+  text-align: center;
+}
+
+.OverAll-container ul {
+  margin: 15px 5px 15px 5px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color:#322c2b;
+}
+
+.OverAll-container li {
+  font-size: 1.1rem;
+}
+
 /* ------------------------------------------------------------------------------------------------ */
+
+.Lakki-container p, .Vuju-container p {
+  padding: 30px;
+  border-radius: 10px;
+  background-color:#322c2b;
+  font-size: 1.1rem;
+}
+.Lakki-container h2, .Vuju-container h2 {
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   .navigation nav {
