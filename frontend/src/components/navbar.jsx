@@ -73,7 +73,6 @@ function NavBar() {
                 links={[
                     { label:"ANSIOMERKIT" , path: "/ansiomerkit"},
                     { label:"HAALARIETIKETTI" , path: "/haalarit"},
-                    { label:"JÄSENDUT" , path: "/edut"},
                     { label:"TEEKKARILAKKI" , path: "/lakki"},
                     { label:"VUOSIJUHLAETIKETTI" , path: "/vujut"},
             ]}
