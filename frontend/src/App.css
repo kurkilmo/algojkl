@@ -89,6 +89,56 @@ body {
   background-color: #d88ace;
 }
 
+.bm-burger-button {
+  position: relative !important;
+  width: 36px !important;
+  height: 30px !important;
+  z-index: 3 !important;
+  display: none;
+  border-radius: 5px;
+  background: rgb(139, 134, 134);
+}
+
+.bm-overlay {
+  background: none !important;
+}
+
+#react-burger-menu-btn {
+  width: 36px !important;
+  height: 30px !important;
+  z-index: 1000 !important;
+}
+
+.bm-menu {
+  background: #322c2b;
+  font-size: 1.15em;
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  padding-left: 10px; 
+  border-color: #000000;
+}
+
+
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+
+}
+
+.bm-item {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+}
+
+
 /* ------------------------------------------------------------------------------------------------ */
 
 /* -------------------------------------------- Etusivu ---------------------------------------------------- */
@@ -186,6 +236,13 @@ a {
   color:#FBBEBD;
   text-decoration:underline;
 }
+
+.bm-li a {
+  text-decoration: none;
+}
+.bm-li a:hover {
+  color: #000000;
+}
 /* ------------------------------------------------------------------------------------------------ */
 
 
@@ -280,7 +337,7 @@ a {
   font-size: 1.1rem;
 }
 
-/* ------------------------------------------------------------------------------------------------ */
+/* -------------------------------LakkiC+ vuju-container--------------------------------------------------------------- */
 
 .Lakki-container p, .Vuju-container p {
   padding: 30px;
@@ -291,26 +348,33 @@ a {
 .Lakki-container h2, .Vuju-container h2 {
   text-align: center;
 }
+/* ------------------------------------------------------------------------------------------------ */
 
 @media (max-width: 768px) {
-  .navigation nav {
-    flex-direction: column;
-    align-items: center;
+
+  .navigation {
+    position: relative;
   }
 
   .right-section {
-    margin-left: 0;
-    justify-content: center;
-    width: 100%;
+    display: none;
+    
+  }
+    .bm-burger-button {
+    display: block;
   }
 
-  .right-section ul {
-    flex-direction: column;
-    gap: 10px;
+  .dropdown {
+    display:list-item;
+    text-align: left;
+  }
+
+  .dropdown-button {
+    padding: 2px 0 2px 0;
   }
 
   .jasen_nappi {
-    width: 100%;
-    text-align: center;
+    margin-top: 3%;
   }
+
 }
