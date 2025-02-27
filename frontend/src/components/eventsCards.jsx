@@ -28,10 +28,10 @@ const EventCards = () => {
   return (
     <div className="event-cards-container">
       {events.length === 0 ? (
-        <p>Loading events...</p>
-      ) : (
-        events.map((event) => (
-          <div key={event.id} className="event-card">
+          <p>Loading events...</p>
+        ) : (
+            events.map((event) => (
+                <div key={event.id} className="event-card">
             {event.picture && event.picture.fields && (
               <img 
                 src={event.picture.fields.file.url} 
@@ -45,6 +45,7 @@ const EventCards = () => {
         ))
       )}
     </div>
+
   );
 };
 

@@ -2,16 +2,12 @@ import React from "react";
 import Carousel from "../components/carousel";
 import EventCards from "../components/eventsCards";
 import DiamondLogos from "../components/diamondLogos.jsx";
-import Card from "../components/card.jsx";
-
 import { IoDiamondSharp } from "react-icons/io5";
 
 
 const HomePage = () => {
 
      return (
-
-         
          <div className="container">
         <Carousel/>
         <div className="news-events">
