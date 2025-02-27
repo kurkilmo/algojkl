@@ -16,6 +16,7 @@ const HomePage = () => {
         <div className="news-events">
           <div className="events">
             <h2>TULEVAT TAPAHTUMAT</h2>
+            <EventCards/>
           </div>
         </div>
   
@@ -24,6 +25,7 @@ const HomePage = () => {
           <h2>TIMANTTIKUMPPANIT</h2>
         <IoDiamondSharp />
         </div>
+        <DiamondLogos/>
       </div>
     )
 
