@@ -24,7 +24,6 @@ const Collab = () => {
             <p>tapahtumat@algojkl.com</p>
 
             <h3>Yhteistyökumppanimme</h3>
-                <CollabCards/>
         </div>
     )
 }

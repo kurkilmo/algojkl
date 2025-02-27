@@ -9,6 +9,7 @@ import OverAll from "./pages/OverallPage"
 import Lakki from "./pages/TeekkarilakkiPage"
 import Vujut from "./pages/VuosijuhlaPage"
 import EventPage from "./pages/eventPage"
+import Fuksit from "./pages/FreshmenPage"
 
 import "./App.css"
 
@@ -28,6 +29,7 @@ function App() {
             <Route path="/haalarit" element={<OverAll/>} />
             <Route path="/lakki" element={<Lakki/>} />
             <Route path="/vujut" element={<Vujut/>} />
+            <Route path="/fuksit" element={<Fuksit/>} />
           </Routes>
         <Footer/>
       </Router>

@@ -53,12 +53,18 @@ function Footer() {
           </nav>
         </div>
         
-        <div className="feedback">
-          <h3>Haluatko antaa meille palautetta?</h3>
-          <p>Se onnistuu, kun täytät alla olevan lomakkeen. Palautteet käsitellään täysin anonyymitse</p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_uGBf6NpWvJi_v3o7w3iJ2flnCMrxnNWMi6hIgMhD3kPBAw/viewform">Palautelomake</a>
+        <div className="feedback-comms">
+            <div className="feedback">
+                <h3>Haluatko antaa meille palautetta?</h3>
+                <p>Se onnistuu, kun täytät alla olevan lomakkeen. Palautteet käsitellään täysin anonyymitse</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_uGBf6NpWvJi_v3o7w3iJ2flnCMrxnNWMi6hIgMhD3kPBAw/viewform">Palautelomake</a>
+            </div>
+            <div className="feedback">
+                <h3>Viestintäkanavat</h3>
+                <p><a href="https://t.me/+8y92cuFA8bozNGI0">Telegram-kanava</a></p>
+                <p><a href="https://t.me/+ewJj_alb0eo2Njc0">Telegram-ilmoituskanava</a></p>
+            </div>
         </div>
-
     </footer>
         
   )
