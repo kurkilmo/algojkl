@@ -10,10 +10,12 @@ const HomePage = () => {
      return (
          <div className="container">
         <Carousel/>
+        <div>
+            <p>Algo ry on vuonna 2023 perustettu kilta, joka yhdistää Jyväskylän yliopiston IT-tiedekunnan teknillisten alojen opiskelijat.</p>
+        </div>
         <div className="news-events">
           <div className="events">
             <h2>TULEVAT TAPAHTUMAT</h2>
-            <EventCards/>
           </div>
         </div>
   
@@ -22,7 +24,6 @@ const HomePage = () => {
           <h2>TIMANTTIKUMPPANIT</h2>
         <IoDiamondSharp />
         </div>
-        <DiamondLogos/>
       </div>
     )
 

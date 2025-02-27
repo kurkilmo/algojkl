@@ -7,11 +7,9 @@ const Collab = () => {
         <div className="collab_container">
             <h1 className="collab-h1">Yhteistyö</h1>
             <h2>Hei! Kiinnostaako yhteistyö?</h2>
-            <h3>Yritysyhteistyö</h3>
+            <h3>Yritysyhteistyöt</h3>
             <p>
                 Algon kanssa voi tehdä yhteistyötä laidasta laitaan! Haluatko mainospaikan haalareista tai tukea tapahtumiamme? Vai kiinnostaisiko esitellä yritystäsi Jyväskylän DI-opiskelijoille?
-                <br />
-                Excursioihin ja yritysvierailuihin liittyvissä asioissa voit ottaa yhteyttä yrityssuhdevastaavaamme.
                 <br />
                 Ota meihin yhteyttä:
                 <br />
@@ -26,7 +24,6 @@ const Collab = () => {
             <p>tapahtumat@algojkl.com</p>
 
             <h3>Yhteistyökumppanimme</h3>
-                <CollabCards/>
         </div>
     )
 }

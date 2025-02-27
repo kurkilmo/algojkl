@@ -125,7 +125,7 @@ body {
 }
 
 .jasen_nappi:hover {
-  background-color: #000000;
+  background-color: #c9bcba;
 }
 
 .bm-burger-button {
@@ -202,6 +202,11 @@ body {
   text-align: center;
 }
 
+.container p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
 .welcome {
   display: inline-flex;
   justify-content: center;
@@ -260,8 +265,8 @@ body {
 }
 
 .collab-logo {
-  width: 400px; /* Voit säätää koon tarpeen mukaan */
-  object-fit: contain; /* Säilyttää logon mittasuhteet */
+  width: 400px;
+  object-fit: contain; 
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   padding-left:10px;
   padding-right: 10px;
@@ -276,14 +281,34 @@ body {
 /* -------------------------------------- Footer-Bar ---------------------------------------------------------- */
 
 
-.feedback {
+.feedback-comms {
+  display: flex;
   margin-left: 2%;
-  padding: 20px 0;
+}
+
+.feedback {
+  flex: 1;
+}
+
+.feedback h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feedback p {
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 .feedback a {
-  color: white;
+  color: #FBBEBD;
+  text-decoration: none;
 }
+
+.feedback a:hover {
+  text-decoration: underline;
+}
+
 
 .footer {
   background-color: #1a1a1a;
@@ -295,6 +320,10 @@ body {
 .footer-content {
   display: flex;
   margin-left:2%;
+}
+
+.footer-info {
+  font-size: 1.1rem;
 }
 
 .footer-info h3 {
@@ -309,9 +338,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content:start;
-  gap: 30px;
+  gap: 60px;
   list-style: none;
   padding: 0;
+  margin-top: 0;
 }
 
 .footer-nav li {
@@ -346,7 +376,6 @@ a {
 }
 /* ------------------------------------------------------------------------------------------------ */
 
-/* Peruskorttien asettelu */
 .event-cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -360,7 +389,7 @@ a {
   border-radius: 10px;
   cursor: pointer;
   text-align: center;
-  background: #fff;
+  background: #ffffff;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
 }
@@ -470,23 +499,94 @@ a {
 
 /* ----------------------------------------CollabPage------------------------------------------------------- */
 
-.collab_container{
-  align-items: center;
+.collab_container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
   text-align: center;
 }
 
-.collab-h1, .ansiomerkit-container h1, .OverAll-container h1, .Lakki-container h1, .Vuju-container h1{
+.collab-h1 {
   background-color: #FBBEBD;
   color: #000000;
   padding: 20px;
   border-radius: 10px;
 }
 
-/* ---------------------------------Ansiomerkit----------------------------------------------------------- */
 
-.ansiomerkit-container h1 {
+.collab_container p {
+  line-height: 1.6;
+  font-size: 16px;
+  color: #555;
+}
+
+.collab_container p a {
+  color: #E44D26;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.collab_container p a:hover {
+  text-decoration: underline;
+}
+
+
+.collab-h1, .ansiomerkit-container h1, .OverAll-container h1, .Lakki-container h1, .Vuju-container h1, .Freshman-container h1{
+  background-color: #FBBEBD;
+  color: #000000;
+  padding: 20px;
+  border-radius: 10px;
   text-align: center;
 }
+
+/*-----------------------------------------------------FreshmanPage------------------------------------------------------------------------*/
+
+.Freshman-container p {
+  padding: 10px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.Freshman-container h2 {
+  padding: 10px;
+  margin-left: 8%;
+  margin-right: 8%;
+
+}
+
+.Freshman-container ul {
+  list-style: none;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0;
+}
+
+.Freshman-container li {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.Freshman-container li span {
+  display: block;
+  font-weight: normal;
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.Freshman-container a {
+  color: #322c2b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Freshman-container a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------------------------Ansiomerkit----------------------------------------------------------- */
+
 
 .ansiomerkit-container p {
   padding: 3%;
@@ -495,19 +595,18 @@ a {
 
 /* --------------------Overall-Page--------------------------------------------------------------------------- */
 
-.OverAll-container h1, .Lakki-container h1, .Vuju-container h1{
-  text-align: center;
-}
 
 .OverAll-container ul {
-  margin: 15px 5px 15px 5px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color:#322c2b;
+  padding-left: 3%;
+  background-color:#FFFFFF;
+}
+
+.OverAll-container h2 {
+  padding-left: 1%;
 }
 
 .OverAll-container li {
-  font-size: 1.1rem;
+  font-size: 1.12rem;
 }
 
 /* -------------------------------LakkiC+ vuju-container--------------------------------------------------------------- */
@@ -515,8 +614,8 @@ a {
 .Lakki-container p, .Vuju-container p {
   padding: 30px;
   border-radius: 10px;
-  background-color:#322c2b;
-  font-size: 1.1rem;
+  background-color:#fff;
+  font-size: 1.12rem;
 }
 .Lakki-container h2, .Vuju-container h2 {
   text-align: center;
