@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react"
+import { Link } from "react-router-dom"
 import "../App.css"
 
-const DropdownMenu = ({ title, links }) => {
-  const [isOpen, setIsOpen] = useState(false);
+const DropdownMenu = ({ title, links, onItemClick }) => {
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <div 
@@ -15,12 +15,16 @@ const DropdownMenu = ({ title, links }) => {
       {isOpen && (
         <div className="dropdown-content">
           {links.map((link, index) => (
-            <Link key={index} to={link.path}>{link.label}</Link>
+            <Link key={index} to={link.path} onClick={(e) => {
+                if (onItemClick)
+                    onItemClick()
+              }}
+            >{link.label}</Link>
           ))}
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default DropdownMenu;
+export default DropdownMenu

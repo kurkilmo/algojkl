@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 
@@ -39,9 +39,9 @@ function NavBar() {
           onStateChange={({ isOpen }) => setMenuOpen(isOpen)}
         >
           <ul>
-            <li className="bm-li"><Link to="/">ETUSIVU</Link></li>
-            <li className="bm-li"><Link to="/tapahtumat">TAPAHTUMAT</Link></li>
-            <li className="bm-li"><Link to="/yhteistyot">YHTEISTYÖT</Link></li>
+            <li className="bm-li"><Link to="/" onClick={() => setMenuOpen(false)}>ETUSIVU</Link></li>
+            <li className="bm-li"><Link to="/tapahtumat" onClick={() => setMenuOpen(false)}>TAPAHTUMAT</Link></li>
+            <li className="bm-li"><Link to="/yhteistyot" onClick={() => setMenuOpen(false)}>YHTEISTYÖT</Link></li>
 
             <DropdownMenu title="KILTA" links={[
               { label: "UUDET OPISKELIJAT", path: "/fuksit" },
@@ -51,7 +51,7 @@ function NavBar() {
               { label: "SÄÄNNÖT", path: "/saannot" },
               { label: "REKISTERISELOSTE", path: "/seloste" },
               { label: "DOKUMENTIT", path: "/dokumentit" },
-            ]} />
+            ]} onItemClick={() => setMenuOpen(false)} />
 
             <DropdownMenu title="JÄSENILLE" links={[
               { label: "UUTISET JA TIEDOTTEET", path: "/uutiset" },
@@ -63,9 +63,17 @@ function NavBar() {
               { label: "KANSAINVÄLISYYS", path: "/kansainvalisyys" },
               { label: "KATTILAN KAHVIKAMERA", path: "/kahvikamera" },
               { label: "SALAISUUDET", path: "/salaisuudet" },
-            ]} />
+            ]} onItemClick={() => setMenuOpen(false)} />
+            
+            <DropdownMenu title="OHJESÄÄNNÖT" links={[
+              { label: "ANSIOMERKIT", path: "/ansiomerkit" },
+              { label: "HAALARIETIKETTI", path: "/haalarit" },
+              { label: "TEEKKARILAKKI", path: "/lakki" },
+              { label: "VUOSIJUHLAETIKETTI", path: "/vujut" },
+            ]} onItemClick={() => setMenuOpen(false)} />
+            
+            <button className="jasen_nappi" onClick={() => setMenuOpen(false)}>LIITY JÄSENEKSI</button>
 
-            <button className="jasen_nappi">LIITY JÄSENEKSI</button>
           </ul>
         </Menu>
 
