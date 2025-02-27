@@ -1,4 +1,5 @@
 import React from "react";
+import CollabCards from "../components/collabLogos";
 
 const Collab = () => {
     return(
@@ -25,8 +26,7 @@ const Collab = () => {
             <p>tapahtumat@algojkl.com</p>
 
             <h3>Yhteistyökumppanimme</h3>
-            <p>tähän yhteistyökumppanit</p>
-
+                <CollabCards/>
         </div>
     )
 }

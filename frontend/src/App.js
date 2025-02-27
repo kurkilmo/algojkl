@@ -8,6 +8,7 @@ import AnsioPage from "./pages/AnsiomerkitPage"
 import OverAll from "./pages/OverallPage"
 import Lakki from "./pages/TeekkarilakkiPage"
 import Vujut from "./pages/VuosijuhlaPage"
+import EventPage from "./pages/eventPage"
 
 import "./App.css"
 
@@ -21,6 +22,7 @@ function App() {
           <Routes>
             <Route path="/admin" element={<AdminPage />} />
             <Route path="/" element={<HomePage/>} />
+            <Route path="/tapahtumat" element={<EventPage/>}/>
             <Route path="/yhteistyot" element={<CollabPage/>} />
             <Route path="/ansiomerkit" element={<AnsioPage/>} />
             <Route path="/haalarit" element={<OverAll/>} />
