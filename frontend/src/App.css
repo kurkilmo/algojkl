@@ -1,15 +1,54 @@
 body {
   font-family: 'Buenard', serif;
-  background-color: #000000;
-  color: #FBBEBD;
+  background-color: #FFFFFF;
+  color: #000000;
   margin: 0;
   padding: 0;
 }
 
+/* -------------------------------------------Carousel --------------------------------------------------------*/
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-track img {
+  width: 100%;
+}
+
+.carousel-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+
 /* -------------------------------------------- NavBar ---------------------------------------------------- */
 
 .navigation {
-  background-color: #322c2b;
+  background-color: #FAF6ED;
   padding: 10px 10px 10px 10px;
 }
 
@@ -64,7 +103,7 @@ body {
 
 .right-section li a {
   text-decoration: none;
-  color: #FBBEBD;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -86,7 +125,7 @@ body {
 }
 
 .jasen_nappi:hover {
-  background-color: #d88ace;
+  background-color: #000000;
 }
 
 .bm-burger-button {
@@ -96,7 +135,7 @@ body {
   z-index: 3 !important;
   display: none;
   border-radius: 5px;
-  background: rgb(139, 134, 134);
+  background: rgb(209, 196, 196);
 }
 
 .bm-overlay {
@@ -109,8 +148,9 @@ body {
   z-index: 1000 !important;
 }
 
+
 .bm-menu {
-  background: #322c2b;
+  background: #FAF6ED;
   font-size: 1.15em;
   margin-top: 4%;
   display: flex;
@@ -118,13 +158,15 @@ body {
   align-items: flex-start; 
   padding-left: 10px; 
   border-color: #000000;
+  border-style: solid;
+  border-radius: 2px;
 }
-
 
 .bm-item-list {
   display: flex;
   flex-direction: column;
   padding-left: 5%;
+  
 
 }
 
@@ -181,22 +223,22 @@ body {
 }
 
 .news-events {
-  display: flex;
   justify-content: space-between;
   width: 100%;
   gap: 5px;
 }
 
 .news, .events {
-  flex: 1;
-  background-color: #322c2b;
+  margin: 20px;
+  background-color: #FAF6ED;
   padding: 5px;
 }
 
 .diamond-partners {
   display: flex;
   margin-top: 30px;
-  background-color: #322c2b;
+  margin-bottom: 10px;
+  background-color: #FAF6ED;
   padding: 20px;
   border-radius: 8px;
   font-weight: bold;
@@ -211,21 +253,64 @@ body {
   min-height:600px;
 }
 
-.feedback {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: #322c2b;
-  padding: 20px;
-  border-radius: 8px;
-}
 /* ------------------------------------------------------------------------------------------------ */
 
 
 
 /* -------------------------------------- Footer-Bar ---------------------------------------------------------- */
 
-.footer-bar{
+
+.feedback {
+  margin-left: 2%;
+  padding: 20px 0;
 }
+
+.feedback a {
+  color: white;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+  margin-left:2%;
+}
+
+.footer-info h3 {
+  margin-bottom: 5px;
+}
+
+.footer-nav {
+  margin-left: 5%;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:start;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav li {
+  margin-bottom: 8px;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
 /* ------------------------------------------------------------------------------------------------ */
 
 
@@ -233,7 +318,7 @@ body {
 
 /* -------------------------------------- Linkit ---------------------------------------------------------- */
 a {
-  color:#FBBEBD;
+  color:#000000;
   text-decoration:underline;
 }
 
@@ -256,8 +341,8 @@ a {
 
 .dropdown-button {
   font-family:'Buenard', serif;
-  background-color: #322c2b;
-  color:#FBBEBD;
+  background-color: #FAF6ED;
+  color:#000000;
   border: none;
   cursor: pointer;
   font-size: 1.1rem;
@@ -277,6 +362,7 @@ a {
   flex-direction: column;
   min-width: 100%;
   border-radius: 5px;
+  margin-top: 5%;
   padding: 10px;
   z-index: 1000;
 }
@@ -361,7 +447,8 @@ a {
     display: none;
     
   }
-    .bm-burger-button {
+  
+  .bm-burger-button {
     display: block;
   }
 
@@ -371,7 +458,7 @@ a {
   }
 
   .dropdown-button {
-    padding: 2px 0 2px 0;
+    padding:0;
   }
 
   .jasen_nappi {
