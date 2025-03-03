@@ -338,7 +338,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content:start;
-  gap: 60px;
+  gap: 5rem;
   list-style: none;
   padding: 0;
   margin-top: 0;
@@ -633,6 +633,14 @@ body.modal-open {
   text-align: center;
 }
 /* ------------------------------------------------------------------------------------------------ */
+
+@media (min-width: 1800px) {
+
+  .footer-nav ul{
+    gap:10rem;
+  }
+
+}
 
 @media (max-width: 1250px) {
 
