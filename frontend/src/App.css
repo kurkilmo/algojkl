@@ -550,17 +550,29 @@ body.modal-open {
 
 /*-----------------------------------------------------FreshmanPage------------------------------------------------------------------------*/
 
-.Freshman-container p {
-  padding: 10px;
-  margin-left: 8%;
-  margin-right: 8%;
+.Freshman-container {
+  color: white;
+  background-color: black;
+  align-items: center;
 }
 
-.Freshman-container h2 {
-  padding: 10px;
-  margin-left: 8%;
-  margin-right: 8%;
+.fuksi-leveys {
+  width: 70%;
+  margin: 0 auto;
+}
 
+.header {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.Freshman-container h1 {
+  padding: 10px;
+  background-color: inherit;
+  color: inherit;
+  flex: 1;
 }
 
 .Freshman-container ul {
@@ -571,27 +583,26 @@ body.modal-open {
 }
 
 .Freshman-container li {
-  padding: 15px;
+  padding: 15px 0 15px 0;
   margin: 10px 0;
-  border-radius: 8px;
 }
 
-.Freshman-container li span {
-  display: block;
-  font-weight: normal;
-  font-size: 16px;
-  color: #555;
-  margin-top: 5px;
-}
 
 .Freshman-container a {
-  color: #322c2b;
+  color: pink;
   text-decoration: none;
   font-weight: bold;
 }
 
 .Freshman-container a:hover {
   text-decoration: underline;
+}
+.panuAnim {
+  width: 20em;
+  right: 100px;
+  display: inline-block;
+  height: 30em;
+  flex: 2;
 }
 
 /* ---------------------------------Ansiomerkit----------------------------------------------------------- */
