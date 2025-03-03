@@ -405,28 +405,46 @@ a {
   transform: scale(1.05);
 }
 
-.modal {
-  position: fixed;
-  top: 0;
+body.modal-open {
+    overflow: hidden;
+}
+
+.modal-overlay {
+  position:fixed;
+  top:0;
   left: 0;
   width: 100%;
   height: 100%;
-  overflow:scroll;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
+  overflow:scroll;
   justify-content: center;
+  z-index: 1000;
 }
 
 .modal-content {
   background: #FAF6ED;
+  top:17%;
   padding: 50px;
   border-radius: 20px;
   border-style: solid;
   border-color: #000000;
   width: 30%;
   text-align: center;
+  position: relative;
+  overflow: scroll;
+  z-index: 1000;
 }
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 
 .modal-image {
   width: 40%;
@@ -436,16 +454,6 @@ a {
 .modal-tickets {
   font-size: 1rem;
 }
-
-.close {
-  position: absolute;
-  top: 15px;
-  right: 20px;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-
 
 
 /* -------------------------------------  DropDown- menu  ------------------------------------------------------------- */

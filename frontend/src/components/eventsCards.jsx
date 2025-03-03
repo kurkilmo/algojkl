@@ -26,6 +26,14 @@ const EventCards = () => {
     }).catch(console.error);
   }, []);
 
+  useEffect(() => {
+    if (selectedEvent) {
+      document.body.classList.add("modal-open");
+    } else {
+      document.body.classList.remove("modal-open");
+    }
+  }, [selectedEvent]);
+
   return (
     <div className="event-cards-container">
       {events.length === 0 ? (
@@ -50,28 +58,24 @@ const EventCards = () => {
         ))
       )}
 
-      {selectedEvent && (
-        <div className="modal">
-          <div className="modal-content">
+        {selectedEvent && (
+        <div className="modal-overlay" onClick={() => setSelectedEvent(null)}>
+            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <span className="close" onClick={() => setSelectedEvent(null)}>&times;</span>
             <h2>{selectedEvent.title}</h2>
             <ReactMarkdown>{selectedEvent.description}</ReactMarkdown>
-            {selectedEvent && selectedEvent.url ? (
-            <h2 className='modal-tickets'>
+            {selectedEvent.url && (
+                <h2 className="modal-tickets">
                 <a href={selectedEvent.url}>Liput</a>
-            </h2>
-            ) : null}
-            <p><strong>Päivämäärä:</strong> {new Date(selectedEvent.date).toLocaleDateString()}</p>
-            {selectedEvent.picture && selectedEvent.picture.fields && (
-              <img 
-                src={selectedEvent.picture.fields.file.url} 
-                alt={selectedEvent.title} 
-                className="modal-image"
-              />
+                </h2>
             )}
-          </div>
+            <p><strong>Päivämäärä:</strong> {new Date(selectedEvent.date).toLocaleDateString()}</p>
+            {selectedEvent.picture?.fields && (
+                <img src={selectedEvent.picture.fields.file.url} alt={selectedEvent.title} className="modal-image" />
+            )}
+            </div>
         </div>
-      )}
+)}
     </div>
   );
 };
