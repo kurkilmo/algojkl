@@ -35,7 +35,7 @@ export const useContentfulData = () => {
       queryKey: ["contentfulData"], 
       queryFn: fetchContentfulData,
       staleTime: 1000 * 60 * 10,
-      cacheTime: 1000 * 60 * 60,
+      cacheTime: 1000 * 60 * 60 * 24,
     })
   }
   

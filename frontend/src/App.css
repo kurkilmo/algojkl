@@ -1,5 +1,5 @@
 body {
-  font-family: 'Buenard', serif;
+  font-family: 'Fira Code', monospace;
   background-color: #FFFFFF;
   color: #000000;
   margin: 0;
@@ -121,7 +121,6 @@ body {
   cursor: pointer;
   transition: 0.3s ease-in-out;
   white-space: nowrap;
-  font-family: 'Buenard', serif;
 }
 
 .jasen_nappi:hover {
@@ -468,7 +467,6 @@ body.modal-open {
 }
 
 .dropdown-button {
-  font-family:'Buenard', serif;
   background-color: #FAF6ED;
   color:#000000;
   border: none;
@@ -495,7 +493,6 @@ body.modal-open {
 }
 
 .dropdown-content a {
-  font-family:'Buenard', serif;
   color:#FBBEBD;
   padding: 10px;
   margin-top: 5px;
@@ -568,8 +565,8 @@ body.modal-open {
 
 .Freshman-container ul {
   list-style: none;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
   padding: 0;
 }
 
@@ -624,13 +621,19 @@ body.modal-open {
 /* -------------------------------LakkiC+ vuju-container--------------------------------------------------------------- */
 
 .Lakki-container p, .Vuju-container p {
-  padding: 30px;
-  border-radius: 10px;
-  background-color:#fff;
-  font-size: 1.12rem;
+  line-height: 25px;
+  position:relative;
+  justify-content: center;
+  width: 60%;
+  left: 20%;
+  right: 20%;
 }
 .Lakki-container h2, .Vuju-container h2 {
   text-align: center;
+}
+
+.Lakki-container img {
+  width: 100%;
 }
 /* ------------------------------------------------------------------------------------------------ */
 

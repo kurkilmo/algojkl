@@ -1,8 +1,9 @@
 import React from "react";
-
+import kaste from "../images/kaste2.png"
 const Lakki = () => {
     return (
         <div className="Lakki-container">
+            <img src={kaste} alt="kaste"/>
             <h1>Teekkarilakki</h1>
                 <p>
                 Jyväskylän teekkarilakki on kahdeksankulmainen, Jyväskylän kävelykadun Kompassin muodon mukaan. Lakin sisäpuoli on Jyväskylän yliopiston värien mukainen sini-oranssi. Lakin kokardissa yhdistyy Jyväskylä sekä tekniikka, kun kokardista löytyy JYY:n soihtu, jota ympäröi tekniikan ratas.
