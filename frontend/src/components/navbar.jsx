@@ -20,6 +20,7 @@ function NavBar() {
   return (
     <div className="navigation">
       <nav>
+
         {/* Left Section: Logo & Social Links */}
         <div className="left-section">
           <a href="/">
@@ -42,39 +43,45 @@ function NavBar() {
           onStateChange={({ isOpen }) => setMenuOpen(isOpen)}
         >
           <ul>
-            <li className="bm-li"><Link to="/" onClick={() => setMenuOpen(false)}>ETUSIVU</Link></li>
-            <li className="bm-li"><Link to="/tapahtumat" onClick={() => setMenuOpen(false)}>TAPAHTUMAT</Link></li>
-            <li className="bm-li"><Link to="/yhteistyot" onClick={() => setMenuOpen(false)}>YHTEISTYÖT</Link></li>
+            <DropdownMenu
+            title="KILTA"
+            links={[
+              {
+                section: "Aktiivit",
+                items: [
+                  { label: "HALLITUS", path: "/hallitus" },
+                  { label: "AKTIIVIT", path: "/aktiivit" },
+                ],
+              },
+              {
+                section: "Dokumentit",
+                items: [
+                  { label: "SÄÄNNÖT", path: "/saannot" },
+                  { label: "Ohjesäännöt", path: "/ohjesaannot" },
+                  { label: "REKISTERISELOSTE", path: "/seloste" },
+                  { label: "DOKUMENTIT", path: "/dokumentit" },
+                  { label: "KUNNIAGALLERIA", path: "/kunniagalleria" },
+                  { label: "TOIMINNAN PERIAATTEET", path: "/periaatteet" },
+                ],
+              },
+              {
+                section: "Jäsenille",
+                items: [
+                  { label: "JÄSENDUT", path: "/edut" },
+                  { label: "KERHOTOIMINTA", path: "/kerhotoiminta" },
+                  { label: "REKRYT", path: "/rekryt" },
+                  { label: "YHTEYDENOTTOLOMAKKEET", path: "/lomakkeet" },
+                  { label: "KANSAINVÄLISYYS", path: "/kansainvalisyys" },
+                  { label: "KATTILAN KAHVIKAMERA", path: "/kahvikamera" },
+                  { label: "SALAISUUDET", path: "/salaisuudet" },
+                ],
+              },
+        ]} onItemClick={() => setMenuOpen(false)} />
+            <li className="bm-li"><Link to="/tapahtumat">TAPAHTUMAT</Link></li>
+            <li className="bm-li"><Link to="/yhteistyot">YHTEISTYÖT</Link></li>
+            <li className="bm-li"><Link to="/fuksit">FUKSIT</Link></li>
+            <li className="bm-li"><Link to="/hakijalle">HAKIJAT</Link></li>
 
-            <DropdownMenu title="KILTA" links={[
-              { label: "UUDET OPISKELIJAT", path: "/fuksit" },
-              { label: "HALLITUS", path: "/hallitus" },
-              { label: "AKTIIVIT", path: "/aktiivit" },
-              { label: "KUNNIAGALLERIA", path: "/kunniagalleria" },
-              { label: "SÄÄNNÖT", path: "/saannot" },
-              { label: "REKISTERISELOSTE", path: "/seloste" },
-              { label: "DOKUMENTIT", path: "/dokumentit" },
-            ]} onItemClick={() => setMenuOpen(false)} />
-
-            <DropdownMenu title="JÄSENILLE" links={[
-              { label: "UUTISET JA TIEDOTTEET", path: "/uutiset" },
-              { label: "TOIMINNAN PERIAATTEET", path: "/periaatteet" },
-              { label: "JÄSENDUT", path: "/edut" },
-              { label: "KERHOTOIMINTA", path: "/kerhotoiminta" },
-              { label: "REKRYT", path: "/rekryt" },
-              { label: "LOMAKKEET", path: "/lomakkeet" },
-              { label: "KANSAINVÄLISYYS", path: "/kansainvalisyys" },
-              { label: "KATTILAN KAHVIKAMERA", path: "/kahvikamera" },
-              { label: "SALAISUUDET", path: "/salaisuudet" },
-            ]} onItemClick={() => setMenuOpen(false)} />
-            
-            <DropdownMenu title="OHJESÄÄNNÖT" links={[
-              { label: "ANSIOMERKIT", path: "/ansiomerkit" },
-              { label: "HAALARIETIKETTI", path: "/haalarit" },
-              { label: "TEEKKARILAKKI", path: "/lakki" },
-              { label: "VUOSIJUHLAETIKETTI", path: "/vujut" },
-            ]} onItemClick={() => setMenuOpen(false)} />
-            
             <button className="jasen_nappi" onClick={() => setMenuOpen(false)}>LIITY JÄSENEKSI</button>
 
           </ul>
@@ -83,38 +90,46 @@ function NavBar() {
         {/* Desktop Navigation */}
         <div className="right-section">
           <ul className="desktop-menu">
-            <li><Link to="/">ETUSIVU</Link></li>
+            <DropdownMenu
+              title="KILTA"
+              links={[
+                {
+                  section: "Aktiivit",
+                  items: [
+                    { label: "HALLITUS", path: "/hallitus" },
+                    { label: "AKTIIVIT", path: "/aktiivit" },
+                  ],
+                },
+                {
+                  section: "Viralliset Dokumentit",
+                  items: [
+                    { label: "SÄÄNNÖT", path: "/saannot" },
+                    { label: "Ohjesäännöt", path: "/ohjesaannot" },
+                    { label: "REKISTERISELOSTE", path: "/seloste" },
+                    { label: "DOKUMENTIT", path: "/dokumentit" },
+                    { label: "KUNNIAGALLERIA", path: "/kunniagalleria" },
+                    { label: "TOIMINNAN PERIAATTEET", path: "/periaatteet" },
+                  ],
+                },
+                {
+                  section: "Jäsenille",
+                  items: [
+                    { label: "JÄSENDUT", path: "/edut" },
+                    { label: "KERHOTOIMINTA", path: "/kerhotoiminta" },
+                    { label: "REKRYT", path: "/rekryt" },
+                    { label: "YHTEYDENOTTOLOMAKKEET", path: "/lomakkeet" },
+                    { label: "KANSAINVÄLISYYS", path: "/kansainvalisyys" },
+                    { label: "KATTILAN KAHVIKAMERA", path: "/kahvikamera" },
+                    { label: "SALAISUUDET", path: "/salaisuudet" },
+                  ],
+                },
+              ]}
+          />
+            
             <li><Link to="/tapahtumat">TAPAHTUMAT</Link></li>
-            <li><Link to="/yhteistyot">YHTEISTYÖT</Link></li>
-
-            <DropdownMenu title="KILTA" links={[
-              { label: "UUDET OPISKELIJAT", path: "/fuksit" },
-              { label: "HALLITUS", path: "/hallitus" },
-              { label: "AKTIIVIT", path: "/aktiivit" },
-              { label: "KUNNIAGALLERIA", path: "/kunniagalleria" },
-              { label: "SÄÄNNÖT", path: "/saannot" },
-              { label: "REKISTERISELOSTE", path: "/seloste" },
-              { label: "DOKUMENTIT", path: "/dokumentit" },
-            ]} />
-
-            <DropdownMenu title="JÄSENILLE" links={[
-              { label: "UUTISET JA TIEDOTTEET", path: "/uutiset" },
-              { label: "TOIMINNAN PERIAATTEET", path: "/periaatteet" },
-              { label: "JÄSENDUT", path: "/edut" },
-              { label: "KERHOTOIMINTA", path: "/kerhotoiminta" },
-              { label: "REKRYT", path: "/rekryt" },
-              { label: "LOMAKKEET", path: "/lomakkeet" },
-              { label: "KANSAINVÄLISYYS", path: "/kansainvalisyys" },
-              { label: "KATTILAN KAHVIKAMERA", path: "/kahvikamera" },
-              { label: "SALAISUUDET", path: "/salaisuudet" },
-            ]} />
-
-            <DropdownMenu title="OHJESÄÄNNÖT" links={[
-              { label: "ANSIOMERKIT", path: "/ansiomerkit" },
-              { label: "HAALARIETIKETTI", path: "/haalarit" },
-              { label: "TEEKKARILAKKI", path: "/lakki" },
-              { label: "VUOSIJUHLAETIKETTI", path: "/vujut" },
-            ]} />
+            <li><Link to="/yhteistyot">YHTEISTYÖ</Link></li>
+            <li><Link to="/fuksit">FUKSIT</Link></li>
+            <li><Link to="/hakijalle">HAKIJAT</Link></li>
           </ul>
           <Join />
         </div>

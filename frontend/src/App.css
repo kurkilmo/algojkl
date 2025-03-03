@@ -467,50 +467,65 @@ body.modal-open {
 
 
 /* -------------------------------------  DropDown- menu  ------------------------------------------------------------- */
+.arrow{
+  position: relative;
+  top:4px;
+}
 
 .dropdown {
   position: relative;
-  display: inline-block;
 }
 
 .dropdown-button {
   background-color: #FAF6ED;
-  color:#000000;
-  border: none;
-  cursor: pointer;
+  color: #000000;
   font-size: 1.1rem;
   font-weight: bold;
-  padding: 2px 0px 2px 0px;
+  border: none;
+  cursor: pointer;
 }
 
 .dropdown-button:hover {
-  color:#000000;
+  background-color: #faf6ed;
 }
 
 .dropdown-content {
   position: absolute;
-  background-color:#322c2b;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  min-width: 100%;
-  border-radius: 5px;
-  padding: 10px;
-  z-index: 1000;
-}
-
-.dropdown-content a {
-  color:#FBBEBD;
-  padding: 10px;
-  margin-top: 5px;
+  background-color: #322c2b;
   border-radius: 10px;
-  text-decoration: none;
-  display: block;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px;
 }
 
-.dropdown-content a:hover {
-  background-color:#FAF6ED;
-  color:#000000;
+.dropdown-section {
+  margin-right: 10px; 
+}
+
+.dropdown-section-header {
+  color: #faf6ed;
+  font-weight: bold;
+  margin-bottom: 10px;
+  height: 8%;
+  padding: 10px;
+}
+
+.dropdown-section-items {
+  display: block; 
+}
+
+.dropdown-section-items a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #FBBEBD;
+}
+
+.dropdown-section-items a:hover {
+  background-color: #555;
+  border-radius: 10px;
 }
 
 /* ----------------------------------------CollabPage------------------------------------------------------- */
@@ -678,13 +693,23 @@ body.modal-open {
     display: block;
   }
 
-  .dropdown {
-    display:list-item;
-    text-align: left;
+  .dropdown-button{
+    padding: 0;
   }
 
-  .dropdown-button {
-    padding:0;
+  .dropdown-content {
+    font-size:smaller;
+    display: block;
+    width: 240px;
+  }
+
+  .dropdown-section {
+    margin-bottom: 2px;
+  }
+
+  .dropdown-section-header {
+    display: block;
+    margin-bottom: 2px;
   }
 
   .jasen_nappi {
