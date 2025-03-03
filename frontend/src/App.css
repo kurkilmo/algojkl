@@ -425,17 +425,21 @@ body.modal-open {
 
 .modal-content {
   background: #FAF6ED;
-  top:17%;
   padding: 50px;
   border-radius: 20px;
   border-style: solid;
   border-color: #000000;
   width: 30%;
   text-align: center;
-  position: relative;
-  overflow: scroll;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  overflow-y: auto; 
+  max-height: 89vh;
   z-index: 1000;
 }
+
 
 .close {
   position: absolute;
