@@ -1,30 +1,50 @@
-import React, { useState } from "react"
-import { Link } from "react-router-dom"
-import "../App.css"
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
-const DropdownMenu = ({ title, links, onItemClick }) => {
-  const [isOpen, setIsOpen] = useState(false)
+import "../App.css";
+
+const DropdownMenu = ({ title, links = [], onItemClick }) => {
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div 
+    <div
       className="dropdown"
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}
     >
-      <button className="dropdown-button">{title}</button>
+      <button className="dropdown-button" onClick={() => setIsOpen(!isOpen)} >{title}
+      <RiArrowDropDownLine className="arrow"/>
+      </button>
+
       {isOpen && (
         <div className="dropdown-content">
-          {links.map((link, index) => (
-            <Link key={index} to={link.path} onClick={(e) => {
-                if (onItemClick)
-                    onItemClick()
-              }}
-            >{link.label}</Link>
-          ))}
+          {links.length > 0 ? (
+            links.map((section, sectionIndex) => (
+              <div key={sectionIndex} className="dropdown-section">
+                <div className="dropdown-section-header">{section.section}</div>
+                <div className="dropdown-section-items">
+                  {section.items.map((link, index) => (
+                    <Link
+                      key={index}
+                      to={link.path}
+                      onClick={(e) => {
+                        if (onItemClick) onItemClick();
+                      }}
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ))
+          ) : (
+            <p>No links available</p> // Jos links on tyhjä
+          )}
         </div>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default DropdownMenu
+export default DropdownMenu;
