@@ -10,9 +10,12 @@ import linkedin from "../images/linkedin.png";
 import bursa from "../images/burger.png";
 
 import DropdownMenu from "./dropdown";
+import Join from './joinUs';
 
 function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+
 
   return (
     <div className="navigation">
@@ -128,7 +131,7 @@ function NavBar() {
             <li><Link to="/fuksit">FUKSIT</Link></li>
             <li><Link to="/hakijalle">HAKIJAT</Link></li>
           </ul>
-          <button className="jasen_nappi">LIITY JÄSENEKSI</button>
+          <Join />
         </div>
       </nav>
     </div>
