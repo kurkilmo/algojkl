@@ -179,6 +179,13 @@ body {
   text-decoration: none;
 }
 
+.liityjaseneksiAnim {
+  width: 15em;
+  right: 100px;
+  display: inline-block;
+  height: 5em;
+  flex: 2;
+}
 
 /* ------------------------------------------------------------------------------------------------ */
 

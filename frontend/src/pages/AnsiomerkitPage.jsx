@@ -1,7 +1,9 @@
 import React from "react";
+import Join from "../components/joinUs";
 
 const Merkit = () => {
     return (
+        
         <div className="ansiomerkit-container">
             <h1>Juhlanauha- ja merkkiohjesääntö</h1>
             <p>
