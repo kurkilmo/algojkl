@@ -2,9 +2,6 @@ import { useQuery } from "@tanstack/react-query"
 import client from "../components/contentful"
 
 const fetchContentfulData = async () => {
-    const currentTime = new Date().toLocaleString(); // Hakee nykyisen kellonajan ja muotoilee sen luettavaksi
-  console.log(`Fetching Contentful data at ${currentTime}...`);
-  
   const [eventsRes, collabsRes, diamondCollabsRes] = await Promise.all([
     client.getEntries({ content_type: "events" }),
     client.getEntries({ content_type: "collabs" }),
