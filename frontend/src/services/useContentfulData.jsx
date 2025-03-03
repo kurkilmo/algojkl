@@ -39,6 +39,22 @@ export const useContentfulData = () => {
       queryFn: fetchContentfulData,
       staleTime: 1000 * 60 * 10,
       cacheTime: 1000 * 60 * 60,
+      onSuccess: (data, variables, context) => {
+        if (data) {
+          console.log("Data fetched successfully:", data);
+        }
+      },
+      onError: (error) => {
+        console.error("Error fetching data:", error);
+      },
+      onSettled: (data, error, variables, context) => {
+        if (data && !data.isStale) {
+          console.log("Data is up-to-date and not stale.");
+        } else {
+          console.log("Data is stale or fetched again.");
+        }
+      }
+    
     })
   }
   

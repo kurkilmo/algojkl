@@ -1,11 +1,21 @@
 import React from "react";
+import { useRive } from "@rive-app/react-canvas";
+import Simple from "../components/simple";
+
 
 const Fuksit = () => {
     return (
         <div className="Freshman-container">
+        <div className="fuksi-leveys">
+        
+        <div className="header">
         <h1>Heippa Fuksi* ~: cd/fuksisyksy</h1>
-        <p style={{ textAlign: "center" }}> Fuksi tarkoittaa ensimmäisen vuoden opiskelijaa*</p>
-        <h2>Fuksin muistilista:</h2>
+        <Simple />
+        </div>
+
+        
+        
+       
         <p><i>Koko opiskeluajan tärkein asia: Seuraa sähköpostia!</i></p>
                 <p>Ennen opiskeluiden alkua:</p> 
             <ul>
@@ -57,7 +67,7 @@ const Fuksit = () => {
             </div>
 
         </div>
-
+        </div>
 
     )
 }
