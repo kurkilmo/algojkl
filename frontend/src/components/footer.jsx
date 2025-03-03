@@ -9,7 +9,7 @@ function Footer() {
             <p>Yhteystiedot</p>
             <p>Agora, Mattilanniemi 2, 40100 Jyväskylä</p>
             <p>pj@algojkl.com</p>
-            <p><strong>@ Algo ry</strong></p>
+            <p><strong>© Algo ry, 2025</strong></p>
           </div>
   
           <nav className="footer-nav">
@@ -60,7 +60,7 @@ function Footer() {
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_uGBf6NpWvJi_v3o7w3iJ2flnCMrxnNWMi6hIgMhD3kPBAw/viewform">Palautelomake</a>
             </div>
             <div className="feedback">
-                <h3>Viestintäkanavat</h3>
+                <h3>Algo ry:n Viestintäkanavat</h3>
                 <p><a href="https://t.me/+8y92cuFA8bozNGI0">Telegram-kanava</a></p>
                 <p><a href="https://t.me/+ewJj_alb0eo2Njc0">Telegram-ilmoituskanava</a></p>
             </div>
