@@ -29,7 +29,7 @@ const DropdownMenu = ({ title, links = [], onItemClick }) => {
                       key={index}
                       to={link.path}
                       onClick={(e) => {
-                        if (onItemClick) onItemClick();
+                        if (onItemClick) setIsOpen(false);
                       }}
                     >
                       {link.label}
@@ -39,7 +39,7 @@ const DropdownMenu = ({ title, links = [], onItemClick }) => {
               </div>
             ))
           ) : (
-            <p>No links available</p> // Jos links on tyhjä
+            <p>No links available</p>
           )}
         </div>
       )}
