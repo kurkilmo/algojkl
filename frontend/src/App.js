@@ -5,8 +5,6 @@ import AdminPage from "./pages/AdminPage"
 import HomePage from "./pages/HomePage"
 import CollabPage from "./pages/collaborationPage"
 import AnsioPage from "./pages/AnsiomerkitPage"
-import OverAll from "./pages/OverallPage"
-import Lakki from "./pages/TeekkarilakkiPage"
 import Vujut from "./pages/VuosijuhlaPage"
 import EventPage from "./pages/eventPage"
 import Fuksit from "./pages/FreshmenPage"
@@ -25,11 +23,9 @@ function App() {
             <Route path="/" element={<HomePage/>} />
             <Route path="/tapahtumat" element={<EventPage/>}/>
             <Route path="/yhteistyot" element={<CollabPage/>} />
-            <Route path="/ansiomerkit" element={<AnsioPage/>} />
-            <Route path="/haalarit" element={<OverAll/>} />
-            <Route path="/lakki" element={<Lakki/>} />
             <Route path="/vujut" element={<Vujut/>} />
             <Route path="/fuksit" element={<Fuksit/>} />
+            <Route path="/ohjesaannot" element={<AnsioPage/>} />
           </Routes>
         <Footer/>
       </Router>

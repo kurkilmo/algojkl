@@ -6,6 +6,10 @@ body {
   padding: 0;
 }
 
+.starter {
+  width: 100%;
+}
+
 /* -------------------------------------------Carousel --------------------------------------------------------*/
 
 .carousel {
@@ -573,8 +577,8 @@ body.modal-open {
 /*-----------------------------------------------------FreshmanPage------------------------------------------------------------------------*/
 
 .Freshman-container {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   align-items: center;
 }
 
@@ -588,19 +592,14 @@ body.modal-open {
   align-items: center;
 }
 
-
-
 .Freshman-container h1 {
   padding: 10px;
   background-color: inherit;
   color: inherit;
-  flex: 1;
 }
 
 .Freshman-container ul {
   list-style: none;
-  margin-left: 8%;
-  margin-right: 8%;
   padding: 0;
 }
 
@@ -619,6 +618,7 @@ body.modal-open {
 .Freshman-container a:hover {
   text-decoration: underline;
 }
+
 .panuAnim {
   width: 20em;
   right: 100px;
@@ -637,18 +637,17 @@ body.modal-open {
 
 /* --------------------Overall-Page--------------------------------------------------------------------------- */
 
+.OverAll-container li {
+  list-style-type: circle;
+}
 
 .OverAll-container ul {
-  padding-left: 3%;
-  background-color:#FFFFFF;
-}
-
-.OverAll-container h2 {
-  padding-left: 1%;
-}
-
-.OverAll-container li {
-  font-size: 1.12rem;
+  line-height: 30px;
+  position:relative;
+  justify-content: center;
+  width: 60%;
+  left: 19%;
+  right: 20%;
 }
 
 /* -------------------------------LakkiC+ vuju-container--------------------------------------------------------------- */
@@ -662,7 +661,7 @@ body.modal-open {
   right: 20%;
 }
 .Lakki-container h2, .Vuju-container h2 {
-  text-align: center;
+  padding-left: 20%;
 }
 
 .Lakki-container img {
@@ -670,15 +669,23 @@ body.modal-open {
 }
 /* ------------------------------------------------------------------------------------------------ */
 
-@media (min-width: 1800px) {
+@media (min-width: 1501px) {
 
   .footer-nav ul{
-    gap:10rem;
+    gap:20rem;
   }
 
 }
 
-@media (max-width: 1250px) {
+@media (max-width:1500px) {
+  .footer-nav ul{
+    gap:3rem;
+  }
+
+}
+
+
+@media (max-width: 1100px) {
 
   .navigation {
     position: relative;

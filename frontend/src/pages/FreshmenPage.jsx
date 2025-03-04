@@ -1,22 +1,19 @@
 import React from "react";
-import { useRive } from "@rive-app/react-canvas";
 import Simple from "../components/simple";
-
+import starter from "../images/Page_starters/4.png"
 
 const Fuksit = () => {
     return (
         <div className="Freshman-container">
+        <img src={starter} alt="freshman_starter_img" className="starter" />
         <div className="fuksi-leveys">
-        
         <div className="header">
-        <h1>Heippa Fuksi* ~: cd/fuksisyksy</h1>
+        <h1>Heippa Fuksi* ~: cd /fuksisyksy</h1>
         <Simple />
         </div>
-
-        
-        
-       
+        <p><i>*Fuksi on ensimmäisen vuoden opiskelija</i></p>
         <p><i>Koko opiskeluajan tärkein asia: Seuraa sähköpostia!</i></p>
+        <br />
                 <p>Ennen opiskeluiden alkua:</p> 
             <ul>
                 <li>
