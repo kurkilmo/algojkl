@@ -11,6 +11,7 @@ const Fuksit = () => {
         <h1>Heippa Fuksi* ~: cd /fuksisyksy</h1>
         <Simple />
         </div>
+
         <p><i>*Fuksi on ensimmäisen vuoden opiskelija</i></p>
         <p><i>Koko opiskeluajan tärkein asia: Seuraa sähköpostia!</i></p>
         <br />

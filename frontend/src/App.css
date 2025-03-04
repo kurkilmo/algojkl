@@ -502,6 +502,7 @@ body.modal-open {
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
   padding: 10px;
+  width: 650px;
 }
 
 .dropdown-section {
@@ -511,9 +512,7 @@ body.modal-open {
 .dropdown-section-header {
   color: #faf6ed;
   font-weight: bold;
-  margin-bottom: 10px;
-  height: 8%;
-  padding: 10px;
+  padding: 10px 10px 10px 15px;
 }
 
 .dropdown-section-items {
@@ -522,7 +521,7 @@ body.modal-open {
 
 .dropdown-section-items a {
   display: block;
-  padding: 8px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   color: #FBBEBD;
 }
@@ -534,37 +533,6 @@ body.modal-open {
 
 /* ----------------------------------------CollabPage------------------------------------------------------- */
 
-.collab_container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-}
-
-.collab-h1 {
-  background-color: #FBBEBD;
-  color: #000000;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-
-.collab_container p {
-  line-height: 1.6;
-  font-size: 16px;
-  color: #555;
-}
-
-.collab_container p a {
-  color: #E44D26;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.collab_container p a:hover {
-  text-decoration: underline;
-}
-
 
 .collab-h1, .ansiomerkit-container h1, .OverAll-container h1, .Lakki-container h1, .Vuju-container h1, .Freshman-container h1{
   background-color: #FBBEBD;
@@ -574,6 +542,10 @@ body.modal-open {
   text-align: center;
 }
 
+
+.event-container {
+  padding: 0 0 10px 10px;
+}
 /*-----------------------------------------------------FreshmanPage------------------------------------------------------------------------*/
 
 .Freshman-container {
@@ -650,9 +622,17 @@ body.modal-open {
   right: 20%;
 }
 
+.collabs-logos-h3 {
+  text-align: center;
+  padding-left: 0 !important;
+}
+
+.collab-container h2 {
+  text-align: center;
+}
 /* -------------------------------LakkiC+ vuju-container--------------------------------------------------------------- */
 
-.Lakki-container p, .Vuju-container p {
+.Lakki-container p, .Vuju-container p, .collab-container p {
   line-height: 25px;
   position:relative;
   justify-content: center;
@@ -660,7 +640,9 @@ body.modal-open {
   left: 20%;
   right: 20%;
 }
-.Lakki-container h2, .Vuju-container h2 {
+
+
+.Lakki-container h2, .Vuju-container h2, .collab-container h3 {
   padding-left: 20%;
 }
 
@@ -707,7 +689,6 @@ body.modal-open {
   .dropdown-content {
     font-size:smaller;
     display: block;
-    width: 240px;
   }
 
   .dropdown-section {

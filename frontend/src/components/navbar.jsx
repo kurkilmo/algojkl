@@ -57,7 +57,7 @@ function NavBar() {
                 section: "Dokumentit",
                 items: [
                   { label: "SÄÄNNÖT", path: "/saannot" },
-                  { label: "Ohjesäännöt", path: "/ohjesaannot" },
+                  { label: "OHJESÄÄNNÖT", path: "/ohjesaannot" },
                   { label: "REKISTERISELOSTE", path: "/seloste" },
                   { label: "DOKUMENTIT", path: "/dokumentit" },
                   { label: "KUNNIAGALLERIA", path: "/kunniagalleria" },
@@ -94,17 +94,17 @@ function NavBar() {
               title="KILTA"
               links={[
                 {
-                  section: "Aktiivit",
+                  section: "TOIMIHENKILÖT",
                   items: [
                     { label: "HALLITUS", path: "/hallitus" },
                     { label: "AKTIIVIT", path: "/aktiivit" },
                   ],
                 },
                 {
-                  section: "Viralliset Dokumentit",
+                  section: "VIRALLISET DOKUMENTIT",
                   items: [
                     { label: "SÄÄNNÖT", path: "/saannot" },
-                    { label: "Ohjesäännöt", path: "/ohjesaannot" },
+                    { label: "OHJESÄÄNNÖT", path: "/ohjesaannot" },
                     { label: "REKISTERISELOSTE", path: "/seloste" },
                     { label: "DOKUMENTIT", path: "/dokumentit" },
                     { label: "KUNNIAGALLERIA", path: "/kunniagalleria" },
@@ -112,7 +112,7 @@ function NavBar() {
                   ],
                 },
                 {
-                  section: "Jäsenille",
+                  section: "JÄSENILLE",
                   items: [
                     { label: "JÄSENDUT", path: "/edut" },
                     { label: "KERHOTOIMINTA", path: "/kerhotoiminta" },
@@ -123,7 +123,7 @@ function NavBar() {
                     { label: "SALAISUUDET", path: "/salaisuudet" },
                   ],
                 },
-              ]}
+              ]} onItemClick={() => setMenuOpen(false)}
           />
             
             <li><Link to="/tapahtumat">TAPAHTUMAT</Link></li>
