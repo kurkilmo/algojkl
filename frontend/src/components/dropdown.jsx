@@ -29,7 +29,8 @@ const DropdownMenu = ({ title, links = [], onItemClick }) => {
                       key={index}
                       to={link.path}
                       onClick={(e) => {
-                        if (onItemClick) setIsOpen(false);
+                        if (onItemClick) onItemClick()
+                        setIsOpen(false)
                       }}
                     >
                       {link.label}

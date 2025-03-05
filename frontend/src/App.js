@@ -6,6 +6,20 @@ import Ohjesaannot from "./pages/ohjesaannotPage"
 import EventPage from "./pages/TapahtumatPage"
 import Fuksit from "./pages/FuksitPage"
 import HallitusPage from "./pages/hallitusPage"
+import AktiiviPage from "./pages/AktiivitPage"
+import PeriaatteetPage from "./pages/periaatteetPage.jsx"
+import DokumenttiPage from "./pages/DokumentitPage"
+import KahvikameraPage from "./pages/KahvikameraPage"
+import KansainvalisyysPage from "./pages/KansainvalisyysPage"
+import KunniagalleriaPage from "./pages/KunniagalleriaPage"
+import SalaisuudetPage from "./pages/SalaisuudetPage"
+import SaannotPage from "./pages/SaannotPage"
+import RekisteriselostePage from "./pages/RekisteriselostePage"
+import YhteydenottoPage from "./pages/YhteydenottoPage"
+import JasenEdutPage from "./pages/JasenedutPage"
+import RekrytPage from "./pages/RekrytPage"
+import KerhotoimintaPage from "./pages/KerhotoimintaPage"
+import HakijatPage from "./pages/HakijatPage"
 
 import "./App.css"
 
@@ -23,6 +37,20 @@ function App() {
             <Route path="/fuksit" element={<Fuksit/>} />
             <Route path="/hallitus" element={<HallitusPage/>} />
             <Route path="/ohjesaannot" element={<Ohjesaannot/>} />
+            <Route path="/aktiivit" element={<AktiiviPage/>} />
+            <Route path="/periaatteet" element={<PeriaatteetPage/>} />
+            <Route path="/dokumentit" element={<DokumenttiPage/>} />
+            <Route path="/kahvikamera" element={<KahvikameraPage/>} />
+            <Route path="/kansainvalisyys" element={<KansainvalisyysPage/>} />
+            <Route path="/kunniagalleria" element={<KunniagalleriaPage/>} />
+            <Route path="/salaisuudet" element={<SalaisuudetPage/>}/>
+            <Route path="/saannot" element={<SaannotPage/>} />
+            <Route path="/seloste" element={<RekisteriselostePage/>} />
+            <Route path="/lomakkeet" element={<YhteydenottoPage/>} />
+            <Route path="/edut" element={<JasenEdutPage/>} />
+            <Route path="/rekryt" element={<RekrytPage/>}/>
+            <Route path="/kerhotoiminta" element={<KerhotoimintaPage/>} />
+            <Route path="/hakijalle" element={<HakijatPage/>} />
           </Routes>
         <Footer/>
       </Router>
