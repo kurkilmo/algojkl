@@ -77,10 +77,11 @@ function NavBar() {
                 ],
               },
         ]} onItemClick={() => setMenuOpen(false)} />
-            <li className="bm-li"><Link to="/tapahtumat">TAPAHTUMAT</Link></li>
-            <li className="bm-li"><Link to="/yhteistyot">YHTEISTYÖT</Link></li>
-            <li className="bm-li"><Link to="/fuksit">FUKSIT</Link></li>
-            <li className="bm-li"><Link to="/hakijalle">HAKIJAT</Link></li>
+
+            <li className="bm-li" onClick={() => setMenuOpen(false)}><Link to="/tapahtumat">TAPAHTUMAT</Link></li>
+            <li className="bm-li" onClick={() => setMenuOpen(false)}><Link to="/yhteistyot">YHTEISTYÖT</Link></li>
+            <li className="bm-li" onClick={() => setMenuOpen(false)}><Link to="/fuksit">FUKSIT</Link></li>
+            <li className="bm-li" onClick={() => setMenuOpen(false)}><Link to="/hakijalle">HAKIJAT</Link></li>
 
             <button className="jasen_nappi" onClick={() => setMenuOpen(false)}>LIITY JÄSENEKSI</button>
 
