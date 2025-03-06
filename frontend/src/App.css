@@ -702,14 +702,14 @@ body.modal-open {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 2px 2px 4px 8px rgba(242, 100, 255, 0.1);
+  box-shadow: 4px 4px 4px 8px rgba(236, 32, 254, 0.1);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hallitus-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgba(250, 0, 0, 0.15);
 }
 
 .hallitus-card img {
@@ -749,14 +749,8 @@ body.modal-open {
 }
 
 .hidden-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 2;
+opacity: 0;
+padding: 20px;
 }
 
 .hallitus-pesti-info{
