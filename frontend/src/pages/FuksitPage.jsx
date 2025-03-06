@@ -1,8 +1,16 @@
 import React from "react";
 import Simple from "../components/simple";
 import starter from "../images/Page_starters/4.png"
+import { useContentfulData } from "../services/useContentfulData";
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
 const Fuksit = () => {
+
+    const { data, isLoading, error } = useContentfulData();
+
+    if (isLoading) return <p>Ladataan...</p>;
+    if (error) return <p>Virhe ladattaessa tietoja!</p>;
+
     return (
         <div className="Freshman-container">
         <img src={starter} alt="freshman_starter_img" className="starter" />
@@ -62,6 +70,22 @@ const Fuksit = () => {
 
             <div>
                 <h2>Tutorit 2025 esittäytyvät:</h2>
+                <div className="tutorit">
+                    {data?.tutorit.map(tutor => (
+                        <div key={tutor.id} className="tutor-container">
+                            <img 
+                                src={tutor.tutorKuva} 
+                                alt={tutor.nimi} 
+                                className="tutor-image"
+                            />
+                            
+                            <div className="tutor-info">
+                                <h3 className="tutor-name">{tutor.nimi}</h3>
+                                {tutor.esittelyteksti && documentToReactComponents(tutor.esittelyteksti)}
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
 
         </div>

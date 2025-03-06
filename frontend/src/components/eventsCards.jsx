@@ -3,8 +3,8 @@ import ReactMarkdown from "react-markdown";
 import { useContentfulData } from "../services/useContentfulData";
 
 const EventCards = () => {
-  const { data, isLoading, error } = useContentfulData()
-  const [selectedEvent, setSelectedEvent] = useState(null)
+  const { data, isLoading, error } = useContentfulData();
+  const [selectedEvent, setSelectedEvent] = useState(null);
 
   useEffect(() => {
     if (selectedEvent) {
@@ -16,10 +16,14 @@ const EventCards = () => {
 
   if (isLoading) return <p>Loading events...</p>;
   if (error) return <p>Virhe ladattaessa tapahtumia</p>;
-  
+
+  const sortedEvents = [...data.events].sort((a, b) => 
+    new Date(a.date) - new Date(b.date)
+  );
+
   return (
     <div className="event-cards-container">
-      {data.events.map((event) => (
+      {sortedEvents.map((event) => (
         <div 
           key={event.id} 
           className="event-card" 
@@ -60,7 +64,7 @@ const EventCards = () => {
         </div>
       )}
     </div>
-  )
-}
+  );
+};
 
 export default EventCards;

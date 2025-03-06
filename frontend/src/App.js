@@ -20,6 +20,7 @@ import JasenEdutPage from "./pages/JasenedutPage"
 import RekrytPage from "./pages/RekrytPage"
 import KerhotoimintaPage from "./pages/KerhotoimintaPage"
 import HakijatPage from "./pages/HakijatPage"
+import PrevHalli from "./pages/prevHalliPage.jsx"
 
 import "./App.css"
 
@@ -51,6 +52,7 @@ function App() {
             <Route path="/rekryt" element={<RekrytPage/>}/>
             <Route path="/kerhotoiminta" element={<KerhotoimintaPage/>} />
             <Route path="/hakijalle" element={<HakijatPage/>} />
+            <Route path="/entiset-hallitukset" element={<PrevHalli/>} />
           </Routes>
         <Footer/>
       </Router>
