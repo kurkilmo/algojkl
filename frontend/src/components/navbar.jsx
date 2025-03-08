@@ -83,7 +83,7 @@ function NavBar() {
             <li className="bm-li" onClick={() => setMenuOpen(false)}><Link to="/fuksit">FUKSIT</Link></li>
             <li className="bm-li" onClick={() => setMenuOpen(false)}><Link to="/hakijalle">HAKIJAT</Link></li>
 
-            <button className="jasen_nappi" onClick={() => setMenuOpen(false)}>LIITY JÄSENEKSI</button>
+            <button className="jasen_nappi" onClick={() => setMenuOpen(false)}><a href='https://kide.app/memberships/2a49d555-1856-4ad7-bac6-b1838e7481fc'>LIITY JÄSENEKSI</a></button>
 
           </ul>
         </Menu>

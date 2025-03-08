@@ -19,21 +19,26 @@ function Footer() {
             <li><Link to="/">ETUSIVU</Link></li>
             <li><Link to="/tapahtumat">TAPAHTUMAT</Link></li>
             <li><Link to="/yhteistyot">YHTEISTYÖT</Link></li>
+            <li><Link to="/fuksit">UUDET OPISKELIJAT</Link></li>
+            <li><Link to="/hakijalle">HAKIJAT</Link></li>
+
                 </div>
             <div>
-                <h2>KILTA</h2>
-            <li><Link to="/fuksit">UUDET OPISKELIJAT</Link></li>
+                <h2>TOIMIHENKILÖT</h2>
             <li><Link to="/hallitus">HALLITUS</Link></li>
             <li><Link to="/aktiivit">AKTIIVIT</Link></li>
-            <li><Link to="/kunniagalleria">KUNNIAGALLERIA</Link></li>
+            </div>
+            <div>
+                <h2>VIRALLISET DOKUMENTIT</h2>
             <li><Link to="/saannot">SÄÄNNÖT</Link></li>
+            <li><Link to="/ohjesaannot">OHJESÄÄNNÖT</Link></li>
             <li><Link to="/seloste">REKISTERISELOSTE</Link></li>
             <li><Link to="/dokumentit">DOKUMENTIT</Link></li>
+            <li><Link to="/kunniagalleria">KUNNIAGALLERIA</Link></li>
+            <li><Link to="/periaatteet">TOIMINNAN PERIAATTEET</Link></li>
             </div>
             <div>
                 <h1>JÄSENILLE</h1>
-            <li><Link to="/uutiset">UUTISET JA TIEDOTTEET</Link></li>
-            <li><Link to="/periaatteet">TOIMINNAN PERIAATTEET</Link></li>
             <li><Link to="/edut">JÄSENEDUT</Link></li>
             <li><Link to="/kerhotoiminta">KERHOTOIMINTA</Link></li>
             <li><Link to="/rekryt">REKRYT</Link></li>
@@ -41,13 +46,6 @@ function Footer() {
             <li><Link to="/kansainvalisyys">KANSAINVÄLISYYS</Link></li>
             <li><Link to="/kahvi">KATTILAN KAHVIKAMERA</Link></li>
             <li><Link to="/salaisuudet">SALAISUUDET</Link></li>
-            </div>
-            <div>
-                <h2>OHJESÄÄNNÖT</h2>
-            <li><Link to="/ansiomerkit">ANSIOMERKKI OHJESÄÄNTÖ</Link></li>
-            <li><Link to="/haalarit">HAALARIETIKETTI</Link></li>
-            <li><Link to="/lakki">TEEKKARILAKKI OHJESÄÄNTÖ</Link></li>
-            <li><Link to="/vujut">VUOSIJUHLAETIKETTI</Link></li>
             </div>
           </ul>
           </nav>

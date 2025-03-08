@@ -195,10 +195,6 @@ body {
 
 /* -------------------------------------------- Etusivu ---------------------------------------------------- */
 
-.frontpage_picture {
-  width: 100%;
-}
-
 .social img {
   width: 25px;
   height: 25px;
@@ -217,26 +213,6 @@ body {
   font-weight: bold;
 }
 
-.welcome {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #FBBEBD;
-  color: #000000;
-  width: 100%;
-}
-
-.welcome img {
-  margin-right: 15px;
-}
-
-.separator {
-  width: 2px;
-  height: 75px;
-  background-color: black;
-  margin: 0 10px;
-}
-
 .news-events {
   justify-content: space-between;
   width: 100%;
@@ -249,6 +225,7 @@ body {
 }
 
 .diamond-partners {
+  font-size: 1.1rem;
   display: flex;
   border-radius: 8px;
   font-weight: bold;
@@ -341,7 +318,7 @@ body {
 }
 
 .footer-nav {
-  margin-left: 5%;
+  margin-left: 2%;
 }
 
 .footer-nav ul {
@@ -702,14 +679,14 @@ body.modal-open {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 4px 4px 4px 8px rgba(236, 32, 254, 0.1);
+  box-shadow: 0px 4px 4px 8px rgba(236, 32, 254, 0.1);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hallitus-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 6px 12px rgba(250, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .hallitus-card img {
@@ -776,17 +753,48 @@ padding: 20px;
   height: auto;
 }
 
-@media (min-width: 1501px) {
+@media (min-width: 2300px) {
+
+  .footer-nav ul {
+    gap: 17rem;
+  }
+}
+
+@media (min-width: 2000px ) and (max-width: 2299px) {
+  .footer-nav ul{
+    gap:13rem;
+  }
+}
+
+@media (min-width: 1801px ) and (max-width: 1999px) {
+  .footer-nav ul{
+    gap:10rem;
+  }
+}
+
+@media (min-width: 1701px ) and (max-width: 1800px) {
+  .footer-nav ul{
+    gap:7rem;
+  }
+}
+
+@media (min-width: 1501px ) and (max-width: 1700px) {
 
   .footer-nav ul{
-    gap:8rem;
+    gap: 3rem;
   }
 
 }
 
+
 @media (max-width:1500px) {
   .footer-nav ul{
-    gap:3rem;
+    gap:2rem;
+  }
+
+  .hallitus-pesti-info {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
 }
@@ -831,6 +839,10 @@ padding: 20px;
     margin-top: 3%;
   }
 
+  .jasen_nappi a {
+    text-decoration: none;
+  }
+
   .footer {
     justify-content: center;
     text-align: center;
@@ -863,6 +875,28 @@ padding: 20px;
     font-size: 0.8rem;
   }
 
+  .prev-hallitus h3{
+
+    margin-left:10% ;
+  
+  }
+  
+  .prev-hallitus-info {
+    margin-left: 10%;
+    gap: 10px;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  
+  .tutor-container{
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .hallitus-pesti-info {
+    padding: 20px;
+  }
+
 }
 
 @media (max-width: 780px) {
@@ -882,6 +916,11 @@ padding: 20px;
   .tutor-container{
     flex-direction: column;
     padding: 10px;
+  }
+
+  .hallitus-grid {
+    width: 50%;
+    margin-left: 17%;
   }
 
 }
