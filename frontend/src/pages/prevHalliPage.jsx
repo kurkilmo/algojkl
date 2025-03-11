@@ -6,7 +6,6 @@ import halli2022 from '../images/halli_2022.png'
 const PrevHalli = () => {
   return (
     <div>
-      <img src="" alt="" />
       <div className="prev-hallitus">
         <h3>Hallitus 2024</h3>
         <div className="prev-hallitus-info">
@@ -83,7 +82,6 @@ const PrevHalli = () => {
             </p>
           </div>
         </div>
-      </div>
       <h3>Hallitus 2022 & perustajajäsenet</h3>
       <div className="prev-hallitus-info">
         <img src={halli2022} alt="halli_2022_img" />
@@ -111,6 +109,7 @@ const PrevHalli = () => {
             Jesse Haimi
           </p>
         </div>
+      </div>
       </div>
     </div>
   )
