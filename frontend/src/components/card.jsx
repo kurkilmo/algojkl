@@ -1,4 +1,11 @@
-import React from "react";
+import React from 'react'
+import PropTypes from 'prop-types'
+
+Card.propTypes = {
+  number: PropTypes.number,
+  title: PropTypes.string,
+  image: PropTypes.image,
+}
 
 const Card = ({ number, title, image }) => {
   return (
@@ -11,20 +18,20 @@ const Card = ({ number, title, image }) => {
         version="1.1"
         id="svg1"
         xmlns="http://www.w3.org/2000/svg"
-        >
+      >
         <defs id="defs1" />
         <g id="layer1">
           <path
             style={{
-                fill: "none",
-                fillOpacity: 1,
-                stroke: "#4ce188",
-                strokeWidth: 2.319,
-                strokeDasharray: "none",
-                strokeOpacity: 1,
-                strokeLinejoin: "miter",
-                strokeLinecap: "butt",
-                paintOrder: "markers fill stroke",
+              fill: 'none',
+              fillOpacity: 1,
+              stroke: '#4ce188',
+              strokeWidth: 2.319,
+              strokeDasharray: 'none',
+              strokeOpacity: 1,
+              strokeLinejoin: 'miter',
+              strokeLinecap: 'butt',
+              paintOrder: 'markers fill stroke',
             }}
             d="m 25.608153,239.71113
             c 134.195517,0.99507 136.401007,0.80534 136.401007,0.80534
@@ -34,13 +41,13 @@ const Card = ({ number, title, image }) => {
             H 25.85457
             Z  "
             id="Ukkeli"
-            />
+          />
         </g>
       </svg>
       <img src={image} alt={title} className="card-image" />
       <h3 className="card-title">{title}</h3>
     </div>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card

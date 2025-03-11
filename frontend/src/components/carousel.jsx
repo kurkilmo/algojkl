@@ -1,25 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react'
 
-import ryhma from "../images/ryhma.png"; 
-import logo from "../images/algo.png";
-import kollaasi from "../images/algo_ry.png"
+import ryhma from '../images/ryhma.png'
+import logo from '../images/algo.png'
+import kollaasi from '../images/algo_ry.png'
 
-const photos = [logo,ryhma,kollaasi] 
+const photos = [logo, ryhma, kollaasi]
 
 const Carousel = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % photos.length);
-    }, 5000);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % photos.length)
+    }, 5000)
 
-    return () => clearInterval(interval);
-  }, []);
+    return () => clearInterval(interval)
+  }, [])
 
   const goToSlide = (index) => {
-    setCurrentIndex(index);
-  };
+    setCurrentIndex(index)
+  }
 
   return (
     <div className="carousel">
@@ -36,13 +36,13 @@ const Carousel = () => {
         {photos.map((_, index) => (
           <span
             key={index}
-            className={`dot ${index === currentIndex ? "active" : ""}`}
+            className={`dot ${index === currentIndex ? 'active' : ''}`}
             onClick={() => goToSlide(index)}
           ></span>
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Carousel;
+export default Carousel

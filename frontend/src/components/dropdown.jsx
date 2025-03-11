@@ -1,11 +1,12 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { RiArrowDropDownLine } from "react-icons/ri";
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { RiArrowDropDownLine } from 'react-icons/ri'
+import PropTypes from 'prop-types'
 
-import "../App.css";
+import '../App.css'
 
 const DropdownMenu = ({ title, links = [], onItemClick }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <div
@@ -13,8 +14,9 @@ const DropdownMenu = ({ title, links = [], onItemClick }) => {
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}
     >
-      <button className="dropdown-button" onClick={() => setIsOpen(!isOpen)} >{title}
-      <RiArrowDropDownLine className="arrow"/>
+      <button className="dropdown-button" onClick={() => setIsOpen(!isOpen)}>
+        {title}
+        <RiArrowDropDownLine className="arrow" />
       </button>
 
       {isOpen && (
@@ -45,7 +47,23 @@ const DropdownMenu = ({ title, links = [], onItemClick }) => {
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default DropdownMenu;
+DropdownMenu.propTypes = {
+  title: PropTypes.string,
+  links: PropTypes.arrayOf(
+    PropTypes.shape({
+      section: PropTypes.string.isRequired,
+      items: PropTypes.arrayOf(
+        PropTypes.shape({
+          path: PropTypes.string.isRequired,
+          label: PropTypes.string.isRequired,
+        })
+      ).isRequired,
+    })
+  ).isRequired,
+  onItemClick: PropTypes.func,
+}
+
+export default DropdownMenu
