@@ -1,5 +1,5 @@
-import React from "react"
-import { useContentfulData } from "../services/useContentfulData"
+import React from 'react'
+import { useContentfulData } from '../services/useContentfulData'
 
 const DiamondCollabs = () => {
   const { data, isLoading, error } = useContentfulData()
@@ -26,4 +26,4 @@ const DiamondCollabs = () => {
   )
 }
 
-export default DiamondCollabs;
+export default DiamondCollabs

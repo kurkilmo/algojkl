@@ -1,38 +1,38 @@
-import React, { useState, useEffect } from "react";
-import ReactMarkdown from "react-markdown";
-import { useContentfulData } from "../services/useContentfulData";
+import React, { useState, useEffect } from 'react'
+import ReactMarkdown from 'react-markdown'
+import { useContentfulData } from '../services/useContentfulData'
 
 const EventCards = () => {
-  const { data, isLoading, error } = useContentfulData();
-  const [selectedEvent, setSelectedEvent] = useState(null);
+  const { data, isLoading, error } = useContentfulData()
+  const [selectedEvent, setSelectedEvent] = useState(null)
 
   useEffect(() => {
     if (selectedEvent) {
-      document.body.classList.add("modal-open");
+      document.body.classList.add('modal-open')
     } else {
-      document.body.classList.remove("modal-open");
+      document.body.classList.remove('modal-open')
     }
-  }, [selectedEvent]);
+  }, [selectedEvent])
 
-  if (isLoading) return <p>Loading events...</p>;
-  if (error) return <p>Virhe ladattaessa tapahtumia</p>;
+  if (isLoading) return <p>Loading events...</p>
+  if (error) return <p>Virhe ladattaessa tapahtumia</p>
 
-  const sortedEvents = [...data.events].sort((a, b) => 
-    new Date(a.date) - new Date(b.date)
-  );
+  const sortedEvents = [...data.events].sort(
+    (a, b) => new Date(a.date) - new Date(b.date)
+  )
 
   return (
     <div className="event-cards-container">
       {sortedEvents.map((event) => (
-        <div 
-          key={event.id} 
-          className="event-card" 
+        <div
+          key={event.id}
+          className="event-card"
           onClick={() => setSelectedEvent(event)}
         >
           {event.picture?.fields?.file?.url && (
-            <img 
-              src={event.picture.fields.file.url} 
-              alt={event.title} 
+            <img
+              src={event.picture.fields.file.url}
+              alt={event.title}
               className="event-image"
             />
           )}
@@ -44,7 +44,9 @@ const EventCards = () => {
       {selectedEvent && (
         <div className="modal-overlay" onClick={() => setSelectedEvent(null)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <span className="close" onClick={() => setSelectedEvent(null)}>&times;</span>
+            <span className="close" onClick={() => setSelectedEvent(null)}>
+              &times;
+            </span>
             <h2>{selectedEvent.title}</h2>
             <ReactMarkdown>{selectedEvent.description}</ReactMarkdown>
             {selectedEvent.url && (
@@ -52,19 +54,22 @@ const EventCards = () => {
                 <a href={selectedEvent.url}>Liput</a>
               </h2>
             )}
-            <p><strong>Päivämäärä:</strong> {new Date(selectedEvent.date).toLocaleDateString()}</p>
+            <p>
+              <strong>Päivämäärä:</strong>{' '}
+              {new Date(selectedEvent.date).toLocaleDateString()}
+            </p>
             {selectedEvent.picture?.fields?.file?.url && (
-              <img 
-                src={selectedEvent.picture.fields.file.url} 
-                alt={selectedEvent.title} 
-                className="modal-image" 
+              <img
+                src={selectedEvent.picture.fields.file.url}
+                alt={selectedEvent.title}
+                className="modal-image"
               />
             )}
           </div>
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default EventCards;
+export default EventCards
