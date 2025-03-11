@@ -72,7 +72,7 @@ const HallitusPage = () => {
 
             </p>
         <br />
-        <p> Aiemmat hallitukset näät <a href="/entiset-hallitukset"><strong>täältä</strong></a></p>
+        <p> Aiemmat hallitukset näet <a href="/entiset-hallitukset"><strong>täältä</strong></a></p>
         </div>
         </div>
     )

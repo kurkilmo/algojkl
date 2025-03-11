@@ -74,6 +74,9 @@ const KunniagalleriaPage = () => {
                 </ul>
                 </div>
             </div>
+            <div className="kunnia-container">
+            <p>Muut edelliset hallitukset näkevät <a href="/entiset-hallitukset">täältä</a></p>
+            </div>
         </div>
     )
 }
