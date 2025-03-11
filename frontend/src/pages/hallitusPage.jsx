@@ -1,7 +1,45 @@
 import React, { useState } from 'react'
 import starter from '../images/Page_starters/6.png'
 import { useContentfulData } from '../services/useContentfulData'
-import PropTypes, { object } from 'prop-types'
+import PropTypes from 'prop-types'
+
+const HallitusCard = ({ member }) => {
+  const [rounded, setRounded] = useState(false)
+
+  return (
+    <div className="hallitus-card">
+      <button
+        className="hidden-button"
+        onClick={() => setRounded(!rounded)}
+      ></button>
+      <img
+        src={member.kuva}
+        alt={member.nimi}
+        className={`hallitus-kuva ${rounded ? 'rounded' : ''}`}
+      />
+      <h2>{member.pesti}</h2>
+      <p>{member.lispesti}</p>
+      <p>
+        <strong>{member.nimi}</strong>
+      </p>
+      <p>Telegram: {member.telegram}</p>
+      <p>
+        <a href={`mailto:${member.sp}`}>{member.sp}</a>
+      </p>
+    </div>
+  )
+}
+
+HallitusCard.propTypes = {
+  member: PropTypes.shape({
+    nimi: PropTypes.string.isRequired,
+    pesti: PropTypes.string.isRequired,
+    lispesti: PropTypes.string,
+    telegram: PropTypes.string,
+    sp: PropTypes.string,
+    kuva: PropTypes.string,
+  }),
+}
 
 const HallitusPage = () => {
   const { data, isLoading, error } = useContentfulData()
@@ -99,44 +137,6 @@ const HallitusPage = () => {
           </a>
         </p>
       </div>
-    </div>
-  )
-}
-
-HallitusCard.propTypes = {
-  member: PropTypes.shape({
-    nimi: PropTypes.string.isRequired,
-    pesti: PropTypes.string.isRequired,
-    lispesti: PropTypes.string,
-    telegram: PropTypes.string,
-    sp: PropTypes.string,
-    kuva: PropTypes.img,
-  }),
-}
-
-const HallitusCard = ({ member }) => {
-  const [rounded, setRounded] = useState(false)
-
-  return (
-    <div className="hallitus-card">
-      <button
-        className="hidden-button"
-        onClick={() => setRounded(!rounded)}
-      ></button>
-      <img
-        src={member.kuva}
-        alt={member.nimi}
-        className={`hallitus-kuva ${rounded ? 'rounded' : ''}`}
-      />
-      <h2>{member.pesti}</h2>
-      <p>{member.lispesti}</p>
-      <p>
-        <strong>{member.nimi}</strong>
-      </p>
-      <p>Telegram: {member.telegram}</p>
-      <p>
-        <a href={`mailto:${member.sp}`}>{member.sp}</a>
-      </p>
     </div>
   )
 }

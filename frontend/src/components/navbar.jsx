@@ -126,7 +126,7 @@ function NavBar() {
                   section: 'VIRALLISET DOKUMENTIT',
                   items: [
                     { label: 'SÄÄNNÖT', path: '/saannot' },
-                    { label: 'OHJESÄÄNNÖT', path: '/ohjesaannot' },
+                    { label: 'OHJESÄÄNNÖT ETIKETIT', path: '/ohjesaannot' },
                     { label: 'REKISTERISELOSTE', path: '/seloste' },
                     { label: 'DOKUMENTIT', path: '/dokumentit' },
                     { label: 'KUNNIAGALLERIA', path: '/kunniagalleria' },

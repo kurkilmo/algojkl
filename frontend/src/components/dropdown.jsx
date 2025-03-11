@@ -5,22 +5,6 @@ import PropTypes from 'prop-types'
 
 import '../App.css'
 
-DropdownMenu.propTypes = {
-  title: PropTypes.string,
-  links: PropTypes.arrayOf(
-    PropTypes.shape({
-      section: PropTypes.string.isRequired,
-      items: PropTypes.arrayOf(
-        PropTypes.shape({
-          path: PropTypes.string.isRequired,
-          label: PropTypes.string.isRequired,
-        })
-      ).isRequired,
-    })
-  ).isRequired,
-  onItemClick: PropTypes.func,
-}
-
 const DropdownMenu = ({ title, links = [], onItemClick }) => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -64,6 +48,22 @@ const DropdownMenu = ({ title, links = [], onItemClick }) => {
       )}
     </div>
   )
+}
+
+DropdownMenu.propTypes = {
+  title: PropTypes.string,
+  links: PropTypes.arrayOf(
+    PropTypes.shape({
+      section: PropTypes.string.isRequired,
+      items: PropTypes.arrayOf(
+        PropTypes.shape({
+          path: PropTypes.string.isRequired,
+          label: PropTypes.string.isRequired,
+        })
+      ).isRequired,
+    })
+  ).isRequired,
+  onItemClick: PropTypes.func,
 }
 
 export default DropdownMenu
