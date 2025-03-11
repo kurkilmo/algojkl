@@ -17,7 +17,7 @@ const YhteydenottoPage = () => {
             Tätä palautetta kerää ja käyttää Algon kopo ja puheenjohtaja. Tämän palautteen voit antaa täysin anonyymisti tai antaa yhteystietosi jos haluat että sinuun ollaan yhteydessä. Palautteet viedään kuitenkin eteenpäin täysin anonyymeinä.   
         </p>
         <p>
-           Linkki lomakkeeseen:<a href="https://forms.gle/eXQokL9ukeJNgKoAA">Kurssipalautelomake</a>
+           Linkki lomakkeeseen: <a href="https://forms.gle/eXQokL9ukeJNgKoAA">Kurssipalautelomake</a>
         </p>
         <h1>
             Sopo-Kopo Yhteydenottolomake
@@ -33,7 +33,7 @@ const YhteydenottoPage = () => {
         Tänne saat kertoa palautetta - niin positiivista kuin negatiivistakin - Algon toiminnasta, sivuista tai mistä tahansa kiltaamme liittyvästä.
         </p>
         <p>
-            <a href="https://forms.gle/fje29tPTM4PQCtws9">Palautelomake</a>
+            Linkki lomakkeeseen: <a href="https://forms.gle/fje29tPTM4PQCtws9">Palautelomake</a>
         </p>
       </div>
     </div>
