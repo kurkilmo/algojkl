@@ -758,7 +758,8 @@ body.modal-open {
 .kunnia-container,
 .saannot-container,
 .seloste-container,
-.periaate-container {
+.periaate-container,
+.yhteydenotto-container {
   width: 70%;
   margin: 0 auto;
 }
@@ -790,7 +791,8 @@ body.modal-open {
 
 .saannot-container p,
 .seloste-container p,
-.periaate-container p {
+.periaate-container p,
+.yhteydenotto-container p {
   line-height: 20px;
   font-size: 0.9rem;
 }
@@ -799,6 +801,10 @@ body.modal-open {
 .seloste-container h1,
 .periaate-container h1 {
   text-align: center;
+  font-size: 1.5rem;
+}
+
+.yhteydenotto-container h1 {
   font-size: 1.5rem;
 }
 
