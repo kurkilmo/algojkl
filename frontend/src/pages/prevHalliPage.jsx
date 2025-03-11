@@ -2,6 +2,7 @@ import React from "react";
 /*import starter from "../images/Page_starters/x.png"*/
 import halli2024 from "../images/halli_2024.png"
 import halli2023 from "../images/halli_2023.png"
+import halli2022 from "../images/halli_2022.png"
 const PrevHalli = () => {
     return (
         <div>
@@ -39,7 +40,21 @@ const PrevHalli = () => {
                                 <p><strong>Excursiovastaava: </strong> Lassi Karjalainen</p>
                             </div>
                         </div>
-                    </div>    
+                    </div>
+                    <h3>Hallitus 2022 & perustajajäsenet</h3>
+                        <div className="prev-hallitus-info">
+                            <img src={halli2022}    alt="halli_2022_img" />
+                                <div>
+                                    <p><strong>Puheenjohtaja: </strong> Eemil Hukkanen</p>
+                                    <p><strong>Varapuheenjohtaja: </strong> Annarella Manninen</p>
+                                    <p><strong>Sihteeri: </strong> Topias Liljegren</p>
+                                    <p><strong>Rahastonhoitaja: </strong> Anna-Sofia Paavonen</p>
+                                    <p><strong>Yrityssuhdevastaava: </strong> Juuso Vuorela</p>
+                                    <p><strong>Fuksivastaava & Sopo: </strong> Lassi Laitinen</p>
+                                    <p><strong>Tapahtuma- ja somevastaava(t): </strong> Minea Nupponen & Jesse Haimi</p>
+                                </div>
+                     </div>
+                    
                 </div>
     )
 }
