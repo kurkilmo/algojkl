@@ -65,7 +65,7 @@ const KansainvalisyysPage = () => {
           Huomioithan kuitenkin, että apurahan maksatuksessa voi kestää muutamia
           kuukausia, joten varaa hakemukselle riittävästi aikaa.
         </p>
-        <p>Vaihtovinkit </p>
+        <h3>Vaihtovinkit</h3>
         <ul>
           <li>
             <strong>Opintopistevaatimus:</strong> ERASMUS+ -ohjelmassa
@@ -93,7 +93,7 @@ const KansainvalisyysPage = () => {
             <ul>
               <li>
                 Mieti, minkä tasoisia opintoja haluat suorittaa ja tarkista,
-                mitä kursseja kohdeyliopistot tarjoavat
+                mitä kursseja kohdeyliopistot tarjoavat.
                 <ul>
                   <li>
                     Esimerkiksi Euroopassa kanditasoisia kursseja on usein
@@ -114,17 +114,17 @@ const KansainvalisyysPage = () => {
               </li>
             </ul>
           </li>
-          <h3>Vaihto-ohjelmat</h3>
-          <ul>
-            <li>
-              Erasmus (Eurooppa)
-              <p>
-                Erasmus-ohjelma tarjoaa opiskelijoille mahdollisuuden viettää
-                1–2 lukukautta opiskellen EU- ja ETA-maissa sekä Turkissa.
-                Vaihtopaikat perustuvat tiedekuntien ja oppiaineiden välisiin
-                sopimuksiin.
-              </p>
-            </li>
+        </ul>
+        <h3>Vaihto-ohjelmat</h3>
+        <ul>
+          <li>
+            <strong>Erasmus (Eurooppa)</strong>
+            <p>
+              Erasmus-ohjelma tarjoaa opiskelijoille mahdollisuuden viettää 1–2
+              lukukautta opiskellen EU- ja ETA-maissa sekä Turkissa.
+              Vaihtopaikat perustuvat tiedekuntien ja oppiaineiden välisiin
+              sopimuksiin.
+            </p>
             <ul>
               <li>
                 Lisätietoja:{' '}
@@ -144,24 +144,173 @@ const KansainvalisyysPage = () => {
                 hakiessa kyseisen tiedekunnan opiskelijat ovat etusijalla.
               </li>
             </ul>
-            <li>
-              Kahdenväliset kohteet (Euroopan ulkopuolella)
-              <p>
-                Tämä ohjelma kattaa vaihdot Pohjois-, Väli- ja Etelä-Amerikkaan,
-                Aasiaan, Australiaan ja Afrikkaan. Nämä kohteet eivät ole
-                tiedekuntakohtaisia, ja hakijat voivat olla eri aloilta.
-                <ul>
-                  <li>
-                    Lisätietoja:{' '}
-                    <a href="https://www.jyu.fi/fi/opiskelijalle/kandi-ja-maisteriopiskelijan-ohjeet/kansainvalistyminen-ja-opiskelijavaihto/kahdenvaliset-kohteet">
-                      Kahdenväliset kohteet
-                    </a>
-                  </li>
-                </ul>
-              </p>
-            </li>
-          </ul>
+          </li>
+          <li>
+            <strong>Kahdenväliset kohteet (Euroopan ulkopuolella)</strong>
+            <p>
+              Tämä ohjelma kattaa vaihdot Pohjois-, Väli- ja Etelä-Amerikkaan,
+              Aasiaan, Australiaan ja Afrikkaan. Nämä kohteet eivät ole
+              tiedekuntakohtaisia, ja hakijat voivat olla eri aloilta.{' '}
+            </p>
+            <ul>
+              <li>
+                Lisätietoja:{' '}
+                <a href="https://www.jyu.fi/fi/opiskelijalle/kandi-ja-maisteriopiskelijan-ohjeet/kansainvalistyminen-ja-opiskelijavaihto/kahdenvaliset-kohteet">
+                  Kahdenväliset kohteet
+                </a>
+              </li>
+              <li>
+                Australia on erityisen haluttu kohde, joten sinne pääsy voi olla
+                haastavaa.
+              </li>
+              <li>
+                Valintakriteerit päättävät sijoitukset, ja valintapäätöksistä
+                ilmoitetaan noin kuukausi hakuajan päättymisen jälkeen.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>ISEP (Euroopan ulkopuolella):</strong>
+            <p>
+              ISEP-ohjelman kautta opiskelija voi hakea useisiin yliopistoihin
+              ympäri maailmaa yhdellä hakemuksella.
+            </p>
+            <ul>
+              <li>
+                Lisätietoja:{' '}
+                <a href="https://www.jyu.fi/fi/opiskelijalle/kandi-ja-maisteriopiskelijan-ohjeet/kansainvalistyminen-ja-opiskelijavaihto/isep">
+                  ISEP-ohjelma
+                </a>
+              </li>
+              <li>
+                Jyväskylän yliopistossa ensivaiheessa haetaan kolmeen
+                yliopistoon, mutta lopullisessa hakemuksessa voi olla jopa 10
+                vaihtoehtoa.
+              </li>
+              <li>
+                Ohjelman koordinoinnista vastaa ISEP-järjestö, joka päättää
+                lopullisen sijoituksen.
+              </li>
+              <li>
+                Australia ja Uusi-Seelanti eivät ole haettavissa JYU:n Mobility
+                Online -portaalissa.
+              </li>
+              <li>Useimmat ISEP-kohteet tarjoavat vain kanditason kursseja.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Nordplus (Pohjoismaat ja Baltia)</strong>
+            <p>
+              Nordplus-ohjelma mahdollistaa vaihdon 1–12 kuukaudeksi
+              Pohjoismaihin tai Baltiaan. Opiskelijalla on oltava vähintään
+              vuoden opinnot kotikorkeakoulussaan ennen vaihtoon lähtöä.
+            </p>
+            <ul>
+              <li>
+                Lisätietoja:{' '}
+                <a href="https://www.jyu.fi/fi/opiskelijalle/kandi-ja-maisteriopiskelijan-ohjeet/kansainvalistyminen-ja-opiskelijavaihto/nordplus">
+                  Nordplus-ohjelma
+                </a>
+              </li>
+              <li>
+                Verkostot myöntävät usein apurahoja myös lyhyemmille
+                liikkuvuusjaksoille (1–4 viikkoa).
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>FORTHEM</strong>
+            <p>
+              FORTHEM-allianssi mahdollistaa Erasmus-vaihdon allianssin
+              jäsenyliopistoihin sekä lyhytliikkuvuusjaksot. Lyhytjaksot
+              kestävät noin 5 päivää ja tarjoavat mahdollisuuden osallistua
+              monialaisiin projekteihin.
+              <br />
+              <br />
+              Lisätietoja:{' '}
+              <a href="https://www.jyu.fi/fi/opiskelijalle/kandi-ja-maisteriopiskelijan-ohjeet/kansainvalistyminen-ja-opiskelijavaihto/forthem-kansainvalistyminen">
+                FORTHEM-ohjelma
+              </a>
+            </p>
+          </li>
         </ul>
+        <h3>Sivustot</h3>
+        <ul>
+          <li>
+            <strong>Hakuprosessi Mobility Online -portaalissa:</strong>
+            <p>
+              Kaikki vaihtohaut tapahtuvat Mobility Online -portaalin kautta.
+              Aloita hakuprosessi seuraavasta linkistä:
+            </p>
+            <ul>
+              <li>
+                <a href="https://www.service4mobility.com/europe/MobilitySearchServlet?sprache=en&identifier=JYVASKY01">
+                  Mobility Online-portaali
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Ohjeita hakuvaiheeseen:</strong>
+            <p>
+              Löydä yksityiskohtaiset ohjeet hakuprosessin alkuvaiheeseen
+              täältä:
+            </p>
+            <ul>
+              <li>
+                <a href="https://www.jyu.fi/fi/opiskelijalle/kandi-ja-maisteriopiskelijan-ohjeet/kansainvalistyminen-ja-opiskelijavaihto/vaihtoon-hakeminen">
+                  Step by step -hakuohjeet
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Valmistautuminen vaihtoon:</strong>
+            <p>Tutustu valmistautumisohjeisiin ennen vaihtoon lähtöä:</p>
+            <ul>
+              <li>
+                <a href="https://www.jyu.fi/fi/opiskelijalle/kandi-ja-maisteriopiskelijan-ohjeet/kansainvalistyminen-ja-opiskelijavaihto/ennen-vaihtoa">
+                  Valmistautumisohjeet
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Vaihdon rahoitus:</strong>
+            <p>Tietoa vaihdon rahoitusvaihtoehdoista ja apurahoista:</p>
+            <ul>
+              <li>
+                <a href="https://www.jyu.fi/fi/opiskelijalle/kandi-ja-maisteriopiskelijan-ohjeet/kansainvalistyminen-ja-opiskelijavaihto/opiskelijavaihdon-rahoitus">
+                  Vaihdon rahoitus
+                </a>
+              </li>
+              <li>
+                Tukien lisäksi voit hakea erilaisia stipendejä ja säätiöiden
+                apurahoja. Esimerkkejä IT-alan opiskelijoille:
+              </li>
+              <ul>
+                <li>
+                  Kauppalaisseuran säätiön Aleksanteri II:n matka-apuraha
+                  tietojärjestelmätieteen opiskelijoille
+                </li>
+                <li>Tellervo ja Juuso Waldenin säätiö</li>
+                <li>
+                  Riitta ja Jorma J. Takasen säätiö: tukee kansainvälistä
+                  kilpailukykyä ja teknologiateollisuuden osaamista. Säätiö
+                  jakaa apurahoja esimerkiksi kansainväliseen opiskelijavaihtoon
+                  ja tutkimustoimintaan.
+                </li>
+                <li>Erilaiset kulttuuri- tai maakuntarahastot</li>
+              </ul>
+            </ul>
+          </li>
+        </ul>
+        <h3>Kielitodistukset:</h3>
+        <p>
+          Monet vaihtokohteet saattavat vaatia kielitodistuksen.
+          Kielitodistuksia voi hankkia Movilta. Lisätietoja saat kääntymällä
+          Niina Ormashawin puoleen.
+        </p>
       </div>
     </div>
   )

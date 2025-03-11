@@ -759,7 +759,8 @@ body.modal-open {
 .saannot-container,
 .seloste-container,
 .periaate-container,
-.yhteydenotto-container {
+.yhteydenotto-container,
+.kansainvalisyys-container {
   width: 70%;
   margin: 0 auto;
 }
@@ -799,9 +800,11 @@ body.modal-open {
 
 .saannot-container h1,
 .seloste-container h1,
-.periaate-container h1 {
+.periaate-container h1,
+.kansainvalisyys-container h1 {
   text-align: center;
   font-size: 1.5rem;
+  padding: 30px;
 }
 
 .yhteydenotto-container h1 {
@@ -812,6 +815,25 @@ body.modal-open {
   padding-left: 20px;
   font-size: 0.9rem;
   line-height: 20px;
+}
+
+.kansainvalisyys-container p {
+  color: #767373;
+  line-height: 30px;
+  font-size: 0.9rem;
+}
+
+.kansainvalisyys-container ul {
+  color: #1a1a1a;
+  list-style-type: decimal;
+  line-height: 30px;
+  padding-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.kansainvalisyys-container li li {
+  list-style: disc;
+  font-size: 0.9rem;
 }
 
 /*----------------------------------------------------------*/
