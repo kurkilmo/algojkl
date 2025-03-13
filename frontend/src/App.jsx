@@ -1,4 +1,3 @@
-import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import {
   HomePage, CollabPage, Ohjesaannot, EventPage, Fuksit, HallitusPage, AktiiviPage,
@@ -8,8 +7,6 @@ import {
 } from './pages'
 import { NavBar, Footer } from './components'
 import './App.css'
-import './App.css'
-
 
 function App() {
   return (
@@ -30,12 +27,12 @@ function App() {
         <Route path="/kunniagalleria" element={<KunniagalleriaPage />} />
         <Route path="/salaisuudet" element={<SalaisuudetPage />} />
         <Route path="/saannot" element={<SaannotPage />} />
-        <Route path="/seloste" element={<RekisteriselostePage />} />
-        <Route path="/lomakkeet" element={<YhteydenottoPage />} />
-        <Route path="/edut" element={<JasenEdutPage />} />
+        <Route path="/rekisteriseloste" element={<RekisteriselostePage />} />
+        <Route path="/yhteydenotto" element={<YhteydenottoPage />} />
+        <Route path="/jasenedut" element={<JasenEdutPage />} />
         <Route path="/rekryt" element={<RekrytPage />} />
         <Route path="/kerhotoiminta" element={<KerhotoimintaPage />} />
-        <Route path="/hakijalle" element={<HakijatPage />} />
+        <Route path="/hakijat" element={<HakijatPage />} />
         <Route path="/entiset-hallitukset" element={<PrevHalli />} />
       </Routes>
       <Footer />
