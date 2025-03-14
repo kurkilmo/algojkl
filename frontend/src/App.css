@@ -68,11 +68,16 @@ body {
   gap: 10px;
 }
 
+.kilta:hover {
+  color:#fbbebd ;
+}
+
 .left-section img {
   width: 30px;
   height: 30px;
   padding-left: 10px;
 }
+
 
 .kilta {
   font-size: 1.3rem;
@@ -111,7 +116,7 @@ body {
 }
 
 .right-section li a:hover {
-  color: #000000;
+  color: #fbbebd;
 }
 
 .jasen_nappi {
@@ -459,10 +464,12 @@ body.modal-open {
   border: none;
   cursor: pointer;
   padding:0;
+  margin:0;
 }
 
 .dropdown-button:hover {
   background-color: #faf6ed;
+  color: #fbbebd;
 }
 
 .dropdown-content {
@@ -728,6 +735,7 @@ body.modal-open {
 }
 
 .hidden-button {
+  cursor:auto;
   opacity: 0;
   padding: 20px;
 }
@@ -936,7 +944,7 @@ body.modal-open {
 
   .footer-nav ul {
     flex-direction: column;
-    gap: 10px;
+    gap: 1px;
   }
 
   .feedback-comms {

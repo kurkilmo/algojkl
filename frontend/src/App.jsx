@@ -27,8 +27,8 @@ function App() {
         <Route path="/kunniagalleria" element={<KunniagalleriaPage />} />
         <Route path="/salaisuudet" element={<SalaisuudetPage />} />
         <Route path="/saannot" element={<SaannotPage />} />
-        <Route path="/rekisteriseloste" element={<RekisteriselostePage />} />
-        <Route path="/yhteydenotto" element={<YhteydenottoPage />} />
+        <Route path="/seloste" element={<RekisteriselostePage />} />
+        <Route path="/lomakkeet" element={<YhteydenottoPage />} />
         <Route path="/jasenedut" element={<JasenEdutPage />} />
         <Route path="/rekryt" element={<RekrytPage />} />
         <Route path="/kerhotoiminta" element={<KerhotoimintaPage />} />

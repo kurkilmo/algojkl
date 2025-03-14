@@ -7,7 +7,7 @@ const KunniagalleriaPage = () => {
     <div>
       <img src={starter} alt="starter_image_rules" className="starter" />
       <div className="kunnia-container">
-        <h1>Algo ry:n kunniajäsenet</h1>
+        <h2>Algo ry:n kunniajäsenet</h2>
 
         <p>
           <i>
@@ -18,7 +18,7 @@ const KunniagalleriaPage = () => {
         <ul>
           <li>Jari Haapasaari (Nimetty 2023)</li>
         </ul>
-        <h1>Vuoden Algolainen - palkinnon voittajat</h1>
+        <h2>Vuoden Algolainen - palkinnon voittajat</h2>
         <p>
           <i>
             Vuoden algolainen on jäsenten äänestyksessä päättämä, joka on
@@ -36,7 +36,7 @@ const KunniagalleriaPage = () => {
         </ul>
       </div>
       <div className="kunnia-container">
-        <h1>Perustajajäsenet & Hallitus 2022</h1>
+        <h2>Perustajajäsenet & Hallitus 2022</h2>
         <div className="perustaja-flex">
           <img src={halli2022} alt="halli" width={250} />
           <ul className="perustaja">
