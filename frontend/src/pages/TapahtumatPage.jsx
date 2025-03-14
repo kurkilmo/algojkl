@@ -1,7 +1,7 @@
 import React from 'react'
 import starter from '../images/Page_starters/3.png'
 
-const Calendar_key = process.env.REACT_APP_CALENDAR_URL
+const Calendar_key = import.meta.env.VITE_CALENDAR_API
 
 const Events = () => {
   return (

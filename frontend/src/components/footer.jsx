@@ -66,7 +66,7 @@ function Footer() {
               </li>
             </div>
             <div>
-              <h1>JÄSENILLE</h1>
+              <h2>JÄSENILLE</h2>
               <li>
                 <Link to="/edut">JÄSENEDUT</Link>
               </li>
