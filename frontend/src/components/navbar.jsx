@@ -55,14 +55,14 @@ function NavBar() {
               title="KILTA"
               links={[
                 {
-                  section: 'Aktiivit',
+                  section: 'TOIMIHENKILÖT',
                   items: [
                     { label: 'HALLITUS', path: '/hallitus' },
                     { label: 'AKTIIVIT', path: '/aktiivit' },
                   ],
                 },
                 {
-                  section: 'Dokumentit',
+                  section: 'VIRALLISET DOKUMENTIT',
                   items: [
                     { label: 'SÄÄNNÖT', path: '/saannot' },
                     { label: 'OHJESÄÄNNÖT', path: '/ohjesaannot' },
@@ -73,7 +73,7 @@ function NavBar() {
                   ],
                 },
                 {
-                  section: 'Jäsenille',
+                  section: 'JÄSENILLE',
                   items: [
                     { label: 'JÄSENDUT', path: '/edut' },
                     { label: 'KERHOTOIMINTA', path: '/kerhotoiminta' },

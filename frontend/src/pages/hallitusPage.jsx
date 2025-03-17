@@ -46,24 +46,23 @@ const HallitusPage = () => {
 
   if (isLoading) return <p>Ladataan...</p>
   if (error) return <p>Virhe ladattaessa tietoja.</p>
-  
+
   const order = {
-    "Puheenjohtaja": 1,
-    "Varapuheenjohtaja, Vice president, Vice ordförande": 2,
-    "Rahastonhoitaja": 3,
-    "Sihteeri": 4,
+    Puheenjohtaja: 1,
+    'Varapuheenjohtaja, Vice president, Vice ordförande': 2,
+    Rahastonhoitaja: 3,
+    Sihteeri: 4,
   }
-  
+
   const sortedHallitus = [...data.hallitus].sort((a, b) => {
-    const orderA = order[a.pesti] !== undefined ? order[a.pesti] : 99;
-    const orderB = order[b.pesti] !== undefined ? order[b.pesti] : 99;
-    
-    return orderA - orderB;
+    const orderA = order[a.pesti] !== undefined ? order[a.pesti] : 99
+    const orderB = order[b.pesti] !== undefined ? order[b.pesti] : 99
+
+    return orderA - orderB
   })
-  
+
   console.log(sortedHallitus)
-  
-  
+
   console.log(sortedHallitus)
   return (
     <div>

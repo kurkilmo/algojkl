@@ -18,7 +18,7 @@ const KunniagalleriaPage = () => {
         <ul>
           <li>Jari Haapasaari (Nimetty 2023)</li>
         </ul>
-        <h2>Vuoden Algolainen - palkinnon voittajat</h2>
+        <h2>Vuoden Algolainen - palkinnon voittajat</h2>
         <p>
           <i>
             Vuoden algolainen on jäsenten äänestyksessä päättämä, joka on
@@ -50,18 +50,18 @@ const KunniagalleriaPage = () => {
               <strong>Topias Liljegren</strong>, Sihteeri 2022
             </li>
             <li>
-              <strong>Anna-Sofia Paavonen</strong>, Rahastonhoitaja
+              <strong>Anna-Sofia Paavonen</strong>, Rahastonhoitaja 2022
             </li>
             <li>
-              <strong>Juuso Vuorela</strong>, Yrityssuhdevastaava
+              <strong>Juuso Vuorela</strong>, Yrityssuhdevastaava 2022
             </li>
             <li>
               <strong>Minea Nupponen & Jesse Haimi</strong>, Tapahtuma- ja
-              somevastaava(t)
+              somevastaava(t) 2022
             </li>
             <li>
               <strong>Lassi Laitinen</strong>, Fuksivastaava ja
-              sosiaalipoliittinen vastaava
+              sosiaalipoliittinen vastaava 2022
             </li>
           </ul>
         </div>

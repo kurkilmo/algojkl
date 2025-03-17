@@ -1,9 +1,26 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import {
-  HomePage, CollabPage, Ohjesaannot, EventPage, Fuksit, HallitusPage, AktiiviPage,
-  PeriaatteetPage, DokumenttiPage, KahvikameraPage, KansainvalisyysPage, KunniagalleriaPage,
-  SalaisuudetPage, SaannotPage, RekisteriselostePage, YhteydenottoPage, JasenEdutPage,
-  RekrytPage, KerhotoimintaPage, HakijatPage, PrevHalli
+  HomePage,
+  CollabPage,
+  Ohjesaannot,
+  EventPage,
+  Fuksit,
+  HallitusPage,
+  AktiiviPage,
+  PeriaatteetPage,
+  DokumenttiPage,
+  KahvikameraPage,
+  KansainvalisyysPage,
+  KunniagalleriaPage,
+  SalaisuudetPage,
+  SaannotPage,
+  RekisteriselostePage,
+  YhteydenottoPage,
+  JasenEdutPage,
+  RekrytPage,
+  KerhotoimintaPage,
+  HakijatPage,
+  PrevHalli,
 } from './pages'
 import { NavBar, Footer } from './components'
 import './App.css'

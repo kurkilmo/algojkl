@@ -1,5 +1,5 @@
 import React from 'react'
-import Simple from '../components/simple'
+import Panu from '../components/simple'
 import starter from '../images/Page_starters/4.png'
 import { useContentfulData } from '../services/useContentfulData'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
@@ -15,13 +15,14 @@ const Fuksit = () => {
       <img src={starter} alt="freshman_starter_img" className="starter" />
       <div className="fuksi-leveys">
         <div className="header">
-          <h1>Heippa Fuksi* ~: cd /fuksisyksy</h1>
-          <Simple />
+          <div>
+            <h1>Heippa Fuksi* ~: cd /fuksisyksy</h1>
+            <p>
+              <i>*Fuksi on ensimmäisen vuoden opiskelija</i>
+            </p>
+          </div>
+          <Panu />
         </div>
-
-        <p>
-          <i>*Fuksi on ensimmäisen vuoden opiskelija</i>
-        </p>
         <p>
           <i>Koko opiskeluajan tärkein asia: Seuraa sähköpostia!</i>
         </p>
