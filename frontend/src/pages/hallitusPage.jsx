@@ -61,9 +61,6 @@ const HallitusPage = () => {
     return orderA - orderB
   })
 
-  console.log(sortedHallitus)
-
-  console.log(sortedHallitus)
   return (
     <div>
       <img src={starter} alt="hallitus_starter_img" className="starter" />

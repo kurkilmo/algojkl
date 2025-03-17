@@ -746,6 +746,10 @@ body.modal-open {
 
 .hallitus-pesti-info {
   text-align: center;
+  margin: 20px;
+  border-radius: 2px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 /*----------------------------------------------------------*/
@@ -825,7 +829,8 @@ body.modal-open {
   font-size: 1.5rem;
 }
 
-.periaate-container ul, aktiivi-pestit ul {
+.periaate-container ul,
+aktiivi-pestit ul {
   padding-left: 20px;
   font-size: 0.9rem;
   line-height: 20px;
@@ -884,11 +889,10 @@ body.modal-open {
 }
 
 .aktiivi-pestit {
-padding: 20px;
-border-radius: 2px;
-border: 2px solid #000;
-box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
-
+  padding: 20px;
+  border-radius: 2px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 /*----------------------------------------------------------*/

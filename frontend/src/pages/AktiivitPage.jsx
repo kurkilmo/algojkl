@@ -20,10 +20,12 @@ const AktiiviPage = () => {
             </p>
           </div>
         </div>
-        <div className='aktiivi-pestit'>
+        <div className="aktiivi-pestit">
           <h2>AKTIIVIEN PESTIT</h2>
           <ul>
-            <li><strong>Tapahtumatiimi</strong></li>
+            <li>
+              <strong>Tapahtumatiimi</strong>
+            </li>
             <ul>
               <li>Tapahtumien suunnittelu ja järjestäminen</li>
               <ul>
@@ -38,10 +40,13 @@ const AktiiviPage = () => {
                 <li>Liikuntatapahtumien järjestäminen</li>
               </ul>
               <li>
-                Tapahtumatiimiä ylläpitää <a href="/hallitus">tapahtumavastaava(t)</a>
+                Tapahtumatiimiä ylläpitää{' '}
+                <a href="/hallitus">tapahtumavastaava(t)</a>
               </li>
             </ul>
-            <li><strong>Yritysyhteistyötiimi</strong></li>
+            <li>
+              <strong>Yritysyhteistyötiimi</strong>
+            </li>
             <ul>
               <li>Yritysyhteistöiden kontaktointi ja hankinta</li>
               <ul>
@@ -51,10 +56,13 @@ const AktiiviPage = () => {
                 </li>
               </ul>
               <li>
-                Yritysyhteistyötiimiä ylläpitää <a href="/hallitus">yrityssuhdevastaava</a>
+                Yritysyhteistyötiimiä ylläpitää{' '}
+                <a href="/hallitus">yrityssuhdevastaava</a>
               </li>
             </ul>
-            <li><strong>Some-Tiimi</strong></li>
+            <li>
+              <strong>Some-Tiimi</strong>
+            </li>
             <ul>
               <li>Some-kanavien ylläpito</li>
               <ul>
@@ -67,35 +75,26 @@ const AktiiviPage = () => {
               </li>
             </ul>
             <li>
-            <strong>Muut mahdolliset aktiivit/tiimit</strong>
+              <strong>Muut mahdolliset aktiivit/tiimit</strong>
             </li>
             <ul>
-              <li>
-                Yhdenvertaisuus-vastaava tapahtumissa
-              </li>
-              <li>
-                Juhlatiimi
-              </li>
+              <li>Yhdenvertaisuus-vastaava tapahtumissa</li>
+              <li>Juhlatiimi</li>
               <ul>
-                <li>
-                Vapun ja vuosijuhlien järjesteminen
-                </li>
+                <li>Vapun ja vuosijuhlien järjesteminen</li>
+              </ul>
+              <li>Nettijumala</li>
+              <ul>
+                <li>Nettisivujen päivitys (React,Contentful...)</li>
               </ul>
               <li>
-                Nettijumala
-              </li>
-              <ul>
-                <li>
-                  Nettisivujen päivitys (React,Contentful...)
-                </li>
-              </ul>
-              <li>
-                Lisätietoja tai ehdotuksia muista aktiivipesteistä voi kysyä keneltä tahansa hallituksen jäseneltä
+                Lisätietoja tai ehdotuksia muista aktiivipesteistä voi kysyä
+                keneltä tahansa hallituksen jäseneltä
               </li>
             </ul>
           </ul>
         </div>
-      <br />
+        <br />
       </div>
     </div>
   )
