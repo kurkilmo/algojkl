@@ -515,7 +515,6 @@ body.modal-open {
 
 /* ----------------------------------------CollabPage------------------------------------------------------- */
 
-.collab-h1,
 .ansiomerkit-container h1,
 .Lakki-container h1,
 .Vuju-container h1,
@@ -525,7 +524,7 @@ body.modal-open {
   position: relative;
   margin: 0 auto;
   color: #000000;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   text-align: center;
   font-size: 1.5rem;
@@ -556,9 +555,9 @@ body.modal-open {
 .Freshman-container h1 {
   padding: 11px 11px 11px 11px;
   background-color: #fbbebd;
-  font-size: 2rem;
   color: inherit;
   font-size: 1.5rem;
+  width: 100%;
 }
 
 .Freshman-container ul {
@@ -625,13 +624,28 @@ body.modal-open {
   right: 20%;
 }
 
+.collab-h1 {
+  text-align: center;
+  background-color: #fbbebd;
+  padding: 10px;
+  width: 50%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
 .collabs-logos-h3 {
   text-align: center;
   padding-left: 0 !important;
 }
 
-.collab-container h2 {
+.collab-container h3 {
   text-align: center;
+  background-color: #fbbebd;
+  width: 30%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
 }
 /* -------------------------------LakkiC+ vuju-container--------------------------------------------------------------- */
 
@@ -652,8 +666,7 @@ body.modal-open {
 }
 
 .Lakki-container h2,
-.Vuju-container h2,
-.collab-container h3 {
+.Vuju-container h2 {
   text-align: center;
   background-color: #fbbebd;
   width: 30%;
@@ -711,7 +724,7 @@ body.modal-open {
   background-color: #fbbebd;
   width: 30%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   padding: 30px;
 }
@@ -831,6 +844,16 @@ body.modal-open {
   padding: 20px;
 }
 
+.kunnia-container h2 {
+  font-size: 1.5rem;
+  padding: 10px;
+  background-color: #fbbebd;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
 .kunnia-container ul {
   list-style: none;
   padding: 0;
@@ -881,21 +904,28 @@ body.modal-open {
   padding: 20px;
 }
 
+
 .saannot-container h1,
 .seloste-container h1,
 .periaate-container h1,
-.kansainvalisyys-container h1 {
+.kansainvalisyys-container h1,
+.yhteydenotto-container h1 {
   text-align: center;
   font-size: 1.5rem;
-  padding: 30px;
+  padding: 10px;
   background-color: #fbbebd;
   border-radius: 10px;
-  width: 30%;
+  width: fit-content;
   margin: 0 auto;
 }
-
 .yhteydenotto-container h1 {
+  text-align: center;
   font-size: 1.5rem;
+  padding: 10px;
+  background-color: #fbbebd;
+  border-radius: 10px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 aktiivi-pestit ul {
