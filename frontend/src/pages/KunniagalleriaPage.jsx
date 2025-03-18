@@ -27,12 +27,16 @@ const KunniagalleriaPage = () => {
           </i>
         </p>
         <ul>
+          <div>
           <li>
             <strong>2024:</strong> Olli Terävä
           </li>
+          </div>
+          <div>
           <li>
             <strong>2023:</strong> Niko Iljin
           </li>
+          </div>
         </ul>
       </div>
       <div className="kunnia-container">
