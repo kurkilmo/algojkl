@@ -301,8 +301,8 @@ const Merkit = () => {
         </p>
       </div>
 
-        <h1>Haalarietiketti</h1>
-        <br />
+      <h1>Haalarietiketti</h1>
+      <br />
       <div className="OverAll-container">
         <h2>Haalareiden käyttäminen</h2>
         <ul>
@@ -339,7 +339,7 @@ const Merkit = () => {
           </li>
         </ul>
       </div>
-        <br />
+      <br />
     </div>
   )
 }

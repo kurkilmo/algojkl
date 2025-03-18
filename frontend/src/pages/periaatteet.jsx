@@ -29,7 +29,9 @@ const PeriaatteetPage = () => {
           <br />
         </p>
         <p>
-          <u><strong>Algo ja sen jäsenet noudattavat seuraavia arvoja:</strong></u>
+          <u>
+            <strong>Algo ja sen jäsenet noudattavat seuraavia arvoja:</strong>
+          </u>
         </p>
         <ul>
           <li>

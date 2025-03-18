@@ -126,7 +126,11 @@ const HallitusPage = () => {
           <br />
           <br />
           <br />
-          <strong></strong><i>ps: Hallituksessa tehdään yhteistyössä muitakin kuin vain oman vastuualueen tehtäviä.</i>
+          <strong></strong>
+          <i>
+            ps: Hallituksessa tehdään yhteistyössä muitakin kuin vain oman
+            vastuualueen tehtäviä.
+          </i>
         </p>
         <br />
         <p>

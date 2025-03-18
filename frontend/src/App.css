@@ -597,17 +597,17 @@ body.modal-open {
 
 /* --------------------Overall-Page--------------------------------------------------------------------------- */
 
-.OverAll-container{
+.OverAll-container {
   border-radius: 2px;
   border: 2px solid #000;
   box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
   width: 70%;
   margin: 0 auto;
-  padding:20px;
+  padding: 20px;
 }
 
 .OverAll-container h1 {
-  padding-top:10px;
+  padding-top: 10px;
   padding-bottom: 10px;
   font-size: 1.5rem;
 }
@@ -642,7 +642,7 @@ body.modal-open {
   position: relative;
   justify-content: center;
   width: 70%;
-  margin:0 auto;
+  margin: 0 auto;
   border-radius: 2px;
   border: 2px solid #000;
   box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
@@ -654,12 +654,12 @@ body.modal-open {
 .Lakki-container h2,
 .Vuju-container h2,
 .collab-container h3 {
-text-align: center;
-background-color:#fbbebd;
-width: 30%;
-margin: 0 auto;
-border-radius: 10px;
-padding: 10px;
+  text-align: center;
+  background-color: #fbbebd;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .Lakki-container img {
@@ -767,7 +767,7 @@ padding: 10px;
 }
 
 .hallitus-card a {
-  color:#fbbebd;
+  color: #fbbebd;
   text-decoration: none;
 }
 
@@ -927,7 +927,7 @@ aktiivi-pestit ul {
   background-color: #fbbebd;
 }
 
-.aktiivi-container{
+.aktiivi-container {
   width: 70%;
   margin: 0 auto;
 }
@@ -1124,9 +1124,6 @@ aktiivi-pestit ul {
     padding-bottom: 20%;
     margin: 0 auto;
   }
-
-
-
 }
 
 @media (max-width: 780px) {
