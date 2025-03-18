@@ -6,7 +6,6 @@ const PeriaatteetPage = () => {
     <div>
       <img src={starter} alt="starter_image_rules" className="starter" />
       <div className="periaate-container">
-        <h1>Toiminnan periaatteet</h1>
         <p>
           Algon killan sisällä apua voi hakea meidän sopolta/kopolta
           (sopo@algojkl.com & kopo@algojkl.com) tai anonyymisti lomakkeella,
@@ -28,9 +27,11 @@ const PeriaatteetPage = () => {
           saatavilla jos koet sitä tarvitsevasi.
           <br />
           <br />
-          <strong>
-            <u>Algo ja sen jäsenet noudattavat seuraavia arvoja:</u>
-          </strong>
+        </p>
+        <p>
+          <u>
+            <strong>Algo ja sen jäsenet noudattavat seuraavia arvoja:</strong>
+          </u>
         </p>
         <ul>
           <li>
