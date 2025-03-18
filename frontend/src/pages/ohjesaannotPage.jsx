@@ -5,7 +5,6 @@ const Merkit = () => {
     <div className="Lakki-container">
       <div>
         <img src={starter} alt="ohjesäännöt_starter" className="starter" />
-
         <h1>Juhlanauha- ja merkkiohjesääntö</h1>
         <p>
           1§ Algo ry:llä on kunnia-, ansio-, hallitus- ja vuoden algolainen
@@ -299,15 +298,12 @@ const Merkit = () => {
             juhlanauhan kanssa, eikä niiden asettelulla ole väliä.”
           </i>
           <br />
-          <br />
-          Ansiomerkkeihin ja juhlanauhaan liittyvät säännöt löydät
-          kokonaisuudessaan <a href="/ansiomerkit">täältä</a>.
         </p>
       </div>
 
-      <div className="OverAll-container">
         <h1>Haalarietiketti</h1>
-
+        <br />
+      <div className="OverAll-container">
         <h2>Haalareiden käyttäminen</h2>
         <ul>
           <li>
@@ -343,6 +339,7 @@ const Merkit = () => {
           </li>
         </ul>
       </div>
+        <br />
     </div>
   )
 }

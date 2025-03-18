@@ -97,10 +97,6 @@ const HallitusPage = () => {
           toiminnasta.
           <br />
           <br />
-          <strong>Ulkosuhdevastaava</strong> pitää yllä suhteita
-          yhteistyökumppaneiden sekä muiden kiltojen ja ainejärjestöjen kanssa.
-          <br />
-          <br />
           <strong>Tapahtumavastaava</strong> ideoi ja järjestää tapahtumia sekä
           vastaa tapahtumatiimin toiminnasta.
           <br />
@@ -129,8 +125,8 @@ const HallitusPage = () => {
           asioista.
           <br />
           <br />
-          <strong></strong>Yleisesti hallituksessa tehdään yhteistyössä muitakin
-          kuin vain oman vastuualueen tehtäviä.
+          <br />
+          <strong></strong><i>ps: Hallituksessa tehdään yhteistyössä muitakin kuin vain oman vastuualueen tehtäviä.</i>
         </p>
         <br />
         <p>

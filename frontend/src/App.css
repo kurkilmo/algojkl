@@ -243,7 +243,7 @@ body {
 /* ------------------------------------------------------------------------------------------------ */
 
 .collab-container h1 {
-  font-size: xx-large;
+  font-size: 1.5rem;
 }
 
 .collab-logos-container {
@@ -517,15 +517,18 @@ body.modal-open {
 
 .collab-h1,
 .ansiomerkit-container h1,
-.OverAll-container h1,
 .Lakki-container h1,
 .Vuju-container h1,
 .Freshman-container h1 {
   background-color: #fbbebd;
+  width: 30%;
+  position: relative;
+  margin: 0 auto;
   color: #000000;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .event-container {
@@ -555,6 +558,7 @@ body.modal-open {
   background-color: #fbbebd;
   font-size: 2rem;
   color: inherit;
+  font-size: 1.5rem;
 }
 
 .Freshman-container ul {
@@ -593,6 +597,21 @@ body.modal-open {
 
 /* --------------------Overall-Page--------------------------------------------------------------------------- */
 
+.OverAll-container{
+  border-radius: 2px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+  width: 70%;
+  margin: 0 auto;
+  padding:20px;
+}
+
+.OverAll-container h1 {
+  padding-top:10px;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+
 .OverAll-container li {
   list-style-type: circle;
 }
@@ -602,7 +621,7 @@ body.modal-open {
   position: relative;
   justify-content: center;
   width: 60%;
-  left: 19%;
+  left: 30%;
   right: 20%;
 }
 
@@ -622,15 +641,25 @@ body.modal-open {
   line-height: 30px;
   position: relative;
   justify-content: center;
-  width: 60%;
-  left: 20%;
-  right: 20%;
+  width: 70%;
+  margin:0 auto;
+  border-radius: 2px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .Lakki-container h2,
 .Vuju-container h2,
 .collab-container h3 {
-  padding-left: 20%;
+text-align: center;
+background-color:#fbbebd;
+width: 30%;
+margin: 0 auto;
+border-radius: 10px;
+padding: 10px;
 }
 
 .Lakki-container img {
@@ -671,12 +700,20 @@ body.modal-open {
 .hallitus {
   padding: 30px;
   text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .hallitus h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
   color: #333;
+  background-color: #fbbebd;
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 30px;
 }
 
 .hallitus-grid {
@@ -690,7 +727,7 @@ body.modal-open {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0px 4px 4px 8px rgba(236, 32, 254, 0.1);
+  box-shadow: 2px 8px 8px 4px #fbbebd;
   text-align: center;
   transition:
     transform 0.3s ease,
@@ -730,7 +767,7 @@ body.modal-open {
 }
 
 .hallitus-card a {
-  color: #0073e6;
+  color:#fbbebd;
   text-decoration: none;
 }
 
@@ -746,10 +783,13 @@ body.modal-open {
 
 .hallitus-pesti-info {
   text-align: center;
-  margin: 20px;
   border-radius: 2px;
   border: 2px solid #000;
   box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+  width: 68.3%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 30px;
 }
 
 /*----------------------------------------------------------*/
@@ -785,6 +825,10 @@ body.modal-open {
 .kunnia-container p {
   color: #767373;
   line-height: 30px;
+  border-radius: 2px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
 }
 
 .kunnia-container ul {
@@ -810,10 +854,31 @@ body.modal-open {
 
 .saannot-container p,
 .seloste-container p,
-.periaate-container p,
 .yhteydenotto-container p {
   line-height: 20px;
   font-size: 0.9rem;
+  border-radius: 2px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.periaate-container p {
+  line-height: 20px;
+  font-size: 0.9rem;
+  border-radius: 2px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.periaate-container ul {
+  font-size: 0.9rem;
+  line-height: 20px;
+  border-radius: 2px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
 }
 
 .saannot-container h1,
@@ -823,13 +888,16 @@ body.modal-open {
   text-align: center;
   font-size: 1.5rem;
   padding: 30px;
+  background-color: #fbbebd;
+  border-radius: 10px;
+  width: 30%;
+  margin: 0 auto;
 }
 
 .yhteydenotto-container h1 {
   font-size: 1.5rem;
 }
 
-.periaate-container ul,
 aktiivi-pestit ul {
   padding-left: 20px;
   font-size: 0.9rem;
@@ -859,7 +927,7 @@ aktiivi-pestit ul {
   background-color: #fbbebd;
 }
 
-.aktiivi-container {
+.aktiivi-container{
   width: 70%;
   margin: 0 auto;
 }
@@ -930,11 +998,6 @@ aktiivi-pestit ul {
 @media (max-width: 1500px) {
   .footer-nav ul {
     gap: 2rem;
-  }
-
-  .hallitus-pesti-info {
-    margin-left: 10%;
-    margin-right: 10%;
   }
 }
 
@@ -1043,8 +1106,27 @@ aktiivi-pestit ul {
   }
 
   .Freshman-container h1 {
-    font-size: larger;
+    font-size: 1.5rem;
   }
+
+  .aktiivi-kuva-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .aktiivi-kuva-container p {
+    width: 70%;
+    padding: 20px;
+  }
+
+  .juho-container {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin: 0 auto;
+  }
+
+
+
 }
 
 @media (max-width: 780px) {
