@@ -1200,6 +1200,21 @@ aktiivi-pestit ul {
     padding: 10px 10px 10px 10px;
   }
 
+  .header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .header h1 {
+    font-size: larger;
+    width: 100%;
+
+  }
+
+  .header p {
+    font-size: small;
+    padding-left: 10px;
+  }
 
   .aktiivi-container h2 {
     font-size: larger;
@@ -1217,14 +1232,21 @@ aktiivi-pestit ul {
     padding: 2px 2px 2px 0;
   }
 
-  .saannot-container p, .Lakki-container p, .OverAll-container p, .seloste-container p, .kunnia-container p, .periaate-container p, .yhteydenotto-container p, .kansainvalisyys-container p {
+  .saannot-container p, .Lakki-container p, .OverAll-container p, .seloste-container p, .kunnia-container p, .periaate-container p, .yhteydenotto-container p, .kansainvalisyys-container p, .Freshman-container p {
     font-size: 0.7rem;
   }
 
+  .Freshman-container h2 {
+    font-size: medium;
+    background-color: #fbbebd;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
   .OverAll-container h2 {
     font-size: medium;
     padding: 10px;
-
   }
 
   .OverAll-container ul{
@@ -1233,7 +1255,7 @@ aktiivi-pestit ul {
     font-size: small;
   }
 
-  .periaate-container ul {
+  .periaate-container ul, .Freshman-container ul {
     font-size: 0.7rem;
   }
 
@@ -1247,11 +1269,4 @@ aktiivi-pestit ul {
     padding-left: 20px;
   }
 
-}
-
-.card {
-  position: relative;
-  width: 300px;
-  color: white;
-  text-align: center;
 }
