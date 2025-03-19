@@ -669,7 +669,7 @@ body.modal-open {
 .Vuju-container h2 {
   text-align: center;
   background-color: #fbbebd;
-  width: 30%;
+  width: fit-content;
   margin: 0 auto;
   border-radius: 10px;
   padding: 10px;
@@ -722,7 +722,7 @@ body.modal-open {
   margin-bottom: 20px;
   color: #333;
   background-color: #fbbebd;
-  width: 30%;
+  width: fit-content;
   margin: 0 auto;
   padding: 10px;
   border-radius: 10px;
@@ -924,7 +924,7 @@ body.modal-open {
   padding: 10px;
   background-color: #fbbebd;
   border-radius: 10px;
-  width: 50%;
+  width: fit-content;
   margin: 0 auto;
 }
 
@@ -1173,10 +1173,80 @@ aktiivi-pestit ul {
     padding: 10px;
   }
 
-  .hallitus-grid {
-    width: 50%;
-    margin-left: 17%;
+  .body {
+    overflow: hidden;
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container p {
+    font-size: medium;
+  }
+
+  .hallitus h1,.saannot-container h1,.seloste-container h1, .kunnia-container h2, .yhteydenotto-container h1, .kansainvalisyys-container h1 {
+    width: fit-content;
+    font-size: larger;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .Lakki-container h1 {
+    width: fit-content;
+    font-size: larger;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+  }
+
+
+  .aktiivi-container h2 {
+    font-size: larger;
+    padding-top: 20px;
+    padding-left: 25px;
+  }
+
+  .aktiivi-pestit {
+    font-size: smaller;
+    padding: 0;
+    margin: 0;
+  }
+
+  .aktiivi-pestit li {
+    padding: 2px 2px 2px 0;
+  }
+
+  .saannot-container p, .Lakki-container p, .OverAll-container p, .seloste-container p, .kunnia-container p, .periaate-container p, .yhteydenotto-container p, .kansainvalisyys-container p {
+    font-size: 0.7rem;
+  }
+
+  .OverAll-container h2 {
+    font-size: medium;
+    padding: 10px;
+
+  }
+
+  .OverAll-container ul{
+    left:10px;
+    width: fit-content;
+    font-size: small;
+  }
+
+  .periaate-container ul {
+    font-size: 0.7rem;
+  }
+
+  .kunnia-container ul{
+    font-size: small;
+    padding-left: 10px;
+  }
+
+  .kansainvalisyys-container ul {
+    font-size: small;
+    padding-left: 20px;
+  }
+
 }
 
 .card {
