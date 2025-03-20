@@ -1,12 +1,12 @@
 import React from 'react'
 import starter from '../images/Page_starters/12.png'
 import halli2022 from '../images/halli_2022.png'
-import olli from '../images/Olli.png'
+import olli from '../images/olli.png'
 import niko from '../images/Niko.jpg'
 import VuodenAlgolaiset from "../components/vuodenAlgolaiset.jsx";
 import Perustajat
  from '../components/perustajat.jsx';
- 
+
 const vuodenAlgolaiset = [
   { year: 2024, name: "Olli Terävä", image: olli },
   { year: 2023, name: "Niko Iljin", image: niko }
