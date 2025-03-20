@@ -49,7 +49,7 @@ function App() {
         <Route path="/jasenedut" element={<JasenEdutPage />} />
         <Route path="/rekryt" element={<RekrytPage />} />
         <Route path="/kerhotoiminta" element={<KerhotoimintaPage />} />
-        <Route path="/hakijat" element={<HakijatPage />} />
+        <Route path="/hakijalle" element={<HakijatPage />} />
         <Route path="/entiset-hallitukset" element={<PrevHalli />} />
       </Routes>
       <Footer />
