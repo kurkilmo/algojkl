@@ -682,6 +682,7 @@ body.modal-open {
 
 .tutor-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 20px;
   border-bottom: 1px solid #ccc;
@@ -689,19 +690,14 @@ body.modal-open {
 }
 
 .tutor-info {
-  margin: 20px;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
+  max-width: 100%;
+  line-height: 25px;
 }
 
 .tutor-container img {
   width: 250px;
   height: auto;
-}
-
-.tutor-info {
-  margin: 0;
+  padding-top: 20px;
 }
 
 .tutor-name {
@@ -1269,4 +1265,11 @@ aktiivi-pestit ul {
     padding-left: 20px;
   }
 
+
+  .tutor-info p {
+    font-size: 0.7rem;
+    hyphens: auto;
+  }
+
+  
 }
