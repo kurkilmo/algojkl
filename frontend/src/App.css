@@ -704,6 +704,7 @@ body.modal-open {
   margin: 0 0 10px 0;
 }
 
+
 /*----------------------------------------------------------*/
 
 .hallitus {
@@ -853,7 +854,15 @@ body.modal-open {
 .kunnia-container ul {
   list-style: none;
   padding: 0;
+  font-size: large;
 }
+
+.vuoden-algolainen {
+  display: flex;
+  gap:15px;
+}
+
+.vuoden-algolainen ul 
 
 .kunnia-container li,
 .periaate-container li,
@@ -863,6 +872,10 @@ body.modal-open {
 
 .perustaja {
   color: #767373;
+}
+
+.perustaja li {
+  padding: 10px;
 }
 
 .perustaja-flex {
@@ -1260,16 +1273,23 @@ aktiivi-pestit ul {
     padding-left: 10px;
   }
 
+  .vuoden-algolainen {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
   .kansainvalisyys-container ul {
     font-size: small;
     padding-left: 20px;
   }
-
 
   .tutor-info p {
     font-size: 0.7rem;
     hyphens: auto;
   }
 
+  .kunnia-container h2 {
+    margin-bottom: 20px;
+  }
   
 }
