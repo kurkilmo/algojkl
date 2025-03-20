@@ -6,6 +6,7 @@ import niko from '../images/Niko.jpg'
 import VuodenAlgolaiset from "../components/vuodenAlgolaiset.jsx";
 import Perustajat
  from '../components/perustajat.jsx';
+ 
 const vuodenAlgolaiset = [
   { year: 2024, name: "Olli Terävä", image: olli },
   { year: 2023, name: "Niko Iljin", image: niko }
