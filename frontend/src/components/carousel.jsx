@@ -28,7 +28,9 @@ const Carousel = () => {
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {photos.map((photo, index) => (
-          <img key={index} src={photo} alt={`Slide ${index + 1}`} />
+          <div className="carousel-slide" key={index}>
+            <img src={photo} alt={`Slide ${index + 1}`} />
+          </div>
         ))}
       </div>
 

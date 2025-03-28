@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Perustajat = ({ image, members, year }) => {
   return (
@@ -15,7 +15,7 @@ const Perustajat = ({ image, members, year }) => {
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Perustajat;
+export default Perustajat
