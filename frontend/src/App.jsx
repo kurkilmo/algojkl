@@ -9,7 +9,6 @@ import {
   AktiiviPage,
   PeriaatteetPage,
   DokumenttiPage,
-  KahvikameraPage,
   KansainvalisyysPage,
   KunniagalleriaPage,
   SalaisuudetPage,
@@ -39,7 +38,6 @@ function App() {
         <Route path="/aktiivit" element={<AktiiviPage />} />
         <Route path="/periaatteet" element={<PeriaatteetPage />} />
         <Route path="/dokumentit" element={<DokumenttiPage />} />
-        <Route path="/kahvikamera" element={<KahvikameraPage />} />
         <Route path="/kansainvalisyys" element={<KansainvalisyysPage />} />
         <Route path="/kunniagalleria" element={<KunniagalleriaPage />} />
         <Route path="/salaisuudet" element={<SalaisuudetPage />} />
