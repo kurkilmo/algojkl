@@ -10,7 +10,7 @@ const PytKirja = () => {
   return (
     <div className="pyt-kirja-container">
         <h2>
-            Hallitus 2025:
+            Hallitus 2025:n Pöytäkirjat:
         </h2>
     {data.pytkirjat.map((item) => (
       <div key={item.id} className="pytkirja-render">
