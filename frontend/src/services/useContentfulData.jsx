@@ -2,13 +2,14 @@ import { useQuery } from '@tanstack/react-query'
 import client from '../components/contentful'
 
 const fetchContentfulData = async () => {
-  const [eventsRes, collabsRes, diamondCollabsRes, hallitusRes, tutorRes] =
+  const [eventsRes, collabsRes, diamondCollabsRes, hallitusRes, tutorRes, pytkirjatRes] =
     await Promise.all([
       client.getEntries({ content_type: 'events' }),
       client.getEntries({ content_type: 'collabs' }),
       client.getEntries({ content_type: 'diamondCollab' }),
       client.getEntries({ content_type: 'hallitus' }),
       client.getEntries({ content_type: 'tutorit' }),
+      client.getEntries({ content_type: 'pytkirjat' })
     ])
 
   return {
@@ -43,6 +44,12 @@ const fetchContentfulData = async () => {
       nimi: item.fields.nimi,
       esittelyteksti: item.fields.esittelyteksti,
     })),
+    pytkirjat: pytkirjatRes.items.map((item) => ({
+      id: item.fields.kirjaId,
+      pytkirjaTittle: item.fields.pytkirjaTittle,
+      pytkirja: `https:${item.fields.pytkirja.fields.file.url}`
+    }))
+
   }
 }
 

@@ -67,7 +67,6 @@ function NavBar() {
                     { label: 'SÄÄNNÖT', path: '/saannot' },
                     { label: 'OHJESÄÄNNÖT', path: '/ohjesaannot' },
                     { label: 'REKISTERISELOSTE', path: '/seloste' },
-                    { label: 'DOKUMENTIT', path: '/dokumentit' },
                     { label: 'KUNNIAGALLERIA', path: '/kunniagalleria' },
                     { label: 'TOIMINNAN PERIAATTEET', path: '/periaatteet' },
                   ],
@@ -128,7 +127,6 @@ function NavBar() {
                     { label: 'SÄÄNNÖT', path: '/saannot' },
                     { label: 'OHJESÄÄNNÖT & ETIKETIT', path: '/ohjesaannot' },
                     { label: 'REKISTERISELOSTE', path: '/seloste' },
-                    { label: 'DOKUMENTIT', path: '/dokumentit' },
                     { label: 'KUNNIAGALLERIA', path: '/kunniagalleria' },
                     { label: 'TOIMINNAN PERIAATTEET', path: '/periaatteet' },
                   ],
@@ -162,6 +160,7 @@ function NavBar() {
               <Link to="/hakijalle">HAKIJAT</Link>
             </li>
           </ul>
+          {/* NEW MEMBER - BUTTON */}
           <Join />
         </div>
       </nav>

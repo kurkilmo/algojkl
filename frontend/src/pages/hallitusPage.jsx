@@ -48,10 +48,12 @@ const HallitusPage = () => {
   if (error) return <p>Virhe ladattaessa tietoja.</p>
 
   const order = {
-    Puheenjohtaja: 1,
-    'Varapuheenjohtaja, Vice president, Vice ordförande': 2,
-    Rahastonhoitaja: 3,
-    Sihteeri: 4,
+    'Puheenjohtaja, President': 1,
+    'Varapuheenjohtaja, Vice president': 2,
+    'Rahastonhoitaja, Treasurer': 3,
+    'Sihteeri, Secretary': 4,
+    'Koulutuspoliittinen vastaava, Head of educational politics, (kopo)':5,
+    'Sosiaalipolittinen vastaava, Head of social affairs, (sopo)':6
   }
 
   const sortedHallitus = [...data.hallitus].sort((a, b) => {
