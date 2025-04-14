@@ -253,6 +253,15 @@ body {
   font-size: larger;
 }
 
+
+
+.collab-container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-align: center;
+}
+
 .collab-logos-container {
   display: flex;
   flex-wrap: wrap;
@@ -653,7 +662,8 @@ body.modal-open {
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 20px;
-  padding: 10px;
+  padding: 8px;
+  font-size: medium;
 }
 /* -------------------------------LakkiC+ vuju-container--------------------------------------------------------------- */
 

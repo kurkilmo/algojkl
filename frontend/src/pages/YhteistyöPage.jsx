@@ -13,28 +13,25 @@ const Collab = () => {
           mainospaikan haalareista tai tukea tapahtumiamme? Vai kiinnostaisiko
           esitellä yritystäsi Jyväskylän DI-opiskelijoille?
         </p>
-        <h3>Yritysyhteistyöt</h3>
-        <p>
-          Yritysyhteistyöasioissa voit ottaa yhteyttä Algon
-          yritysuhdevastaavaan: <br />
-          <strong>Leevi Kopakkala: yritys@algojkl.com</strong>
-        </p>
+          <p className='collab-container-flex'>
+            <div>
+          <h3>Yritysyhteistyöt</h3>
+          <strong>yritys@algojkl.com</strong>
+            </div>
+            <div>
         <h3>Tapahtumat</h3>
-        <p>
-          Tapahtuma-asioissa voit ottaa yhteyttä Algon tapahtumavastaaviin:{' '}
           <strong>tapahtumat@algojkl.com</strong>
-        </p>
-        <br />
+          </div>
+          <div>
         <h3>Killan Ulkosuhteet</h3>
-        <p>
-          Killan ulkosuhteita ylläpitää Algon varapuheenjohtaja: <br />
-          <strong>Essi Pakkala: vpj@algojkl.com</strong>{' '}
-        </p>
+          <strong>vpj@algojkl.com</strong>
+          </div>
+          <div>
         <h3>Muita idoita?</h3>
-        <p>
           Meille voi aina ehdottaa uusia yhteistyökuvioita! <br />
           Muista yhteistyökuvioista voi ottaa yhteyttä Puheenjohtajaamme: <br />
-          <strong>Rene Kangas: pj@algojkl.com</strong>
+          <strong>pj@algojkl.com</strong>
+          </div>
         </p>
         <h2>Meidän Yhteistyökumppaneita</h2>
       </div>
