@@ -697,7 +697,8 @@ body.modal-open {
 }
 
 .Lakki-container h2,
-.Vuju-container h2 {
+.Vuju-container h2,
+.pyt-kirja-container h2 {
   text-align: center;
   background-color: #fbbebd;
   width: fit-content;
@@ -710,6 +711,16 @@ body.modal-open {
   width: 100%;
 }
 /* ------------------------------------------------------------------------------------------------ */
+
+.pyt-kirja-container {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.pytkirja-render {
+  padding-top: 10px;
+}
 
 .tutor-container {
   display: flex;
