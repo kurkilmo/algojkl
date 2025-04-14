@@ -101,15 +101,17 @@ const AktiiviPage = () => {
         </div>
         <br />
       </div>
-      <div className='aktiivi-consent'>
+      <div className="aktiivi-consent">
         <h2>Kiinnostuitko?</h2>
-        <p>Hae aktiiviksi täyttämällä  alla olevan lomakkeen!</p>
-        <button className='aktiivit-button'><a href="https://forms.gle/iwLcCpC3bscAhbhN8">Hae Aktiiviksi</a></button>
+        <p>Hae aktiiviksi täyttämällä alla olevan lomakkeen!</p>
+        <button className="aktiivit-button">
+          <a href="https://forms.gle/iwLcCpC3bscAhbhN8">Hae Aktiiviksi</a>
+        </button>
       </div>
 
-      <div className='aktiivi-container-merkit'>
+      <div className="aktiivi-container-merkit">
         <h2>Aktiivimerkit</h2>
-        <div className='aktiivit-container-merkit-background'>
+        <div className="aktiivit-container-merkit-background">
           <img src={aktiivi_3} alt="aktiivi_3" />
           <img src={aktiivi_2} alt="aktiivi_3" />
           <img src={aktiivi_1} alt="aktiivi_3" />

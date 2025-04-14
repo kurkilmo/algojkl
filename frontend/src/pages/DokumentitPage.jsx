@@ -7,7 +7,7 @@ const Documents = () => {
     <div>
       <img src={starter} alt="starter_img_documents" className="starter" />
       <div>
-      <PytKirja/>
+        <PytKirja />
       </div>
     </div>
   )

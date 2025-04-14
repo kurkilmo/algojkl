@@ -56,7 +56,9 @@ const EventCards = () => {
             )}
             <p>
               <strong>Päivämäärä:</strong>{' '}
-              {new Date(Date.parse(selectedEvent.date)).toLocaleDateString('fi-FI')}
+              {new Date(Date.parse(selectedEvent.date)).toLocaleDateString(
+                'fi-FI'
+              )}
             </p>
             {selectedEvent.picture?.fields?.file?.url && (
               <img
