@@ -1,6 +1,11 @@
 import React from 'react'
 import starter from '../images/Page_starters/7.png'
 import juho from '../images/juho_k_j.png'
+import aktiivi_s from '../images/aktiivit_s.png'
+import aktiivi_1 from '../images/aktiivit_1.png'
+import aktiivi_2 from '../images/aktiivit-2.png'
+import aktiivi_3 from '../images/aktiivi_3.png'
+
 const AktiiviPage = () => {
   return (
     <div className="aktiivi">
@@ -95,6 +100,21 @@ const AktiiviPage = () => {
           </ul>
         </div>
         <br />
+      </div>
+      <div className='aktiivi-consent'>
+        <h2>Kiinnostuitko?</h2>
+        <p>Hae aktiiviksi täyttämällä  alla olevan lomakkeen!</p>
+        <button className='aktiivit-button'><a href="https://forms.gle/iwLcCpC3bscAhbhN8">Hae Aktiiviksi</a></button>
+      </div>
+
+      <div className='aktiivi-container-merkit'>
+        <h2>Aktiivimerkit</h2>
+        <div className='aktiivit-container-merkit-background'>
+          <img src={aktiivi_3} alt="aktiivi_3" />
+          <img src={aktiivi_2} alt="aktiivi_3" />
+          <img src={aktiivi_1} alt="aktiivi_3" />
+          <img src={aktiivi_s} alt="aktiivi_3" />
+        </div>
       </div>
     </div>
   )

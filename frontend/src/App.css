@@ -249,17 +249,27 @@ body {
 /* ------------------------------------------------------------------------------------------------ */
 
 .collab-container h2 {
+  font-size: large;
   text-align: center;
-  font-size: larger;
+  background-color: #fbbebd;
+  border-radius: 10px;
+  padding: 10px;
+  width:fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
-
-
 .collab-container-flex {
+  margin:0 auto;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   text-align: center;
+  border-style: solid;
+  padding: 20px;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+  border-color: #000000;
 }
 
 .collab-logos-container {
@@ -272,7 +282,7 @@ body {
 }
 
 .collab-logo {
-  width: 400px;
+  width: 250px;
   object-fit: contain;
   transition:
     transform 0.4s ease,
@@ -399,8 +409,9 @@ a {
   cursor: pointer;
   text-align: center;
   background: #ffffff;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px #fccac9;
   transition: transform 0.2s;
+  overflow-wrap: break-word;
 }
 
 .event-card img {
@@ -802,7 +813,7 @@ body.modal-open {
 }
 
 .hallitus-card h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 15px 0;
   color: #333;
 }
@@ -1006,13 +1017,44 @@ aktiivi-pestit ul {
   font-size: 0.9rem;
 }
 
-.aktiivi {
-  background-color: #fbbebd;
-}
-
-.aktiivi-container {
+.aktiivi-container , .aktiivi-container-merkit{
   width: 70%;
   margin: 0 auto;
+}
+
+.aktiivi-container-merkit h2 { 
+  background-color: #fbbebd;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.aktiivi-container-merkit img {
+  width: 25%;
+}
+
+.aktiivi-consent { 
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  background-color:#322c2b;
+  border: #000;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  color:#faf6ed;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.aktiivi-consent button {
+  background-color:#fbbebd;
+}
+
+.aktiivi-consent a {
+  text-decoration: none;
 }
 
 .aktiivi-kuva-container {
@@ -1371,13 +1413,7 @@ aktiivi-pestit ul {
   }
 
   .collab-logos-container {
-    width: 80%;
-    flex-wrap: nowrap;
-  }
-
-  .collab-container h2 {
-    font-size: large;
-    text-align: center;
+    flex-direction: row;
   }
 
   .hakijalle-container p {
