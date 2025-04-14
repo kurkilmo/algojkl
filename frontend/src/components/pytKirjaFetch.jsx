@@ -9,23 +9,20 @@ const PytKirja = () => {
 
   return (
     <div className="pyt-kirja-container">
-        <h2>
-            Hallitus 2025:n Pöytäkirjat:
-        </h2>
-    {data.pytkirjat.map((item) => (
-      <div key={item.id} className="pytkirja-render">
-        <a
-          href={item.pytkirja}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="pytkirja-link"
-        >
-        {item.pytkirjaTittle}
-        </a>
-      </div>
-    ))}
-  </div>
-  
+      <h2>Hallitus 2025:n Pöytäkirjat:</h2>
+      {data.pytkirjat.map((item) => (
+        <div key={item.id} className="pytkirja-render">
+          <a
+            href={item.pytkirja}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pytkirja-link"
+          >
+            {item.pytkirjaTittle}
+          </a>
+        </div>
+      ))}
+    </div>
   )
 }
 

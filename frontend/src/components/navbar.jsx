@@ -79,7 +79,10 @@ function NavBar() {
                     { label: 'REKRYT', path: '/rekryt' },
                     { label: 'YHTEYDENOTTOLOMAKKEET', path: '/lomakkeet' },
                     { label: 'KANSAINVÄLISYYS', path: '/kansainvalisyys' },
-                    { label: 'KATTILAN KAHVIKAMERA', path: 'https://kattila.linkkijkl.fi/' },
+                    {
+                      label: 'KATTILAN KAHVIKAMERA',
+                      path: 'https://kattila.linkkijkl.fi/',
+                    },
                     { label: 'SALAISUUDET', path: '/salaisuudet' },
                   ],
                 },
@@ -139,7 +142,10 @@ function NavBar() {
                     { label: 'REKRYT', path: '/rekryt' },
                     { label: 'YHTEYDENOTTOLOMAKKEET', path: '/lomakkeet' },
                     { label: 'KANSAINVÄLISYYS', path: '/kansainvalisyys' },
-                    { label: 'KATTILAN KAHVIKAMERA', path: 'https://kattila.linkkijkl.fi/' },
+                    {
+                      label: 'KATTILAN KAHVIKAMERA',
+                      path: 'https://kattila.linkkijkl.fi/',
+                    },
                     { label: 'SALAISUUDET', path: '/salaisuudet' },
                   ],
                 },

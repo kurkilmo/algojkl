@@ -254,13 +254,13 @@ body {
   background-color: #fbbebd;
   border-radius: 10px;
   padding: 10px;
-  width:fit-content;
+  width: fit-content;
   margin: 0 auto;
   margin-top: 20px;
 }
 
 .collab-container-flex {
-  margin:0 auto;
+  margin: 0 auto;
   width: 70%;
   display: flex;
   flex-wrap: wrap;
@@ -1017,12 +1017,13 @@ aktiivi-pestit ul {
   font-size: 0.9rem;
 }
 
-.aktiivi-container , .aktiivi-container-merkit{
+.aktiivi-container,
+.aktiivi-container-merkit {
   width: 70%;
   margin: 0 auto;
 }
 
-.aktiivi-container-merkit h2 { 
+.aktiivi-container-merkit h2 {
   background-color: #fbbebd;
   width: fit-content;
   border-radius: 10px;
@@ -1035,22 +1036,22 @@ aktiivi-pestit ul {
   width: 25%;
 }
 
-.aktiivi-consent { 
+.aktiivi-consent {
   margin: 0 auto;
   width: 70%;
   text-align: center;
-  background-color:#322c2b;
+  background-color: #322c2b;
   border: #000;
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 30px;
-  color:#faf6ed;
+  color: #faf6ed;
   box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .aktiivi-consent button {
-  background-color:#fbbebd;
+  background-color: #fbbebd;
 }
 
 .aktiivi-consent a {
