@@ -21,10 +21,12 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
+          working-directory: /algojkl/algojkl-backend/
 
       - name: Run archive old events script
         run: |
           npm run arc-events
+          working-directory: /algojkl/algojkl-backend/
         env:
           CONTENTFUL_MANAGEMENT_API_KEY: ${{ secrets.CONTENTFUL_MANAGEMENT_API_KEY }}
           CONTENTFUL_SPACE_ID: ${{ secrets.CONTENTFUL_SPACE_ID }}
