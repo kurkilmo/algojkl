@@ -5,6 +5,8 @@ import { useContentfulData } from '../services/useContentfulData'
 const EventCards = () => {
   const { data, isLoading, error } = useContentfulData()
   const [selectedEvent, setSelectedEvent] = useState(null)
+  const initialVisibleCount = 5
+  const [visibleCount, setVisibleCount] = useState(initialVisibleCount)
 
   useEffect(() => {
     if (selectedEvent) {
@@ -21,9 +23,12 @@ const EventCards = () => {
     (a, b) => new Date(a.date) - new Date(b.date)
   )
 
+  const visibleEvents = sortedEvents.slice(0, visibleCount)
+  const showAll = visibleCount >= sortedEvents.length
+
   return (
     <div className="event-cards-container">
-      {sortedEvents.map((event) => (
+      {visibleEvents.map((event) => (
         <div
           key={event.id}
           className="event-card"
@@ -40,6 +45,18 @@ const EventCards = () => {
           <p>{new Date(event.date).toLocaleDateString()}</p>
         </div>
       ))}
+
+      <div className="event-card-button">
+        {!showAll ? (
+          <button onClick={() => setVisibleCount(sortedEvents.length)}>
+            NÄYTÄ LISÄÄ
+          </button>
+        ) : (
+          <button onClick={() => setVisibleCount(initialVisibleCount)}>
+            NÄYTÄ VÄHEMMÄN
+          </button>
+        )}
+      </div>
 
       {selectedEvent && (
         <div className="modal-overlay" onClick={() => setSelectedEvent(null)}>
