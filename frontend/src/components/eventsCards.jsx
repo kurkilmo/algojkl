@@ -27,6 +27,7 @@ const EventCards = () => {
   const showAll = visibleCount >= sortedEvents.length
 
   return (
+    <div>
     <div className="event-cards-container">
       {visibleEvents.map((event) => (
         <div
@@ -45,19 +46,7 @@ const EventCards = () => {
           <p>{new Date(event.date).toLocaleDateString()}</p>
         </div>
       ))}
-
-      <div className="event-card-button">
-        {!showAll ? (
-          <button onClick={() => setVisibleCount(sortedEvents.length)}>
-            NÄYTÄ LISÄÄ
-          </button>
-        ) : (
-          <button onClick={() => setVisibleCount(initialVisibleCount)}>
-            NÄYTÄ VÄHEMMÄN
-          </button>
-        )}
-      </div>
-
+      
       {selectedEvent && (
         <div className="modal-overlay" onClick={() => setSelectedEvent(null)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
@@ -87,7 +76,20 @@ const EventCards = () => {
           </div>
         </div>
       )}
+      
     </div>
+<div className="event-card-button">
+{!showAll ? (
+  <button onClick={() => setVisibleCount(sortedEvents.length)}>
+    NÄYTÄ LISÄÄ
+  </button>
+) : (
+  <button onClick={() => setVisibleCount(initialVisibleCount)}>
+    NÄYTÄ VÄHEMMÄN
+  </button>
+)}
+</div>
+</div>
   )
 }
 

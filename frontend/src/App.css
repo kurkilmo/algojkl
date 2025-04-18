@@ -388,14 +388,14 @@ a {
   font-size: larger;
   font-weight: bold;
   border-radius: 10px;
+  margin-top: 20px;
 }
-
 
 .event-cards-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
+  justify-content:center;
 }
 
 .event-card {
