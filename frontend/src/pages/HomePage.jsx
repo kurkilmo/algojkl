@@ -1,6 +1,6 @@
 import React from 'react'
-import Carousel from '../components/carousel'
-import EventCards from '../components/eventsCards'
+import Carousel from '../components/carousel.jsx'
+import EventCards from '../components/eventsCards.jsx'
 import DiamondLogos from '../components/diamondLogos.jsx'
 import { IoDiamondSharp } from 'react-icons/io5'
 

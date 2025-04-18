@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/20.png'
+import starter from '../images/Page_starters/21.png'
 
 const KahvikameraPage = () => {
   return (
