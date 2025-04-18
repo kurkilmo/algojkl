@@ -219,18 +219,6 @@ body {
   font-weight: bold;
 }
 
-.news-events {
-  justify-content: space-between;
-  width: 100%;
-  gap: 5px;
-}
-
-.news,
-.events {
-  margin: 20px;
-  padding: 5px;
-}
-
 .diamond-partners {
   font-size: 1.1rem;
   display: flex;
@@ -394,6 +382,14 @@ a {
   color: #fbbebd;
 }
 /* ------------------------------------------------------------------------------------------------ */
+.event-card-button button {
+  background-color: #fbbebd;
+  padding: 10px;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
 
 .event-cards-container {
   display: flex;
