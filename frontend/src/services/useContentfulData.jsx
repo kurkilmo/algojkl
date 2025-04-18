@@ -44,6 +44,7 @@ const fetchContentfulData = async () => {
       sp: item.fields.sp,
       nimi: item.fields.nimi,
       kuva: item.fields.kuva.fields.file.url,
+      id: item.fields.halliId,
     })),
     tutorit: tutorRes.items.map((item) => ({
       tutorKuva: item.fields.tutorKuva.fields.file.url,

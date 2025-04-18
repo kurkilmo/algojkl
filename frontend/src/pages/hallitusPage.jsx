@@ -38,6 +38,7 @@ HallitusCard.propTypes = {
     telegram: PropTypes.string,
     sp: PropTypes.string,
     kuva: PropTypes.string,
+    id: PropTypes.number,
   }),
 }
 
