@@ -35,8 +35,18 @@ async function archiveOldEvents() {
     const dateStr = entry.fields.eventDateTime?.fi || entry.fields.eventDateTime?.['en-US']
     console.log(`Archiving: ${title} | Date: ${dateStr} | isArchived: ${entry.isArchived}`)
 
-    if (!entry.isArchived) {
-      await entry.archive()
+    try {
+      if (entry.sys.publishedVersion) {
+        console.log(`Unpublishing: ${title}`)
+        await entry.unpublish()
+      }
+
+      if (!entry.isArchived) {
+        console.log(`Archiving: ${title}`)
+        await environment.getEntry(entry.sys.id).archive()
+      }
+    } catch (error) {
+      console.error(`Error archiving event: ${title} - ${error.message}`)
     }
   }
 
