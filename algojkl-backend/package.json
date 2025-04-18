@@ -1,0 +1,17 @@
+{
+  "name": "scripts",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "archiveOldEvents.js",
+  "scripts": {
+     "arc-events": "node scripts/archiveOldEvents.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "contentful-management": "^11.52.1",
+    "dotenv": "^16.5.0"
+  }
+}
