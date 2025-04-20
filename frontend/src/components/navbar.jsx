@@ -26,7 +26,7 @@ function NavBar() {
             <img src={logo} alt="logo" />
           </a>
           <a href="/" className="kilta">
-            Algo ry
+            ALGO RY
           </a>
           <div className="social">
             <a href="https://www.instagram.com/algo_jkl/">
