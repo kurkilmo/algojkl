@@ -5,8 +5,7 @@ import halli2023 from '../images/halli_2023.png'
 import halli2022 from '../images/halli_2022.png'
 const PrevHalli = () => {
   return (
-    <div>
-      <div className="prev-hallitus">
+    <div className='prev-hallitus'>
         <h3>Hallitus 2024</h3>
         <div className="prev-hallitus-info">
           <img src={halli2024} alt="halli_2024_img" />
@@ -111,7 +110,6 @@ const PrevHalli = () => {
           </div>
         </div>
       </div>
-    </div>
   )
 }
 

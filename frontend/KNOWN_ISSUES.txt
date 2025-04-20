@@ -1,0 +1,15 @@
+- LIITY JÄSENEKSI niko
+- KARUSELLIKUVAT -> JPG muotoon
+- Teekkarilakkikuva
+    - puuttuu
+- DATAN SYÖTTÖ —Algon tilille—
+    - LOGOT: KEBAB, Helmi, POLKYPYÖRÄTORI, etteplan
+- Haapasaari Kuva
+- Algolaiset tekstin keskitys
+- jäsenedut
+- kerhotoiminta
+- rekryt
+- kv sivulle reunat
+- salaisuudet
+- Aktiivimerkit / ul/li skaalaus
+- footer fontti pienemmäksi

@@ -9,6 +9,7 @@ import insta from '../images/instagram.png'
 import tiktok from '../images/tiktok.png'
 import linkedin from '../images/linkedin.png'
 import bursa from '../images/burger.png'
+import DiamondCollabs from './diamondLogos'
 
 import DropdownMenu from './dropdown'
 import Join from './joinUs'
@@ -42,7 +43,6 @@ function NavBar() {
             </a>
           </div>
         </div>
-
         {/* Mobile Menu */}
         <Menu
           right
@@ -65,7 +65,7 @@ function NavBar() {
                   section: 'VIRALLISET DOKUMENTIT',
                   items: [
                     { label: 'SÄÄNNÖT', path: '/saannot' },
-                    { label: 'OHJESÄÄNNÖT', path: '/ohjesaannot' },
+                    { label: 'OHJESÄÄNNÖT & ETIKETIT', path: '/ohjesaannot' },
                     { label: 'REKISTERISELOSTE', path: '/seloste' },
                     { label: 'KUNNIAGALLERIA', path: '/kunniagalleria' },
                     { label: 'TOIMINNAN PERIAATTEET', path: '/periaatteet' },
@@ -108,6 +108,11 @@ function NavBar() {
                 LIITY JÄSENEKSI
               </a>
             </button>
+          <p>/* -------------------- */</p>
+          <p className='nav-diamond-collabs'>TIMATTIKUMPPANIT</p>
+              <div className='testi1'>
+              <DiamondCollabs/>
+              </div>
           </ul>
         </Menu>
 

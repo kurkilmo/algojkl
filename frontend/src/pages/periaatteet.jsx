@@ -28,11 +28,9 @@ const PeriaatteetPage = () => {
           <br />
           <br />
         </p>
-        <p>
-          <u>
-            <strong>Algo ja sen jäsenet noudattavat seuraavia arvoja:</strong>
-          </u>
-        </p>
+        <h3>
+            <strong>Algo ja sen jäsenet sitoutuvat noudattamaan seuraavia arvoja:</strong>
+        </h3>
         <ul>
           <li>
             Kaikki ihmiset ovat samanarvoisia riippumatta heidän sukupuolestaan,
@@ -52,9 +50,9 @@ const PeriaatteetPage = () => {
             Noudatetaan turvallisemman tilan periaatteita (listattu alla).
           </li>
         </ul>
-        <p>
-          <strong>Turvallisemman tilan periaatteet:</strong>
-        </p>
+        <h3>
+          <strong>Algo ry:n turvallisemman tilan periaatteet:</strong>
+        </h3>
         <ul>
           <li>Lopeta häiritsevä käytös ja pyydä välittömästi anteeksi.</li>
           <li>
@@ -86,9 +84,9 @@ const PeriaatteetPage = () => {
             Algo ry:n sopoon tai hallitukseen.
           </li>
         </ul>
-        <p>
-          <strong> Yhdenvertaisuus </strong>
-        </p>
+        <h3>
+          <strong> Yhdenvertaisuus: </strong>
+        </h3>
 
         <p>
           Algo pyrkii luomaan jäsenilleen mahdollisimman turvallisen,
