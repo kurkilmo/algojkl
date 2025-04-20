@@ -7,13 +7,15 @@ const KansainvalisyysPage = () => {
       <img src={starter} alt="starter_image_rules" className="starter" />
       <div className="kansainvalisyys-container">
         <h1>Algolaisen vaihtovinkit ja linkit </h1>
-        <h3>Vaihtoon lähtemisen vuosikello</h3>
+        <p className='kv-container-starter'>Vaihtoon lähtemisen vuosikello</p>
         <h3>Tammikuu</h3>
         <p>
-          Infotilaisuuksia järjestetään yleensä kuun puolivälin jälkeen, jolloin
+          Infotilaisuuksia järjestetään yleensä tammikuun puolivälin jälkeen, jolloin
           saat kattavan kuvan vaihto-ohjelmista ja -mahdollisuuksista.
         </p>
         <ul>
+          <li><strong>Tammikuussa alkavat haut:</strong></li>
+          <ul>
           <li>
             <strong>22.1. – 5.2.</strong> Haku Euroopan vaihtokohteisiin
             (Erasmus, Nordplus, Nordlys).
@@ -22,6 +24,7 @@ const KansainvalisyysPage = () => {
             <strong>22.1. – 5.2.</strong> Lisähaku Euroopan ulkopuolisiin
             kohteisiin.
           </li>
+          </ul>
         </ul>
         <h3>Helmi- ja Maaliskuu</h3>
         <p>
@@ -29,29 +32,23 @@ const KansainvalisyysPage = () => {
           käyttää aikaa hakemuksen valmisteluun ja vaihtokohteen suunnitteluun.
         </p>
         <h3>Huhtikuu</h3>
-        <ul>
-          <li>
+        <p>
             <strong>1.4. – 31.5.</strong> Täydennyshaku
             Erasmus-opiskelijavaihtoon. Hakemuksia käsitellään juoksevasti koko
             hakuajan ajan, pääsääntöisesti saapumisjärjestyksessä.
-          </li>
-        </ul>
+        </p>
         <h3>Syyskuu</h3>
-        <ul>
-          <li>
+        <p>
             <strong>2.9. – 30.9</strong> Täydennyshaku Erasmus- ja
             Nordplus-vaihtoon kevätlukukaudeksi 2025. Hakemukset käsitellään
             kuten huhtikuussa, saapumisjärjestyksessä.
-          </li>
-        </ul>
+            </p>
         <h3>Lokakuu:</h3>
-        <ul>
-          <li>
+        <p>
             <strong>1.10. – 1.11.</strong> Haku Euroopan ulkopuolisiin
             vaihtokohteisiin, mukaan lukien kahdenväliset kohteet ja
             ISEP-vaihto.
-          </li>
-        </ul>
+            </p>
         <h3>Touko- ja joulukuu:</h3>
         <p>
           Näinä kuukausina voit hakea yliopiston matka-apurahaa, jos olet itse

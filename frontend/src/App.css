@@ -985,7 +985,8 @@ body.modal-open {
 
 .saannot-container p,
 .seloste-container p,
-.yhteydenotto-container p {
+.yhteydenotto-container p,
+.kansainvalisyys-container p {
   line-height: 30px;
   font-size: 0.9rem;
   border-radius: 2px;
@@ -1048,9 +1049,22 @@ aktiivi-pestit ul {
   font-size: 0.9rem;
 }
 
+.kv-container-starter {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.kansainvalisyys-container h3 {
+  background-color: #fbbebd;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
 .kansainvalisyys-container ul {
   color: #1a1a1a;
-  list-style-type: decimal;
+  list-style-type: dis;
   line-height: 30px;
   padding-bottom: 20px;
   font-size: 0.9rem;
