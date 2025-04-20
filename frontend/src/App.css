@@ -5,7 +5,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+#root {
+  width: 100%;
+} 
 .starter {
   width: 100%;
 }
@@ -196,6 +198,9 @@ body {
   height: 5em;
   flex: 2;
 }
+.nav-diamond-collabs {
+  text-align: center;
+}
 
 /* ------------------------------------------------------------------------------------------------ */
 
@@ -212,6 +217,10 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.container-info {
+  width: 90%;
 }
 
 .container p {
@@ -252,12 +261,13 @@ body {
   width: 70%;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 60px;
   text-align: center;
   border-style: solid;
   padding: 20px;
   box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
   border-color: #000000;
+  justify-content: center;
 }
 
 .collab-logos-container {
@@ -270,7 +280,7 @@ body {
 }
 
 .collab-logo {
-  width: 250px;
+  width: 300px;
   object-fit: contain;
   transition:
     transform 0.4s ease,
@@ -642,9 +652,6 @@ body.modal-open {
   line-height: 30px;
   position: relative;
   justify-content: center;
-  width: 60%;
-  left: 30%;
-  right: 20%;
 }
 
 .collab-h1 {
@@ -671,16 +678,36 @@ body.modal-open {
   margin-top: 20px;
   padding: 8px;
   font-size: medium;
+  height: fit-content;
 }
+
 /* -------------------------------LakkiC+ vuju-container--------------------------------------------------------------- */
 
 .Lakki-container p,
 .Vuju-container p,
-.collab-container p,
 .hakijalle-container p {
-  line-height: 30px;
+  line-height: 35px;
   position: relative;
   justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 2px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.collab-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.collab-container p {
+  line-height: 35px;
+  position: relative;
+  text-align: center;
   width: 70%;
   margin: 0 auto;
   border-radius: 2px;
@@ -855,7 +882,18 @@ body.modal-open {
   margin: 0 auto;
 }
 
+.hakijalle-container h3 {
+  background-color: #fbbebd;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+
+}
+
 /*----------------------------------------------------------*/
+
+
 
 .prev-hallitus h3 {
   margin-left: 20%;
@@ -883,6 +921,16 @@ body.modal-open {
 .kansainvalisyys-container {
   width: 70%;
   margin: 0 auto;
+}
+
+.periaate-container h3 {
+  background-color: #fbbebd;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: medium;
+  margin:0 auto;
+  width: fit-content;
+  text-align: center;
 }
 
 .kunnia-container p {
@@ -938,7 +986,7 @@ body.modal-open {
 .saannot-container p,
 .seloste-container p,
 .yhteydenotto-container p {
-  line-height: 20px;
+  line-height: 30px;
   font-size: 0.9rem;
   border-radius: 2px;
   border: 2px solid #000;
@@ -947,7 +995,7 @@ body.modal-open {
 }
 
 .periaate-container p {
-  line-height: 20px;
+  line-height: 30px;
   font-size: 0.9rem;
   border-radius: 2px;
   border: 2px solid #000;
@@ -1251,8 +1299,30 @@ aktiivi-pestit ul {
   .bm-item-list {
     padding: 0;
   }
-}
 
+  .hallitus-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .hallitus-card h2  {
+    font-size: medium;
+  }
+  .hallitus-card p  {
+    font-size: smaller;
+  }
+
+  .collab-container-flex {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0;
+  }
+
+  .collab-container-flex h4 {
+    font-weight: normal;
+    font-size: smaller;
+  }
+
+
+}
 @media (max-width: 780px) {
   .prev-hallitus h3 {
     margin-left: 10%;
@@ -1421,5 +1491,24 @@ aktiivi-pestit ul {
   .hakijalle-container li {
     font-size: 0.7rem;
     line-height: 20px;
+  }
+
+  .hallitus-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+  .hallitus-card h2  {
+    font-size: smaller;
+  }
+  .hallitus-card p  {
+    font-size: small;
+  }
+
+  .hallitus-card {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .hallitus-pesti-info {
+    font-size:small;
   }
 }

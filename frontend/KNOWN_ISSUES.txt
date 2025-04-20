@@ -1,20 +1,15 @@
-- TODO: KNOWN ISSUES
-- LIITY JÄSENEKSI niiko
+- LIITY JÄSENEKSI niko
 - KARUSELLIKUVAT -> JPG muotoon
 - Teekkarilakkikuva
     - puuttuu
 - DATAN SYÖTTÖ —Algon tilille—
-    - LOGOT: KEBAB, Helmi, POLKYPYÖRÄTORI, ettepla
-- hallikuvat skaalaus
-- haalarietiketti
-- line height seloste/säännöt/etiketit/yms
+    - LOGOT: KEBAB, Helmi, POLKYPYÖRÄTORI, etteplan
 - Haapasaari Kuva
 - Algolaiset tekstin keskitys
-- entiset hallitukset overflow
 - jäsenedut
 - kerhotoiminta
 - rekryt
-- yhteydenottolomakkeet: siivous
 - kv sivulle reunat
 - salaisuudet
-- yhteistyösivu skaalaus
+- Aktiivimerkit / ul/li skaalaus
+- footer fontti pienemmäksi

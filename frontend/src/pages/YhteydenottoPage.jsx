@@ -23,8 +23,7 @@ const YhteydenottoPage = () => {
           palautteen voit antaa täysin anonyymisti tai antaa yhteystietosi jos
           haluat että sinuun ollaan yhteydessä. Palautteet viedään kuitenkin
           eteenpäin täysin anonyymeinä.
-        </p>
-        <p>
+          <br />
           Linkki lomakkeeseen:{' '}
           <a href="https://forms.gle/eXQokL9ukeJNgKoAA">Kurssipalautelomake</a>
         </p>
@@ -37,21 +36,20 @@ const YhteydenottoPage = () => {
           yhteydessä. Muutoin vastaukset tähän lomakkeeseen käsitellään
           luottamuksellisesti ja anonyymisti. Vaikka jättäisit yhteystietosi,
           asiasi käsitellään anonyymisti. Vain sopo/kopo näkee yhteystietosi.
-        </p>
-        <p>
-          Linkki lomakkeeseen:{' '}
+        <br />
+        Linkki lomakkeeseen:{' '}
           <a href="https://forms.gle/5vLF7HQQosCeov5s8">SopoKopoLomake</a>
         </p>
         <h1>Yleinen palautelomake</h1>
         <p>
           Tänne saat kertoa palautetta - niin positiivista kuin negatiivistakin
           - Algon toiminnasta, sivuista tai mistä tahansa kiltaamme liittyvästä.
-        </p>
-        <p>
+        <br />
           Linkki lomakkeeseen:{' '}
           <a href="https://forms.gle/fje29tPTM4PQCtws9">Palautelomake</a>
+      
         </p>
-      </div>
+         </div>
     </div>
   )
 }
