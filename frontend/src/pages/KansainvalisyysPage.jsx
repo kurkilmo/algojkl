@@ -7,24 +7,26 @@ const KansainvalisyysPage = () => {
       <img src={starter} alt="starter_image_rules" className="starter" />
       <div className="kansainvalisyys-container">
         <h1>Algolaisen vaihtovinkit ja linkit </h1>
-        <p className='kv-container-starter'>Vaihtoon lähtemisen vuosikello</p>
+        <p className="kv-container-starter">Vaihtoon lähtemisen vuosikello</p>
         <h3>Tammikuu</h3>
         <p>
-          Infotilaisuuksia järjestetään yleensä tammikuun puolivälin jälkeen, jolloin
-          saat kattavan kuvan vaihto-ohjelmista ja -mahdollisuuksista.
+          Infotilaisuuksia järjestetään yleensä tammikuun puolivälin jälkeen,
+          jolloin saat kattavan kuvan vaihto-ohjelmista ja -mahdollisuuksista.
         </p>
         <ul>
-          <li><strong>Tammikuussa alkavat haut:</strong></li>
-          <ul>
           <li>
-            <strong>22.1. – 5.2.</strong> Haku Euroopan vaihtokohteisiin
-            (Erasmus, Nordplus, Nordlys).
+            <strong>Tammikuussa alkavat haut:</strong>
+            <ul>
+              <li>
+                <strong>22.1. – 5.2.</strong> Haku Euroopan vaihtokohteisiin
+                (Erasmus, Nordplus, Nordlys).
+              </li>
+              <li>
+                <strong>22.1. – 5.2.</strong> Lisähaku Euroopan ulkopuolisiin
+                kohteisiin.
+              </li>
+            </ul>
           </li>
-          <li>
-            <strong>22.1. – 5.2.</strong> Lisähaku Euroopan ulkopuolisiin
-            kohteisiin.
-          </li>
-          </ul>
         </ul>
         <h3>Helmi- ja Maaliskuu</h3>
         <p>
@@ -33,22 +35,21 @@ const KansainvalisyysPage = () => {
         </p>
         <h3>Huhtikuu</h3>
         <p>
-            <strong>1.4. – 31.5.</strong> Täydennyshaku
-            Erasmus-opiskelijavaihtoon. Hakemuksia käsitellään juoksevasti koko
-            hakuajan ajan, pääsääntöisesti saapumisjärjestyksessä.
+          <strong>1.4. – 31.5.</strong> Täydennyshaku
+          Erasmus-opiskelijavaihtoon. Hakemuksia käsitellään juoksevasti koko
+          hakuajan ajan, pääsääntöisesti saapumisjärjestyksessä.
         </p>
         <h3>Syyskuu</h3>
         <p>
-            <strong>2.9. – 30.9</strong> Täydennyshaku Erasmus- ja
-            Nordplus-vaihtoon kevätlukukaudeksi 2025. Hakemukset käsitellään
-            kuten huhtikuussa, saapumisjärjestyksessä.
-            </p>
+          <strong>2.9. – 30.9</strong> Täydennyshaku Erasmus- ja
+          Nordplus-vaihtoon kevätlukukaudeksi 2025. Hakemukset käsitellään kuten
+          huhtikuussa, saapumisjärjestyksessä.
+        </p>
         <h3>Lokakuu:</h3>
         <p>
-            <strong>1.10. – 1.11.</strong> Haku Euroopan ulkopuolisiin
-            vaihtokohteisiin, mukaan lukien kahdenväliset kohteet ja
-            ISEP-vaihto.
-            </p>
+          <strong>1.10. – 1.11.</strong> Haku Euroopan ulkopuolisiin
+          vaihtokohteisiin, mukaan lukien kahdenväliset kohteet ja ISEP-vaihto.
+        </p>
         <h3>Touko- ja joulukuu:</h3>
         <p>
           Näinä kuukausina voit hakea yliopiston matka-apurahaa, jos olet itse

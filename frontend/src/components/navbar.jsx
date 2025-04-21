@@ -108,11 +108,11 @@ function NavBar() {
                 LIITY JÄSENEKSI
               </a>
             </button>
-          <p>/* -------------------- */</p>
-          <p className='nav-diamond-collabs'>TIMATTIKUMPPANIT</p>
-              <div className='testi1'>
-              <DiamondCollabs/>
-              </div>
+            <p>/* -------------------- */</p>
+            <p className="nav-diamond-collabs">TIMATTIKUMPPANIT</p>
+            <div className="testi1">
+              <DiamondCollabs />
+            </div>
           </ul>
         </Menu>
 

@@ -8,7 +8,8 @@ const HakijatPage = () => {
       <div className="hakijalle-container">
         <p>
           Hienoa, että olet kiinnostunut opiskelusta Jyväskylän Yliopistossa!
-          Jyväskylän yliopisto tarjoaa kahta eri Diplomi-insinööri tutkintoa IT-opiskelijoille:{' '}
+          Jyväskylän yliopisto tarjoaa kahta eri Diplomi-insinööri tutkintoa
+          IT-opiskelijoille:{' '}
           <strong>
             {' '}
             Tieto- ja ohjelmistotekniikka tai Teknologiajohtaminen.
@@ -108,7 +109,13 @@ const HakijatPage = () => {
           </li>
         </ul>
         <h3>Mikäs Algo on?</h3>
-        <p>Algo ry on Jyväskylän IT-teekkareiden kilta. Killan tehtävänä on valvoa opiskelijoidensa etuja, järjestää tapahtumia sekä siistejä matkoja ympäri Suomea. Lisäksi Algo ry ylläpitää yhdessä Linkki ry:n kanssa opiskelijatila <strong>Kattilaa</strong>, jota voi pitää killan opiskelijoiden olohuoneena yliopistolla.</p>
+        <p>
+          Algo ry on Jyväskylän IT-teekkareiden kilta. Killan tehtävänä on
+          valvoa opiskelijoidensa etuja, järjestää tapahtumia sekä siistejä
+          matkoja ympäri Suomea. Lisäksi Algo ry ylläpitää yhdessä Linkki ry:n
+          kanssa opiskelijatila <strong>Kattilaa</strong>, jota voi pitää killan
+          opiskelijoiden olohuoneena yliopistolla.
+        </p>
       </div>
     </div>
   )

@@ -8,16 +8,16 @@ const HomePage = () => {
   return (
     <div className="container">
       <Carousel />
-      <div className='container-info'>
+      <div className="container-info">
         <p>
           Algo ry on vuonna 2022 perustettu kilta, joka yhdistää Jyväskylän
           yliopiston IT-tiedekunnan teknillisten alojen opiskelijat.
         </p>
       </div>
-        <div className="events">
-          <h2>TULEVAT TAPAHTUMAT</h2>
-          <EventCards />
-        </div>
+      <div className="events">
+        <h2>TULEVAT TAPAHTUMAT</h2>
+        <EventCards />
+      </div>
 
       <div className="diamond-partners">
         <IoDiamondSharp />

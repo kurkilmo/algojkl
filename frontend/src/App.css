@@ -7,7 +7,7 @@ body {
 }
 #root {
   width: 100%;
-} 
+}
 .starter {
   width: 100%;
 }
@@ -888,12 +888,9 @@ body.modal-open {
   padding: 10px;
   border-radius: 10px;
   margin: 0 auto;
-
 }
 
 /*----------------------------------------------------------*/
-
-
 
 .prev-hallitus h3 {
   margin-left: 20%;
@@ -928,7 +925,7 @@ body.modal-open {
   padding: 10px;
   border-radius: 10px;
   font-size: medium;
-  margin:0 auto;
+  margin: 0 auto;
   width: fit-content;
   text-align: center;
 }
@@ -1317,10 +1314,10 @@ aktiivi-pestit ul {
   .hallitus-grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
-  .hallitus-card h2  {
+  .hallitus-card h2 {
     font-size: medium;
   }
-  .hallitus-card p  {
+  .hallitus-card p {
     font-size: smaller;
   }
 
@@ -1334,8 +1331,6 @@ aktiivi-pestit ul {
     font-weight: normal;
     font-size: smaller;
   }
-
-
 }
 @media (max-width: 780px) {
   .prev-hallitus h3 {
@@ -1510,10 +1505,10 @@ aktiivi-pestit ul {
   .hallitus-grid {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   }
-  .hallitus-card h2  {
+  .hallitus-card h2 {
     font-size: smaller;
   }
-  .hallitus-card p  {
+  .hallitus-card p {
     font-size: small;
   }
 
@@ -1523,6 +1518,6 @@ aktiivi-pestit ul {
   }
 
   .hallitus-pesti-info {
-    font-size:small;
+    font-size: small;
   }
 }
