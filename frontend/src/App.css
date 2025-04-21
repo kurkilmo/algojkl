@@ -803,7 +803,7 @@ body.modal-open {
 
 .hallitus-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
   margin-top: 20px;
 }
@@ -1312,7 +1312,7 @@ aktiivi-pestit ul {
   }
 
   .hallitus-grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
   .hallitus-card h2 {
     font-size: medium;
@@ -1503,7 +1503,7 @@ aktiivi-pestit ul {
   }
 
   .hallitus-grid {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(160px, 2fr));
   }
   .hallitus-card h2 {
     font-size: smaller;
@@ -1513,7 +1513,7 @@ aktiivi-pestit ul {
   }
 
   .hallitus-card {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
   }
 
