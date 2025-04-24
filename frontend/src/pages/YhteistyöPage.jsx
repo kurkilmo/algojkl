@@ -1,6 +1,6 @@
 import React from 'react'
 import CollabCards from '../components/collabLogos'
-import starter from '../images/Page_starters/2.png'
+import starter from '../images/Page_starters/2.jpg'
 
 const Collab = () => {
   return (
@@ -13,6 +13,8 @@ const Collab = () => {
           mainospaikan haalareista tai tukea tapahtumiamme? Vai kiinnostaisiko
           esitellä yritystäsi Jyväskylän DI-opiskelijoille?
         </p>
+        <h3>Ota Yhteyttä!</h3>
+        <br />
         <div className="collab-container-flex">
           <div>
             <h3>Yritysyhteistyöt</h3>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 import ryhma from '../images/ryhma.png'
-import logo from '../images/algo.png'
+import logo from '../images/algo.jpg'
 import kollaasi from '../images/algo_ry.png'
 
 const photos = [logo, ryhma, kollaasi]

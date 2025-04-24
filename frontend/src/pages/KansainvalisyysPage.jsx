@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/18.png'
+import starter from '../images/Page_starters/18.jpg'
 
 const KansainvalisyysPage = () => {
   return (

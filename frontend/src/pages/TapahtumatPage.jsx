@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/3.png'
+import starter from '../images/Page_starters/3.jpg'
 
 const Calendar_key = import.meta.env.VITE_CALENDAR_API
 

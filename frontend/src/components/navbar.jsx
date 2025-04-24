@@ -74,7 +74,7 @@ function NavBar() {
                 {
                   section: 'JÄSENILLE',
                   items: [
-                    { label: 'JÄSENDUT', path: '/edut' },
+                    { label: 'JÄSENDUT', path: '/jasenedut' },
                     { label: 'KERHOTOIMINTA', path: '/kerhotoiminta' },
                     { label: 'REKRYT', path: '/rekryt' },
                     { label: 'YHTEYDENOTTOLOMAKKEET', path: '/lomakkeet' },
@@ -142,7 +142,7 @@ function NavBar() {
                 {
                   section: 'JÄSENILLE',
                   items: [
-                    { label: 'JÄSENDUT', path: '/edut' },
+                    { label: 'JÄSENDUT', path: '/jasenedut' },
                     { label: 'KERHOTOIMINTA', path: '/kerhotoiminta' },
                     { label: 'REKRYT', path: '/rekryt' },
                     { label: 'YHTEYDENOTTOLOMAKKEET', path: '/lomakkeet' },

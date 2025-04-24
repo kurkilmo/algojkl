@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/16.png'
+import starter from '../images/Page_starters/16.jpg'
 
 const RekrytPage = () => {
   return (

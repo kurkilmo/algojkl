@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/7.png'
+import starter from '../images/Page_starters/7.jpg'
 import juho from '../images/juho_k_j.png'
 import aktiivi_s from '../images/aktiivit_s.png'
 import aktiivi_1 from '../images/aktiivit_1.png'

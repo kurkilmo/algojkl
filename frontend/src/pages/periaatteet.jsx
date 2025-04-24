@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/13.png'
+import starter from '../images/Page_starters/13.jpg'
 
 const PeriaatteetPage = () => {
   return (

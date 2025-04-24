@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/14.png'
+import starter from '../images/Page_starters/14.jpg'
 
 const JasenEdutPage = () => {
   return (

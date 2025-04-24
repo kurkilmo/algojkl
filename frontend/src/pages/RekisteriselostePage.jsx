@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/10.png'
+import starter from '../images/Page_starters/10.jpg'
 
 const RekisteriselostePage = () => {
   return (
