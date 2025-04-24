@@ -300,6 +300,7 @@ body {
 .feedback-comms {
   display: flex;
   margin-left: 2%;
+  font-size: 0.8rem;
 }
 
 .feedback {
@@ -312,7 +313,7 @@ body {
 }
 
 .feedback p {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-bottom: 10px;
   color: #767373;
 }
@@ -336,10 +337,11 @@ body {
 .footer-content {
   display: flex;
   margin-left: 2%;
+  gap: 15%;
 }
 
 .footer-info {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .footer-info p {
@@ -351,14 +353,13 @@ body {
 }
 
 .footer-nav {
-  margin-left: 2%;
+  font-size: 0.8rem;
 }
 
 .footer-nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  gap: 5rem;
   list-style: none;
   padding: 0;
   margin-top: 0;
@@ -615,8 +616,8 @@ body.modal-open {
 
 .panuAnim {
   width: 20em;
-  right: 100px;
   height: 20em;
+  margin: 0 auto;
   display: inline-block;
 }
 
@@ -1172,14 +1173,48 @@ aktiivi-pestit ul {
 
 @media (min-width: 1501px) and (max-width: 1700px) {
   .footer-nav ul {
-    gap: 3rem;
+    gap: 6rem;
   }
 }
 
-@media (max-width: 1500px) {
+@media (min-width: 1401px) and (max-width: 1500px) {
+  .footer-nav ul {
+    gap: 5rem;
+  }
+  .footer-content{
+    gap: 11%;
+  }
+}
+
+@media (min-width: 1301px) and (max-width:1400px) {
+  .footer-nav ul {
+    gap: 4rem;
+  }
+  .footer-content{
+    gap: 7%;
+  }
+  
+}
+
+@media (min-width: 1201px) and (max-width: 1300px) {
+  .footer-nav ul {
+    gap: 3rem;
+  }
+  .footer-content{
+    gap: 4%;
+  }
+
+}
+
+@media (min-width: 1101px) and (max-width: 1200px) {
   .footer-nav ul {
     gap: 2rem;
   }
+
+  .footer-content{
+    gap: 1%;
+  }
+
 }
 
 @media (max-width: 1100px) {
@@ -1283,8 +1318,9 @@ aktiivi-pestit ul {
   }
 
   .panuAnim {
-    width: 12em;
+    width: 15em;
     height: 14em;
+    margin: 0 auto;
   }
 
   .Freshman-container h1 {
@@ -1402,6 +1438,11 @@ aktiivi-pestit ul {
     padding-left: 25px;
   }
 
+  .aktiivi-kuva-container p {
+    font-size: small;
+    line-height: 23px;
+  }
+
   .aktiivi-pestit {
     font-size: smaller;
     padding: 0;
@@ -1410,6 +1451,15 @@ aktiivi-pestit ul {
 
   .aktiivi-pestit li {
     padding: 2px 2px 2px 0;
+  }
+
+  .aktiivi-pestit ul {
+    padding: 10px;
+    margin-left: 5%;
+  }
+
+  .aktiivi-container-merkit {
+    width: 100%;
   }
 
   .saannot-container p,

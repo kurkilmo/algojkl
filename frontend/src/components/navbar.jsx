@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { slide as Menu } from 'react-burger-menu'
 import React from 'react'
+import Panu from '../components/simple'
 
 import logo from '../images/algologo.jpeg'
 import discord from '../images/discord.png'
@@ -9,7 +10,6 @@ import insta from '../images/instagram.png'
 import tiktok from '../images/tiktok.png'
 import linkedin from '../images/linkedin.png'
 import bursa from '../images/burger.png'
-import DiamondCollabs from './diamondLogos'
 
 import DropdownMenu from './dropdown'
 import Join from './joinUs'
@@ -43,6 +43,7 @@ function NavBar() {
             </a>
           </div>
         </div>
+        
         {/* Mobile Menu */}
         <Menu
           right
@@ -109,10 +110,7 @@ function NavBar() {
               </a>
             </button>
             <p>/* -------------------- */</p>
-            <p className="nav-diamond-collabs">TIMATTIKUMPPANIT</p>
-            <div className="testi1">
-              <DiamondCollabs />
-            </div>
+              <Panu/>
           </ul>
         </Menu>
 
