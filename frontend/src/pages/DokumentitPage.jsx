@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/11.png'
+import starter from '../images/Page_starters/11.jpg'
 import PytKirja from '../components/pytKirjaFetch'
 
 const Documents = () => {

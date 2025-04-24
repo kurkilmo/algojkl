@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/21.png'
+import starter from '../images/Page_starters/21.jpg'
 
 const SalaisuudetPage = () => {
   return (

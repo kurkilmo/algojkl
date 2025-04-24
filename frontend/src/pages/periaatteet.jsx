@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/13.png'
+import starter from '../images/Page_starters/13.jpg'
 
 const PeriaatteetPage = () => {
   return (
@@ -29,7 +29,9 @@ const PeriaatteetPage = () => {
           <br />
         </p>
         <h3>
-            <strong>Algo ja sen jäsenet sitoutuvat noudattamaan seuraavia arvoja:</strong>
+          <strong>
+            Algo ja sen jäsenet sitoutuvat noudattamaan seuraavia arvoja:
+          </strong>
         </h3>
         <ul>
           <li>

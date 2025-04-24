@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/9.png'
+import starter from '../images/Page_starters/9.jpg'
 const Merkit = () => {
   return (
     <div className="Lakki-container">

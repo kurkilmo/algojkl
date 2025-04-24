@@ -1,6 +1,6 @@
 import React from 'react'
 import Panu from '../components/simple'
-import starter from '../images/Page_starters/4.png'
+import starter from '../images/Page_starters/4.jpg'
 import { useContentfulData } from '../services/useContentfulData'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 

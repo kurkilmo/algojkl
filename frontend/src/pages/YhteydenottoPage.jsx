@@ -1,5 +1,5 @@
 import React from 'react'
-import starter from '../images/Page_starters/17.png'
+import starter from '../images/Page_starters/17.jpg'
 
 const YhteydenottoPage = () => {
   return (
@@ -36,20 +36,19 @@ const YhteydenottoPage = () => {
           yhteydessä. Muutoin vastaukset tähän lomakkeeseen käsitellään
           luottamuksellisesti ja anonyymisti. Vaikka jättäisit yhteystietosi,
           asiasi käsitellään anonyymisti. Vain sopo/kopo näkee yhteystietosi.
-        <br />
-        Linkki lomakkeeseen:{' '}
+          <br />
+          Linkki lomakkeeseen:{' '}
           <a href="https://forms.gle/5vLF7HQQosCeov5s8">SopoKopoLomake</a>
         </p>
         <h1>Yleinen palautelomake</h1>
         <p>
           Tänne saat kertoa palautetta - niin positiivista kuin negatiivistakin
           - Algon toiminnasta, sivuista tai mistä tahansa kiltaamme liittyvästä.
-        <br />
+          <br />
           Linkki lomakkeeseen:{' '}
           <a href="https://forms.gle/fje29tPTM4PQCtws9">Palautelomake</a>
-      
         </p>
-         </div>
+      </div>
     </div>
   )
 }

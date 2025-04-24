@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import starter from '../images/Page_starters/6.png'
+import starter from '../images/Page_starters/6.jpg'
 import { useContentfulData } from '../services/useContentfulData'
 import PropTypes from 'prop-types'
 
