@@ -1,7 +1,10 @@
 import React from 'react'
 import CollabCards from '../components/collabLogos'
 import starter from '../images/Page_starters/2.jpg'
-
+import collab_icon from '../images/collab_icon.png' 
+import event_icon from '../images/event_icon.png' 
+import ulkosuhteet_icon from '../images/people_icon.png' 
+import lamppu_icon from '../images/lamppu.png'
 const Collab = () => {
   return (
     <div>
@@ -17,18 +20,21 @@ const Collab = () => {
         <br />
         <div className="collab-container-flex">
           <div>
+            <img src={collab_icon} alt="yhteistyö icon" />
             <h3>Yritysyhteistyöt</h3>
             <h4>
               <strong>yritys@algojkl.com</strong>
             </h4>
           </div>
           <div>
+            <img src={event_icon} alt="event icon" />
             <h3>Tapahtumat</h3>
             <h4>
               <strong>tapahtumat@algojkl.com</strong>
             </h4>
           </div>
           <div>
+          <img src={ulkosuhteet_icon} alt="ulkosuhteet_icon" />
             <h3>Killan Ulkosuhteet</h3>
             <h4>
               {' '}
@@ -36,6 +42,7 @@ const Collab = () => {
             </h4>
           </div>
           <div className="collab-overflow">
+          <img src={lamppu_icon} alt="muut icon" />
             <h3>Muita idoita?</h3>
             <h4>
               Meille voi aina ehdottaa uusia yhteistyökuvioita! <br />
