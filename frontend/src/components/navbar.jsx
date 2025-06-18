@@ -43,7 +43,7 @@ function NavBar() {
             </a>
           </div>
         </div>
-        
+
         {/* Mobile Menu */}
         <Menu
           right
@@ -110,7 +110,7 @@ function NavBar() {
               </a>
             </button>
             <p>/* -------------------- */</p>
-              <Panu/>
+            <Panu />
           </ul>
         </Menu>
 
