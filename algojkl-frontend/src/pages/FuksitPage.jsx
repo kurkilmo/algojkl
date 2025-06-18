@@ -2,7 +2,7 @@ import React from 'react'
 import Panu from '../components/simple'
 import starter from '../images/Page_starters/4.jpg'
 import { useContentfulData } from '../services/useContentfulData'
-import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
+import TutorList from '../components/Tutorlist'
 
 const Fuksit = () => {
   const { data, isLoading, error } = useContentfulData()
@@ -120,22 +120,7 @@ const Fuksit = () => {
 
         <div>
           <h2>Tutorit 2025 esittäytyvät:</h2>
-          <div className="tutorit">
-            {data?.tutorit.map((tutor) => (
-              <div key={tutor.id} className="tutor-container">
-                <img
-                  src={tutor.tutorKuva}
-                  alt={tutor.nimi}
-                  className="tutor-image"
-                />
-                <div className="tutor-info">
-                  <h3 className="tutor-name">{tutor.nimi}</h3>
-                  {tutor.esittelyteksti &&
-                    documentToReactComponents(tutor.esittelyteksti)}
-                </div>
-              </div>
-            ))}
-          </div>
+          <TutorList tutorit={data?.tutorit} />
         </div>
       </div>
     </div>

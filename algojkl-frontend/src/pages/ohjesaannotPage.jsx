@@ -1,10 +1,13 @@
 import React from 'react'
 import starter from '../images/Page_starters/9.jpg'
+import lakki from '../images/lakki.jpg'
+
+
 const Merkit = () => {
   return (
     <div className="Lakki-container">
       <div>
-        <img src={starter} alt="ohjesäännöt_starter" className="starter" />
+      <img src={starter} alt="ohjesäännöt_starter" className="starter" />
         <h1>Juhlanauha- ja merkkiohjesääntö</h1>
         <p>
           1§ Algo ry:llä on kunnia-, ansio-, hallitus- ja vuoden algolainen
@@ -104,6 +107,7 @@ const Merkit = () => {
       </div>
 
       <div className="Lakki-container">
+        <img src={lakki} alt="Jyväskylän 8-kulmainen teekkarilakki" className='lakki'/>
         <h1>Teekkarilakki</h1>
         <p>
           Jyväskylän teekkarilakki on kahdeksankulmainen, Jyväskylän kävelykadun
@@ -130,7 +134,6 @@ const Merkit = () => {
             Linkki Algo ry:n kide.appiin
           </a>
         </p>
-        <p>kuva</p>
         <h2>Lakinkäyttösäännöt</h2>
         <p>
           <strong> 1 § Teekkarilakki </strong>
