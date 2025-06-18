@@ -29,23 +29,27 @@ const EventCards = () => {
   return (
     <div>
       <div className="event-cards-container">
-        {visibleEvents.map((event) => (
-          <div
-            key={event.id}
-            className="event-card"
-            onClick={() => setSelectedEvent(event)}
-          >
-            {event.picture?.fields?.file?.url && (
-              <img
-                src={event.picture.fields.file.url}
-                alt={event.title}
-                className="event-image"
-              />
-            )}
-            <h3>{event.title}</h3>
-            <p>{new Date(event.date).toLocaleDateString()}</p>
-          </div>
-        ))}
+        {visibleEvents.length > 0 ? (
+          visibleEvents.map((event) => (
+            <div
+              key={event.id}
+              className="event-card"
+              onClick={() => setSelectedEvent(event)}
+            >
+              {event.picture?.fields?.file?.url && (
+                <img
+                  src={event.picture.fields.file.url}
+                  alt={event.title}
+                  className="event-image"
+                />
+              )}
+              <h3>{event.title}</h3>
+              <p>{new Date(event.date).toLocaleDateString()}</p>
+            </div>
+          ))
+        ) : (
+          <p>Tapahtumia lisätään pian!</p>
+        )}
 
         {selectedEvent && (
           <div className="modal-overlay" onClick={() => setSelectedEvent(null)}>
@@ -77,17 +81,21 @@ const EventCards = () => {
           </div>
         )}
       </div>
-      <div className="event-card-button">
-        {!showAll ? (
-          <button onClick={() => setVisibleCount(sortedEvents.length)}>
-            NÄYTÄ LISÄÄ
-          </button>
-        ) : (
-          <button onClick={() => setVisibleCount(initialVisibleCount)}>
-            NÄYTÄ VÄHEMMÄN
-          </button>
-        )}
-      </div>
+
+      {/* Näytä nappi vain jos tapahtumia on yli 5 */}
+      {sortedEvents.length > initialVisibleCount && (
+        <div className="event-card-button">
+          {!showAll ? (
+            <button onClick={() => setVisibleCount(sortedEvents.length)}>
+              NÄYTÄ LISÄÄ
+            </button>
+          ) : (
+            <button onClick={() => setVisibleCount(initialVisibleCount)}>
+              NÄYTÄ VÄHEMMÄN
+            </button>
+          )}
+        </div>
+      )}
     </div>
   )
 }
