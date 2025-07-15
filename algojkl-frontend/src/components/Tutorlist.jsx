@@ -10,11 +10,7 @@ const TutorList = ({ tutorit }) => {
     <div className="tutorit">
       {tutorit.map((tutor) => (
         <div key={tutor.id} className="tutor-container">
-          <img
-            src={tutor.tutorKuva}
-            alt={tutor.nimi}
-            className="tutor-image"
-          />
+          <img src={tutor.tutorKuva} alt={tutor.nimi} className="tutor-image" />
           <div className="tutor-info">
             <h3 className="tutor-name">{tutor.nimi}</h3>
             {tutor.esittelyteksti &&
