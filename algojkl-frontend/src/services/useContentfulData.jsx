@@ -17,7 +17,7 @@ const fetchContentfulData = async () => {
     client.getEntries({ content_type: 'hallitus' }),
     client.getEntries({ content_type: 'tutorit' }),
     client.getEntries({ content_type: 'pytkirjat' }),
-    client.getEntries({ content_type: 'jedut'})
+    client.getEntries({ content_type: 'jedut' }),
   ])
 
   return {
@@ -62,8 +62,8 @@ const fetchContentfulData = async () => {
       id: item.fields.jedutId,
       otsikkofirma: item.fields.otsikkofirma,
       kuvaus: item.fields.jedutDesc,
-      kuvaUrl: item.fields.jedutKuva?.fields?.file?.url || null
-    }))
+      kuvaUrl: item.fields.jedutKuva?.fields?.file?.url || null,
+    })),
   }
 }
 

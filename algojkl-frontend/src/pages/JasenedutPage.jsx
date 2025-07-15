@@ -6,8 +6,8 @@ const JasenEdutPage = () => {
   return (
     <div>
       <img src={starter} alt="starter_image_rules" className="starter" />
-      <div> 
-        <JasenEdut/> 
+      <div>
+        <JasenEdut />
       </div>
     </div>
   )
