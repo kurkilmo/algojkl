@@ -1,10 +1,6 @@
-- LIITY JÄSENEKSI niko
 - KARUSELLIKUVAT -> JPG muotoon
-- Teekkarilakkikuva
-    - puuttuu
 - DATAN SYÖTTÖ —Algon tilille—
-    - LOGOT: KEBAB, Helmi, POLKYPYÖRÄTORI, etteplan
-- Haapasaari Kuva
+    - LOGOT: netlight, reactor, helmi
 - Algolaiset tekstin keskitys
 - jäsenedut
 - kerhotoiminta

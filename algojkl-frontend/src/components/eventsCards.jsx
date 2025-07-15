@@ -82,7 +82,6 @@ const EventCards = () => {
         )}
       </div>
 
-      {/* Näytä nappi vain jos tapahtumia on yli 5 */}
       {sortedEvents.length > initialVisibleCount && (
         <div className="event-card-button">
           {!showAll ? (

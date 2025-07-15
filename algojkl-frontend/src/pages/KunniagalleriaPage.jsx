@@ -41,7 +41,7 @@ const KunniagalleriaPage = () => {
         </p>
         <ul className="kunniajasenet">
           <li>
-            Jari Haapasaari <i>(Nimetty 2023)</i> -- kuva?
+            Jari Haapasaari <i>(Nimetty 2023)</i>
           </li>
         </ul>
         <h2>Vuoden Algolainen - palkinnon voittajat</h2>

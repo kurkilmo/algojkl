@@ -1148,6 +1148,58 @@ aktiivi-pestit ul {
   box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+.jasenedut-container {
+  padding: 1rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.jasenedut-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.jasenedut-image {
+  margin-top: 10px;
+  width: 30%;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+.jasenedut-text {
+  flex: 1;
+  margin-top: 10px;
+  font-size: medium;
+  padding: 20px;
+  border-radius: 2px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.jasenedut-text h3 {
+  margin-top: 0;
+  font-size: medium;
+  background-color: #fbbebd;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.jasenedut-text ul {
+  font-size: small;
+}
+
+.jasenedut-container h2 {
+  font-size: larger;
+  background-color: #fbbebd;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
 /*----------------------------------------------------------*/
 
 @media (min-width: 2300px) {
@@ -1569,5 +1621,18 @@ aktiivi-pestit ul {
 
   .hallitus-pesti-info {
     font-size: small;
+  }
+
+  .jasenedut-item {
+    flex-direction: column;
+  }
+
+  .jasenedut-text {
+    font-size: small;
+  }
+
+  .jasenedut-image {
+    width: 60%;
+    margin: 0 auto;
   }
 }
