@@ -5,8 +5,8 @@ import useDevice from '../hooks/useDevice'
 import JasenEdut from '../components/jedut'
 
 const JasenEdutPage = () => {
-    const isMobile = useDevice()
-            const starterImage = isMobile ? starterMobile : starterDesktop
+  const isMobile = useDevice()
+  const starterImage = isMobile ? starterMobile : starterDesktop
   return (
     <div>
       <img src={starterImage} alt="starter_image_rules" className="starter" />

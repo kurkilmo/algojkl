@@ -33,7 +33,7 @@ const perustajat2022 = [
 
 const KunniagalleriaPage = () => {
   const isMobile = useDevice()
-            const starterImage = isMobile ? starterMobile : starterDesktop
+  const starterImage = isMobile ? starterMobile : starterDesktop
   return (
     <div>
       <img src={starterImage} alt="starter_image_rules" className="starter" />

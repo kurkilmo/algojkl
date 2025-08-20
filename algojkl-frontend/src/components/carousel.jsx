@@ -26,7 +26,6 @@ const Carousel = () => {
     return () => window.removeEventListener('resize', updatePhotos)
   }, [])
 
-
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % photos.length)

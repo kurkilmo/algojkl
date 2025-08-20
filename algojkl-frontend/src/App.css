@@ -553,7 +553,7 @@ body.modal-open {
 .Lakki-container h1,
 .Vuju-container h1,
 .Freshman-container h1,
-.kerhotoiminta-container h1{
+.kerhotoiminta-container h1 {
   background-color: #fbbebd;
   width: fit-content;
   position: relative;
@@ -973,7 +973,9 @@ body.modal-open {
   padding: 8px 0 8px 0;
 }
 
-.kerhotoiminta-container,.kerhotoiminta-container ol, .kerhotoiminta-container ul {
+.kerhotoiminta-container,
+.kerhotoiminta-container ol,
+.kerhotoiminta-container ul {
   width: 70%;
   margin: 0 auto;
 }

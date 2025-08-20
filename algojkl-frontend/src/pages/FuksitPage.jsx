@@ -10,15 +10,13 @@ import { useContentfulData } from '../services/useContentfulData'
 import TutorList from '../components/Tutorlist'
 
 const Fuksit = () => {
-  
   const isMobile = useDevice()
-      const starterImage = isMobile ? starterMobile : starterDesktop
+  const starterImage = isMobile ? starterMobile : starterDesktop
 
   const { data, isLoading, error } = useContentfulData()
 
   if (isLoading) return <p>Ladataan...</p>
   if (error) return <p>Virhe ladattaessa tietoja!</p>
-
 
   return (
     <div className="Freshman-container">

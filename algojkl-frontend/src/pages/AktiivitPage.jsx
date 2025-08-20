@@ -10,8 +10,6 @@ import aktiivi_1 from '../images/aktiivit_1.png'
 import aktiivi_2 from '../images/aktiivit-2.png'
 import aktiivi_3 from '../images/aktiivi_3.png'
 
-
-
 const AktiiviPage = () => {
   const isMobile = useDevice()
   const starterImage = isMobile ? starterMobile : starterDesktop

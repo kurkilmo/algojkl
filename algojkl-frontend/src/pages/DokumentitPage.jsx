@@ -7,7 +7,7 @@ import PytKirja from '../components/pytKirjaFetch'
 
 const Documents = () => {
   const isMobile = useDevice()
-    const starterImage = isMobile ? starterMobile : starterDesktop
+  const starterImage = isMobile ? starterMobile : starterDesktop
 
   return (
     <div>

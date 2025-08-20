@@ -7,7 +7,7 @@ const Calendar_key = import.meta.env.VITE_CALENDAR_API
 
 const Events = () => {
   const isMobile = useDevice()
-                const starterImage = isMobile ? starterMobile : starterDesktop
+  const starterImage = isMobile ? starterMobile : starterDesktop
   return (
     <div>
       <img src={starterImage} alt="page_stater_events" className="starter" />

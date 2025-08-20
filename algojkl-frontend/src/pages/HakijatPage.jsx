@@ -5,9 +5,8 @@ import starterDesktop from '../images/Page_starters/5.jpg'
 import starterMobile from '../images/mobiili/7.png'
 
 const HakijatPage = () => {
-
   const isMobile = useDevice()
-        const starterImage = isMobile ? starterMobile : starterDesktop
+  const starterImage = isMobile ? starterMobile : starterDesktop
 
   return (
     <div>

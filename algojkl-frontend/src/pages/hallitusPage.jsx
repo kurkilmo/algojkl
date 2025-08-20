@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 import starterDesktop from '../images/Page_starters/6.jpg'
 import starterMobile from '../images/mobiili/8.png'
 
@@ -12,9 +11,8 @@ import PestitDescription from '../components/PestitDescription'
 import { hallitusOrder } from '../utils/hallitusOrder'
 
 const HallitusPage = () => {
-
   const isMobile = useDevice()
-        const starterImage = isMobile ? starterMobile : starterDesktop
+  const starterImage = isMobile ? starterMobile : starterDesktop
 
   const { data, isLoading, error } = useContentfulData()
 
