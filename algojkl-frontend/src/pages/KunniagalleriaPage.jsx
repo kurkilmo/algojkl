@@ -1,10 +1,14 @@
 import React from 'react'
-import starter from '../images/Page_starters/12.jpg'
+
+import starterDesktop from '../images/Page_starters/12.jpg'
+import starterMobile from '../images/mobiili/14.png'
 import halli2022 from '../images/halli_2022.png'
 import olli from '../images/olli.png'
 import niko from '../images/Niko.jpg'
+
 import VuodenAlgolaiset from '../components/vuodenAlgolaiset.jsx'
 import Perustajat from '../components/perustajat.jsx'
+import useDevice from '../hooks/useDevice.jsx'
 
 const vuodenAlgolaiset = [
   { year: 2024, name: 'Olli Terävä', image: olli },
@@ -28,9 +32,11 @@ const perustajat2022 = [
 ]
 
 const KunniagalleriaPage = () => {
+  const isMobile = useDevice()
+  const starterImage = isMobile ? starterMobile : starterDesktop
   return (
     <div>
-      <img src={starter} alt="starter_image_rules" className="starter" />
+      <img src={starterImage} alt="starter_image_rules" className="starter" />
       <div className="kunnia-container">
         <h2>Algo ry:n kunniajäsenet</h2>
         <p>

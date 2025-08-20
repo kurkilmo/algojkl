@@ -1,5 +1,9 @@
 import React from 'react'
-import starter from '../images/Page_starters/7.jpg'
+import useDevice from '../hooks/useDevice'
+
+import starterDesktop from '../images/Page_starters/7.jpg'
+import starterMobile from '../images/mobiili/9.png'
+
 import juho from '../images/juho_k_j.png'
 import aktiivi_s from '../images/aktiivit_s.png'
 import aktiivi_1 from '../images/aktiivit_1.png'
@@ -7,9 +11,12 @@ import aktiivi_2 from '../images/aktiivit-2.png'
 import aktiivi_3 from '../images/aktiivi_3.png'
 
 const AktiiviPage = () => {
+  const isMobile = useDevice()
+  const starterImage = isMobile ? starterMobile : starterDesktop
+
   return (
     <div className="aktiivi">
-      <img src={starter} alt="starter_img_aktiivit" className="starter" />
+      <img src={starterImage} alt="starter_img_aktiivit" className="starter" />
       <div className="aktiivi-container">
         <h2>MIKÄ IHMEEN AKTIIVI???</h2>
         <div className="aktiivi-kuva-container">

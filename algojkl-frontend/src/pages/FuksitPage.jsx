@@ -1,10 +1,18 @@
 import React from 'react'
 import Panu from '../components/simple'
-import starter from '../images/Page_starters/4.jpg'
+
+import starterDesktop from '../images/Page_starters/4.jpg'
+import starterMobile from '../images/mobiili/6.png'
+
+import useDevice from '../hooks/useDevice'
+
 import { useContentfulData } from '../services/useContentfulData'
 import TutorList from '../components/Tutorlist'
 
 const Fuksit = () => {
+  const isMobile = useDevice()
+  const starterImage = isMobile ? starterMobile : starterDesktop
+
   const { data, isLoading, error } = useContentfulData()
 
   if (isLoading) return <p>Ladataan...</p>
@@ -12,7 +20,7 @@ const Fuksit = () => {
 
   return (
     <div className="Freshman-container">
-      <img src={starter} alt="freshman_starter_img" className="starter" />
+      <img src={starterImage} alt="freshman_starter_img" className="starter" />
       <div className="fuksi-leveys">
         <div className="header">
           <div>

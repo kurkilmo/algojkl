@@ -1,14 +1,21 @@
 import React from 'react'
 import CollabCards from '../components/collabLogos'
-import starter from '../images/Page_starters/2.jpg'
+
+import starterDesktop from '../images/Page_starters/2.jpg'
+import starterMobile from '../images/mobiili/5.png'
 import collab_icon from '../images/collab_icon.png'
 import event_icon from '../images/event_icon.png'
 import ulkosuhteet_icon from '../images/people_icon.png'
 import lamppu_icon from '../images/lamppu.png'
+
+import useDevice from '../hooks/useDevice'
+
 const Collab = () => {
+  const isMobile = useDevice()
+  const starterImage = isMobile ? starterMobile : starterDesktop
   return (
     <div>
-      <img src={starter} alt="starter_collab_img" className="starter" />
+      <img src={starterImage} alt="starter_collab_img" className="starter" />
       <div className="collab-container">
         <h1 className="collab-h1">Hei! Kiinnostaako yhteistyö?</h1>
         <p>

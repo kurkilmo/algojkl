@@ -1,10 +1,16 @@
 import React from 'react'
-import starter from '../images/Page_starters/5.jpg'
+import useDevice from '../hooks/useDevice'
+
+import starterDesktop from '../images/Page_starters/5.jpg'
+import starterMobile from '../images/mobiili/7.png'
 
 const HakijatPage = () => {
+  const isMobile = useDevice()
+  const starterImage = isMobile ? starterMobile : starterDesktop
+
   return (
     <div>
-      <img src={starter} alt="starter_image_rules" className="starter" />
+      <img src={starterImage} alt="starter_image_rules" className="starter" />
       <div className="hakijalle-container">
         <p>
           Hienoa, että olet kiinnostunut opiskelusta Jyväskylän Yliopistossa!

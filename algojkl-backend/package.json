@@ -5,7 +5,7 @@
   "description": "",
   "main": "archiveOldEvents.js",
   "scripts": {
-     "arc-events": "node scripts/archiveOldEvents.js"
+    "arc-events": "node scripts/archiveOldEvents.js"
   },
   "keywords": [],
   "author": "",
