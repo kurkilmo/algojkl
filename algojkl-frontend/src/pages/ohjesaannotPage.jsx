@@ -1,12 +1,16 @@
 import React from 'react'
-import starter from '../images/Page_starters/9.jpg'
+import starterDesktop from '../images/Page_starters/9.jpg'
+import starterMobile from '../images/mobiili/11.png'
 import lakki from '../images/lakki.jpg'
+import useDevice from '../hooks/useDevice'
 
 const Merkit = () => {
+  const isMobile = useDevice()
+            const starterImage = isMobile ? starterMobile : starterDesktop
   return (
     <div className="Lakki-container">
       <div>
-        <img src={starter} alt="ohjesäännöt_starter" className="starter" />
+        <img src={starterImage} alt="ohjesäännöt_starter" className="starter" />
         <h1>Juhlanauha- ja merkkiohjesääntö</h1>
         <p>
           1§ Algo ry:llä on kunnia-, ansio-, hallitus- ja vuoden algolainen

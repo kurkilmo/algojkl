@@ -1,11 +1,17 @@
 import React from 'react'
-import starter from '../images/Page_starters/11.jpg'
+import useDevice from '../hooks/useDevice'
+
+import starterDesktop from '../images/Page_starters/11.jpg'
+import starterMobile from '../images/mobiili/13.png'
 import PytKirja from '../components/pytKirjaFetch'
 
 const Documents = () => {
+  const isMobile = useDevice()
+    const starterImage = isMobile ? starterMobile : starterDesktop
+
   return (
     <div>
-      <img src={starter} alt="starter_img_documents" className="starter" />
+      <img src={starterImage} alt="starter_img_documents" className="starter" />
       <div>
         <PytKirja />
       </div>

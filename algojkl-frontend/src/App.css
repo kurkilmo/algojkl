@@ -552,9 +552,10 @@ body.modal-open {
 .ansiomerkit-container h1,
 .Lakki-container h1,
 .Vuju-container h1,
-.Freshman-container h1 {
+.Freshman-container h1,
+.kerhotoiminta-container h1{
   background-color: #fbbebd;
-  width: 30%;
+  width: fit-content;
   position: relative;
   margin: 0 auto;
   color: #000000;
@@ -686,7 +687,8 @@ body.modal-open {
 
 .Lakki-container p,
 .Vuju-container p,
-.hakijalle-container p {
+.hakijalle-container p,
+.kerhotoiminta-container p {
   line-height: 35px;
   position: relative;
   justify-content: center;
@@ -886,7 +888,8 @@ body.modal-open {
   margin: 0 auto;
 }
 
-.hakijalle-container h3 {
+.hakijalle-container h3,
+.kerhotoiminta-container h3 {
   background-color: #fbbebd;
   width: fit-content;
   padding: 10px;
@@ -968,6 +971,19 @@ body.modal-open {
 .periaate-container li,
 .aktiivi-pestit li {
   padding: 8px 0 8px 0;
+}
+
+.kerhotoiminta-container,.kerhotoiminta-container ol, .kerhotoiminta-container ul {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.kerhotoiminta-container ol {
+  padding: 10px 10px 10px 50px;
+}
+
+.kerhotoiminta-container li {
+  padding: 5px;
 }
 
 .perustaja {
@@ -1455,7 +1471,8 @@ aktiivi-pestit ul {
   .seloste-container h1,
   .kunnia-container h2,
   .yhteydenotto-container h1,
-  .kansainvalisyys-container h1 {
+  .kansainvalisyys-container h1,
+  .kerhotoiminta-container h1 {
     width: fit-content;
     font-size: larger;
     margin: 0 auto;
@@ -1490,7 +1507,8 @@ aktiivi-pestit ul {
     padding-left: 25px;
   }
 
-  .aktiivi-kuva-container p {
+  .aktiivi-kuva-container p,
+  .kerhotoiminta-container p {
     font-size: small;
     line-height: 23px;
   }
@@ -1535,7 +1553,8 @@ aktiivi-pestit ul {
     border-radius: 10px;
     margin: 0 auto;
   }
-  .OverAll-container h2 {
+  .OverAll-container h2,
+  .kerhotoiminta-container h3 {
     font-size: medium;
     padding: 10px;
   }
@@ -1547,7 +1566,12 @@ aktiivi-pestit ul {
   }
 
   .periaate-container ul,
-  .Freshman-container ul {
+  .Freshman-container ul,
+  .kerhotoiminta-container ul {
+    font-size: 0.7rem;
+  }
+
+  .kerhotoiminta-container ol {
     font-size: 0.7rem;
   }
 

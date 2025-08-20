@@ -1,11 +1,21 @@
 import React from 'react'
-import starter from '../images/Page_starters/6.jpg'
+
+
+import starterDesktop from '../images/Page_starters/6.jpg'
+import starterMobile from '../images/mobiili/8.png'
+
+import useDevice from '../hooks/useDevice'
 import { useContentfulData } from '../services/useContentfulData'
+
 import HallitusCard from '../components/HallitusCard'
 import PestitDescription from '../components/PestitDescription'
 import { hallitusOrder } from '../utils/hallitusOrder'
 
 const HallitusPage = () => {
+
+  const isMobile = useDevice()
+        const starterImage = isMobile ? starterMobile : starterDesktop
+
   const { data, isLoading, error } = useContentfulData()
 
   if (isLoading) return <p>Ladataan...</p>
@@ -19,7 +29,7 @@ const HallitusPage = () => {
 
   return (
     <div>
-      <img src={starter} alt="hallitus_starter_img" className="starter" />
+      <img src={starterImage} alt="hallitus_starter_img" className="starter" />
       <div className="hallitus">
         <h1>ALGO ry:n hallitus 2025</h1>
         <div className="hallitus-grid">

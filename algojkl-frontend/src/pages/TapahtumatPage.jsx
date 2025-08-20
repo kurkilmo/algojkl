@@ -1,12 +1,16 @@
 import React from 'react'
-import starter from '../images/Page_starters/3.jpg'
+import starterDesktop from '../images/Page_starters/3.jpg'
+import starterMobile from '../images/mobiili/4.png'
+import useDevice from '../hooks/useDevice'
 
 const Calendar_key = import.meta.env.VITE_CALENDAR_API
 
 const Events = () => {
+  const isMobile = useDevice()
+                const starterImage = isMobile ? starterMobile : starterDesktop
   return (
     <div>
-      <img src={starter} alt="page_stater_events" className="starter" />
+      <img src={starterImage} alt="page_stater_events" className="starter" />
       <div className="event-container">
         <h2>Tulevat tapahtumat</h2>
         <iframe
