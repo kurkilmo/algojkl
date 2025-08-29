@@ -10,6 +10,7 @@ const fetchContentfulData = async () => {
     tutorRes,
     pytkirjatRes,
     jasenedutRes,
+    hiringRes,
   ] = await Promise.all([
     client.getEntries({ content_type: 'events' }),
     client.getEntries({ content_type: 'collabs' }),
@@ -18,6 +19,7 @@ const fetchContentfulData = async () => {
     client.getEntries({ content_type: 'tutorit' }),
     client.getEntries({ content_type: 'pytkirjat' }),
     client.getEntries({ content_type: 'jedut' }),
+    client.getEntries({ content_type: 'hiring' }),
   ])
 
   return {
@@ -63,6 +65,13 @@ const fetchContentfulData = async () => {
       otsikkofirma: item.fields.otsikkofirma,
       kuvaus: item.fields.jedutDesc,
       kuvaUrl: item.fields.jedutKuva?.fields?.file?.url || null,
+    })),
+    hiring: hiringRes.items.map((item) => ({
+      id: item.fields.id,
+      otsikko: item.fields.otsikko,
+      rekryInfo: item.fields.rekryInfo,
+      rekryKuva: item.fields.rekryKuva?.fields?.file?.url || null,
+      rekrytiedosto: item.fields.rekrytiedosto?.fields?.file?.url || null,
     })),
   }
 }
