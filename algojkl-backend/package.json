@@ -2,16 +2,21 @@
   "name": "scripts",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
   "main": "archiveOldEvents.js",
   "scripts": {
-    "arc-events": "node scripts/archiveOldEvents.js"
+    "arc-events": "node scripts/archiveOldEvents.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^2.2.0",
     "contentful-management": "^11.52.1",
-    "dotenv": "^16.5.0"
-  }
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1"
+  },
+  "description": ""
 }

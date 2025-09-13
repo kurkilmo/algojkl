@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:ui": "cd ../algojkl-frontend && npm install && npm run build && rm -rf ../algojkl-backend/build && cp -r dist ../algojkl-backend/build",
     "lint": "eslint .",
     "preview": "vite preview",
     "prettier": "prettier --write ."

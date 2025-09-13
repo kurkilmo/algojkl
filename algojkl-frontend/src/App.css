@@ -1238,6 +1238,61 @@ aktiivi-pestit ul {
   border-radius: 10px;
   margin: 0 auto;
 }
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-style: solid;
+  padding: 20px;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+  border-color: #000000;
+
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.login-container input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #fbbebd;
+  color: Black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-container button:hover {
+  background-color: #005fa3;
+}
+
+.salaisuudet-page-content{
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 2px;
+  border: 2px solid #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  line-height: 1.5;
+}
+
+
 /*----------------------------------------------------------*/
 
 @media (min-width: 2300px) {
