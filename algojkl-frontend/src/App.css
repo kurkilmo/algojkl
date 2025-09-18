@@ -596,6 +596,15 @@ body.modal-open {
   width: 100%;
 }
 
+.Freshman-container h2 {
+    font-size: medium;
+    background-color: #fbbebd;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+
 .Freshman-container ul {
   list-style: none;
   padding: 0;
@@ -607,13 +616,9 @@ body.modal-open {
 }
 
 .Freshman-container a {
-  color: pink;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.Freshman-container a:hover {
+  color: #fbbebd;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .panuAnim {
@@ -689,7 +694,9 @@ body.modal-open {
 .Lakki-container p,
 .Vuju-container p,
 .hakijalle-container p,
-.kerhotoiminta-container p {
+.kerhotoiminta-container p,
+.Freshman-container p
+{
   line-height: 30px;
   position: relative;
   justify-content: center;
@@ -1131,7 +1138,7 @@ aktiivi-pestit ul {
 }
 
 .aktiivi-consent button {
-  background-color: #fbbebd;
+  background-color: #faf6ed;
 }
 
 .aktiivi-consent a {
@@ -1624,14 +1631,6 @@ p {
     font-size: 0.7rem;
   }
 
-  .Freshman-container h2 {
-    font-size: medium;
-    background-color: #fbbebd;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 0 auto;
-  }
   .OverAll-container h2,
   .kerhotoiminta-container h3 {
     font-size: medium;
@@ -1740,5 +1739,12 @@ p {
   }
   .jasenedut-text h3 {
     margin: 0 auto;
+  }
+
+  .login-container {
+    width: 80%;
+  }
+  .salaisuudet-page-content {
+    font-size: small;
   }
 }

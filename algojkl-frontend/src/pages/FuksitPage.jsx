@@ -35,7 +35,7 @@ const Fuksit = () => {
           <i>Koko opiskeluajan tärkein asia: Seuraa sähköpostia!</i>
         </p>
         <br />
-        <p>Ennen opiskeluiden alkua:</p>
+        <h2>Ennen opiskeluiden alkua:</h2>
         <ul>
           <li>
             <strong> 1. Ota opiskelupaikka vastaan </strong>
@@ -102,7 +102,7 @@ const Fuksit = () => {
         <h2>Opintojen alku:</h2>
         <p>
           Orientaatioviikko tieto- ja ohjelmistotekniikan sekä
-          teknologiajohtamisen koulutuksilla alkaa
+          teknologiajohtamisen koulutuksilla alkaa x x x
         </p>
         <h2>Kiltatoiminta</h2>
         <p>
@@ -117,12 +117,12 @@ const Fuksit = () => {
         <p>
           1. Osta Algon jäsenyys &quot;Liity Jäseneksi&quot; - nappia
           painamalla.
-        </p>
-        <p>
+          <br />
+          <br />
           2. Liity Algon telegram ryhmiin ja seuraa Algoa Instagramissa sekä
           TikTokissa. Liity myös Algon Discordiin.{' '}
-        </p>
-        <p>
+          <br />
+          <br />
           3. Nauti Algon eduista ja pidä hauskaa tulevissa tapahtumissa :-){' '}
         </p>
 

@@ -73,17 +73,22 @@ const AktiiviPage = () => {
               </li>
             </ul>
             <li>
-              <strong>Some-Tiimi</strong>
+              <strong>Some- ja viestintätiimi</strong>
             </li>
             <ul>
-              <li>Some-kanavien ylläpito</li>
+              <li>Somekanavien ylläpito</li>
               <ul>
                 <li>Instagram & TikTok</li>
               </ul>
               <li>Tapahtumien kuvaaminen</li>
               <li>Killan mainostaminen</li>
+              <li>Killan jäsenviestintä sähköpostitse </li>
               <li>
-                Some-tiimiä ylläpitää <a href="/hallitus">Viestintävastaava</a>
+                Sometiimiä ylläpitää:
+                <ul>
+                  <li>Venla @thevempula</li>
+                  <li>Viola @ViolaMaunuksela</li>
+                </ul>
               </li>
             </ul>
             <li>
