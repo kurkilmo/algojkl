@@ -59,7 +59,7 @@ const HakijatPage = () => {
             <ul>
               <li>
                 Tieto- ja ohjelmistotekniikan syventävät opinnot 80 op (sis.
-                Diplomityön)
+                diplomityön)
               </li>
               <li>
                 Toinen opintokokonaisuus (vähintään 25op){' '}

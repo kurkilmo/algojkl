@@ -6,9 +6,10 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-info">
-          <h2>ALGO ry</h2>
+          <h2>Algo ry</h2>
           <p>Yhteystiedot</p>
-          <p>Agora, Mattilanniemi 2, 40100 Jyväskylä</p>
+          <p>Mattilanniemi 2,</p>
+          <p>40100 Jyväskylä</p>
           <p>pj@algojkl.com</p>
           <p>
             <strong>© Algo ry, 2025</strong>

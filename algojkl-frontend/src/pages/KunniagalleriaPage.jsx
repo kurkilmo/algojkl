@@ -63,7 +63,7 @@ const KunniagalleriaPage = () => {
       <Perustajat image={halli2022} members={perustajat2022} year={2022} />
       <div className="kunnia-container">
         <p>
-          Muut edelliset hallitukset näkevät{' '}
+          Muut edelliset hallitukset näet täältä”{' '}
           <a href="/entiset-hallitukset">täältä</a>
         </p>
       </div>
