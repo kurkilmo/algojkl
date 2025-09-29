@@ -11,6 +11,7 @@ const Merkit = () => {
     <div className="Lakki-container">
       <div>
         <img src={starterImage} alt="ohjesäännöt_starter" className="starter" />
+        <p>Tältä sivulta löydät tietoa teekkarilakista, haalarietiketistä sekä juhlanauha- ja merkkiohjesäännöstä.</p>
         <h1>Juhlanauha- ja merkkiohjesääntö</h1>
         <p>
           1§ Algo ry:llä on kunnia-, ansio-, hallitus- ja vuoden algolainen
@@ -140,9 +141,10 @@ const Merkit = () => {
           <a href="https://kide.app/community/56059c50-ac32-4678-b061-a6bba8369761">
             Linkki Algo ry:n kide.appiin
           </a>
-        </p>
-        <h2>Lakinkäyttösäännöt</h2>
-        <p>
+          <br />
+          <br />
+          <h3>Lakinkäyttösäännöt</h3>
+          <br />
           <strong> 1 § Teekkarilakki </strong>
           <br />
           <br />
@@ -238,119 +240,25 @@ const Merkit = () => {
           kokouksessa.
         </p>
       </div>
-      <div>
-        <h1>Vuosijuhlaetiketti</h1>
-
-        <p>
-          Algo täyttää virallisesti vuosia heinäkuun 4. päivä, mutta sen
-          vuosijuhlaa juhlitaan perinteisesti syksyn puolella. Vuosijuhla on
-          kiltamme arvokkain akateeminen tilaisuus, jossa käyttäydytään sen
-          mukaisesti. Juhlaan ovat tervetulleita niin Algon jäsenet,
-          kutsuvieraat kuin avecitkin. Tämä etiketti tutustuttaa juhlavieraat
-          vuosijuhlien käytänteisiin, jotta itse juhlassa ei tarvitsisi
-          hermoilla käytännön asioista.
-        </p>
-
-        <h2>Pukeutuminen</h2>
-        <p>
-          Vuosijuhlilla pukeudutaan joko frakkiin, tummaan pukuun tai
-          iltapukuun.
-          <br />
-          <br />
-          <strong>Frakkiin</strong> kuuluu musta hännystakki ja housut,
-          valkoinen frakkiliivi, valkoinen frakkipaita helmiäisnapeilla sekä
-          valkoinen solmuke. Frakin kanssa käytetään mustia sukkia ja mustia
-          kiiltonahkakenkiä. Rannekelloa ei suositella käytettäväksi frakin
-          kanssa. Smokki tai muut variaatiot eivät ole etiketin mukainen
-          vaihtoehto frakille.
-          <br />
-          <br />
-          <strong>Tumma puku</strong> tarkoittaa tumman harmaata, tumman sinistä
-          tai mustaa pukua. Puku voi olla yksivärinen tai hillitysti
-          raidallinen, mutta ei liituraitaa. Tumman puvun kanssa käytetään
-          valkoista tai vaaleanpunaista paitaa (muutkin vaaleat värit käyvät
-          mainiosti), juhlavaa solmiota tai solmuketta, mustia kenkiä sekä
-          tummia ja pitkävartisia sukkia.
-          <br />
-          <br />
-          <strong>Iltapuku</strong> on juhlavasta materiaalista valmistettu
-          nilkka- tai lattiapituinen il­ta­- tai juh­la­pu­ku­. Iltapuku voi
-          olla avonainen, umpinainen, olkaimeton tai pitkähihainen. Iltapuvun
-          kanssa voi käyttää myös har­ti­a­hui­vi­a, kyynärmittaisia hansikkaita
-          tai ol­kai­me­ton­ta lauk­ku­a. Ruokailun aikana ei ole soveliasta
-          laskea käsilaukkua pöydälle tai pitää hanskoja käsissään.
-          <br />
-          <br />
-          Pukeutumista voi täydentää akateemisilla ansiomerkeillä ja
-          juhlanauhalla. Juhlanauha- ja merkkiohjesääntöjen pykälän 10 mukaan:
-          <br />
-          <br />
-          <i>
-            “Juhlanauhaa sekä kunnia-, ansio- ja hallitusmerkkiä käytetään vain
-            juhlapuvussa akateemisissa juhlatilaisuuksissa.
-            <br />
-            <br />
-            Juhlanauhaa kannetaan siten, että se kulkee oikealta olkapäältä
-            rinnan yli vasemmalle lantiolle, vaaleanpunainen väri yläpuolella.
-            Juhlanauhaa kannetaan juhlapuvussa liivin alla ja tummassa puvussa
-            liivin ja solmion päällä. Mekon kanssa juhlanauhaa voi kantaa
-            taiteltuna ruusukkeena vasemmalla puolella rintaa, vaaleanpunainen
-            väri päällimmäisenä, tai kuten juhlapuvussa. Juhlanauha ei saa
-            koskettaa paljasta ihoa.
-            <br />
-            <br />
-            Algo ry:n omissa tilaisuuksissa juhlanauhaa kannetaan ylimpänä, jos
-            kantajalla on myös muiden organisaatioiden nauhoja. Muissa
-            tilaisuuksissa noudatetaan soveltuvia ohjesääntöjä.
-            <br />
-            <br />
-            Kunnia-, ansio- ja hallitusmerkkejä voi käyttää samanaikaisesti
-            juhlanauhan kanssa, eikä niiden asettelulla ole väliä.”
-          </i>
-          <br />
-        </p>
-      </div>
 
       <h1>Haalarietiketti</h1>
       <br />
-      <div className="OverAll-container">
-        <h2>Haalareiden käyttäminen</h2>
-        <ul>
-          <li>
-            Haalareita suositellaan pidettävän ylhäällä (kokonaan päällä).
-          </li>
-          <li>
-            Haalareita käytetään kaikissa opiskelijatapahtumissa, ellei
-            tapahtuman pukeutuminen erikseen toisin mainitse.
-          </li>
-          <li>
-            Kun haalareita pidetään vyötäröllä, niin selkäosa taitetaan siten,
-            että killan logo näkyy.
-          </li>
-          <li>Haalareita saa (ja tulee) muokata oman näköisiksi.</li>
-        </ul>
-        <h2> Haalarimerkit </h2>
-        <ul>
-          <li>Haalarimerkit ommellaan käsin.</li>
-          <li>Haalarimerkkejä ei saa liimata tai ommella ompelukoneella.</li>
-          <li>
-            Haalarimerkkejä ei tule ommella sponsoreiden logojen päälle, mikäli
-            tilaa on.
-          </li>
-        </ul>
-        <h2> Haalareiden pesu </h2>
-        <ul>
-          <li>
-            Haalareita ei pestä pesukoneessa tai muulla vastaavalla pesutavalla.
-          </li>
-          <li>
-            Haalarit pestään siten, että olet itse niiden sisällä (esimerkiksi
-            järvessä).
-          </li>
-        </ul>
+        <p>
+          <strong>1. Haalareiden käyttö</strong>
+          <br />
+          Haalareita suositellaan pidettävän ylhäällä eli kokonaan päällä. Niitä käytetään kaikissa opiskelijatapahtumissa, ellei tapahtuman pukeutumisesta erikseen toisin mainita. Kun haalareita pidetään vyötäröllä, selkäosa taitetaan siten, että killan logo näkyy. Haalareita saa ja tulee muokata oman näköisiksi.
+          <br />
+          <br />
+          <strong>2. Haalarimerkit</strong>
+          <br />
+          Haalarimerkit tulee ommella käsin. Niitä ei saa liimata eikä ommella ompelukoneella. Lisäksi haalarimerkkejä ei tule ommella sponsoreiden logojen päälle, mikäli tilaa on.
+          <br />
+          <br />
+          <strong>3. Haalarien pesu</strong>
+          <br />
+          Haalareita ei saa pestä pesukoneessa tai muulla vastaavalla tavoin. Haalarit pestään siten, että olet itse niiden sisällä, esimerkiksi järvessä tai suihkussa.
+        </p>
       </div>
-      <br />
-    </div>
   )
 }
 
