@@ -84,6 +84,7 @@ body {
   width: 30px;
   height: 30px;
   padding-left: 10px;
+  padding-top: 15%;
 }
 
 .kilta {
@@ -209,7 +210,7 @@ body {
 .social img {
   width: 25px;
   height: 25px;
-  padding-top: 5%;
+  padding-top: 5% !important;
 }
 
 .container {
@@ -615,7 +616,7 @@ body.modal-open {
   margin: 10px 0;
 }
 
-.Freshman-container a {
+.Freshman-container a, .hakijalle-container a {
   color: #fbbebd;
   text-decoration: underline;
   font-weight: bold;

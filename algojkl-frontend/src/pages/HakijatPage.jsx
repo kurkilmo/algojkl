@@ -80,7 +80,7 @@ const HakijatPage = () => {
               </li>
             </ul>
           </li>
-          <p>Lisätietoja tutkinto-ohjelmasta löydät <a href="https://www.jyu.fi/fi/tule-opiskelemaan/tutustu-aloihimme/tekniikka/tieto-ja-ohjelmistotekniikan-opinnot">Jyväskylän yliopiston sivuilta</a></p>
+          <p>Lisätietoja tieto- ja ohjelmistotekniikan tutkinto-ohjelmasta löydät <a href="https://www.jyu.fi/fi/tule-opiskelemaan/tutustu-aloihimme/tekniikka/tieto-ja-ohjelmistotekniikan-opinnot">Jyväskylän yliopiston sivuilta.</a></p>
           <h3>Teknologiajohtaminen</h3>
           <li>
             <strong>
@@ -116,7 +116,7 @@ const HakijatPage = () => {
             </ul>
           </li>
         </ul>
-        <p>Lisätietoja tutkinto-ohjelmasta löydät <a href="https://www.jyu.fi/fi/tule-opiskelemaan/tutustu-aloihimme/tekniikka/teknologiajohtamisen-opinnot">Jyväskylän yliopiston sivuilta</a></p>
+        <p>Lisätietoja teknologiajohtamisen tutkinto-ohjelmasta löydät <a href="https://www.jyu.fi/fi/tule-opiskelemaan/tutustu-aloihimme/tekniikka/teknologiajohtamisen-opinnot">Jyväskylän yliopiston sivuilta.</a></p>
         <h3>Mikä ihmeen Algo ry?</h3>
         <p>
          Algo ry on Jyväskylän yliopiston tieto- ja ohjelmistotekniikan sekä teknologiajohtamisen opiskelijoiden kilta. Killan tehtävänä on valvoa jäsentensä etuja, järjestää monipuolisia tapahtumia sekä tehdä yhteistyötä alan yritysten kanssa. Ennen kaikkea Algo on jäsenistölleen yhteisö opintojen ajalle.
