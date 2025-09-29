@@ -21,7 +21,7 @@ const HakijatPage = () => {
             Tieto- ja ohjelmistotekniikka tai Teknologiajohtaminen.
           </strong>
         </p>
-        <h3>Opinnoista</h3>
+      <h3>Tieto- ja ohjelmistotekniikka</h3>
         <ul>
           <li>
             <strong>
@@ -80,6 +80,8 @@ const HakijatPage = () => {
               </li>
             </ul>
           </li>
+          <p>Lisätietoja tutkinto-ohjelmasta löydät <a href="https://www.jyu.fi/fi/tule-opiskelemaan/tutustu-aloihimme/tekniikka/tieto-ja-ohjelmistotekniikan-opinnot">Jyväskylän yliopiston sivuilta</a></p>
+          <h3>Teknologiajohtaminen</h3>
           <li>
             <strong>
               Teknologiajohtaminen <i>(Tekniikan kandidaatti 180op)</i>
@@ -114,6 +116,7 @@ const HakijatPage = () => {
             </ul>
           </li>
         </ul>
+        <p>Lisätietoja tutkinto-ohjelmasta löydät <a href="https://www.jyu.fi/fi/tule-opiskelemaan/tutustu-aloihimme/tekniikka/teknologiajohtamisen-opinnot">Jyväskylän yliopiston sivuilta</a></p>
         <h3>Mikäs Algo on?</h3>
         <p>
           Algo ry on Jyväskylän IT-teekkareiden kilta. Killan tehtävänä on
