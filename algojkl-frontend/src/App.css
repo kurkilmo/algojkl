@@ -1592,7 +1592,9 @@ p {
   .rekryt-container,
   .kansainvalisyys-container,
   .fuksi-leveys,
-  .hakijalle-container {
+  .hakijalle-container,
+  .aktiivi-container,
+  .aktiivi-consent {
     width: 95% !important;
   }
 
@@ -1706,12 +1708,14 @@ p {
   .vuju-container p,
   .jasenedut-container p,
   .kerhotoiminta-container p,
-  .hakijalle-container p {
+  .hakijalle-container p,
+  .aktiivi-container p,
+  .aktiivi-consent p {
     font-size: small;
     line-height: 25px;
   }
 
-  .vuju-container h2, .periaate-container h3 {
+  .vuju-container h2, .periaate-container h3, .aktiivi-container h2, .aktiivi-consent h2, .aktiivi-container-merkit h2{
     font-size: medium;
   }
 
