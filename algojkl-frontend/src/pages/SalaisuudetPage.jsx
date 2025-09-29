@@ -15,27 +15,28 @@ const SalaisuudetPage = () => {
   const API_URL = import.meta.env.VITE_API_URL
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
-    try {
-      const res = await fetch(`${API_URL}/login`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ password })
-      })
+  e.preventDefault()
+  try {
+    const res = await fetch('/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password })
+    })
 
-      const data = await res.json()
+    const data = await res.json()
 
-      if (res.ok && data.success) {
-        setContent(data.content)
-        setIsAuthenticated(true)
-        setError('')
-      } else {
-        setError(data.message || 'Väärä salasana')
-      }
-    } catch (err) {
-      setError('Palvelinvirhe') + err.message;
+    if (res.ok && data.success) {
+      setContent(data.content)
+      setIsAuthenticated(true)
+      setError('')
+    } else {
+      setError(data.message || 'Väärä salasana')
     }
+  } catch (err) {
+    setError('Palvelinvirhe: ' + err.message)
   }
+}
+
 
   if (!isAuthenticated) {
     return (
