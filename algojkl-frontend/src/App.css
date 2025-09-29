@@ -1163,10 +1163,26 @@ aktiivi-pestit ul {
   top: 55px;
 }
 
-.juho-container p {
+.aktiivi-container h2 {
+  background-color: #fbbebd;
   width: fit-content;
-  left: 0;
-  top: 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+.aktiivi-start h2 {
+  margin: 0 auto;
+}
+.aktiivi-pestit h2 {
+  font-size: medium;
+}
+
+.aktiivi-start p {
+  line-height: 30px;
+  border-radius: 2px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 20px;
 }
 
 .aktiivi-pestit {
@@ -1306,11 +1322,17 @@ p {
   .footer-nav ul {
     gap: 17rem;
   }
+  .footer-nav, .feedback-comms p {
+    font-size: medium;
+  }
 }
 
 @media (min-width: 2000px) and (max-width: 2299px) {
   .footer-nav ul {
     gap: 13rem;
+  }
+  .footer-nav, .feedback-comms p {
+    font-size: medium;
   }
 }
 
@@ -1318,23 +1340,26 @@ p {
   .footer-nav ul {
     gap: 10rem;
   }
+  .footer-nav, .feedback-comms p {
+    font-size: medium;
+  }
 }
 
 @media (min-width: 1701px) and (max-width: 1800px) {
   .footer-nav ul {
-    gap: 7rem;
+    gap: 9rem;
   }
 }
 
 @media (min-width: 1501px) and (max-width: 1700px) {
   .footer-nav ul {
-    gap: 6rem;
+    gap: 8rem;
   }
 }
 
 @media (min-width: 1401px) and (max-width: 1500px) {
   .footer-nav ul {
-    gap: 5rem;
+    gap: 7rem;
   }
   .footer-content {
     gap: 11%;
@@ -1343,7 +1368,7 @@ p {
 
 @media (min-width: 1301px) and (max-width: 1400px) {
   .footer-nav ul {
-    gap: 4rem;
+    gap: 6rem;
   }
   .footer-content {
     gap: 7%;
@@ -1352,7 +1377,7 @@ p {
 
 @media (min-width: 1201px) and (max-width: 1300px) {
   .footer-nav ul {
-    gap: 3rem;
+    gap: 5rem;
   }
   .footer-content {
     gap: 4%;
@@ -1564,6 +1589,11 @@ p {
     padding: 10px 10px 10px 10px;
   }
 
+  .aktiivi-start h2 {
+    padding-top:10px !important;
+    margin: 0 auto !important;
+  }
+
   .Lakki-container h1 {
     width: fit-content;
     font-size: larger;
@@ -1588,12 +1618,12 @@ p {
 
   .aktiivi-container h2 {
     font-size: larger;
-    padding-top: 20px;
-    padding-left: 25px;
+    margin-left: 10px;
   }
 
   .aktiivi-kuva-container p,
-  .kerhotoiminta-container p {
+  .kerhotoiminta-container, 
+  .aktiivi-start p {
     font-size: small;
     line-height: 23px;
   }

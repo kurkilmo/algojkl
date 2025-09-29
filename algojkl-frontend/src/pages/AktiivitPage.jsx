@@ -4,7 +4,6 @@ import useDevice from '../hooks/useDevice'
 import starterDesktop from '../images/Page_starters/7.jpg'
 import starterMobile from '../images/mobiili/9.png'
 
-import juho from '../images/juho_k_j.png'
 import aktiivi_s from '../images/aktiivit_s.png'
 import aktiivi_1 from '../images/aktiivit_1.png'
 import aktiivi_2 from '../images/aktiivit-2.png'
@@ -18,19 +17,13 @@ const AktiiviPage = () => {
     <div className="aktiivi">
       <img src={starterImage} alt="starter_img_aktiivit" className="starter" />
       <div className="aktiivi-container">
+        <div className="aktiivi-start">
         <h2>MIKÄ IHMEEN AKTIIVI???</h2>
-        <div className="aktiivi-kuva-container">
           <p>
             Aktiivit koostuvat kiltamme jäsenistä, jotka haluavat auttaa ja
             vaikuttaa kiltamme toimintaan. Aktiivit auttavat hallituksemme
             jäseniä matalalla kynnyksellä.
           </p>
-          <div className="juho-container">
-            <img src={juho} alt="Juho Järvi" />
-            <p>
-              <i>Kuva: Elias Lehtinen</i>
-            </p>
-          </div>
         </div>
         <div className="aktiivi-pestit">
           <h2>AKTIIVIEN PESTIT</h2>
@@ -100,9 +93,10 @@ const AktiiviPage = () => {
               <ul>
                 <li>Vapun ja vuosijuhlien järjesteminen</li>
               </ul>
-              <li>Nettijumala</li>
+              <li>Nettimestari</li>
               <ul>
-                <li>Nettisivujen päivitys (React,Contentful...)</li>
+                <li>Nettisivujen päivitys ja ylläpito</li>
+                <li>Alidomainien sovellusten ylläpito</li>
               </ul>
               <li>
                 Lisätietoja tai ehdotuksia muista aktiivipesteistä voi kysyä

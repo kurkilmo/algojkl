@@ -23,7 +23,7 @@ const Collab = () => {
           mainospaikan haalareista tai tukea tapahtumiamme? Vai kiinnostaisiko
           esitellä yritystäsi Jyväskylän DI-opiskelijoille?
         </p>
-        <h3>Ota Yhteyttä!</h3>
+        <h3>Ota yhteyttä!</h3>
         <br />
         <div className="collab-container-flex">
           <div>
@@ -42,7 +42,7 @@ const Collab = () => {
           </div>
           <div>
             <img src={ulkosuhteet_icon} alt="ulkosuhteet_icon" />
-            <h3>Killan Ulkosuhteet</h3>
+            <h3>Killan ulkosuhteet</h3>
             <h4>
               {' '}
               <strong>vpj@algojkl.com</strong>
@@ -50,7 +50,7 @@ const Collab = () => {
           </div>
           <div className="collab-overflow">
             <img src={lamppu_icon} alt="muut icon" />
-            <h3>Muita idoita?</h3>
+            <h3>Muita ideoita?</h3>
             <h4>
               Meille voi aina ehdottaa uusia yhteistyökuvioita! <br />
               Muista yhteistyökuvioista voi ottaa yhteyttä puheenjohtajaamme:{' '}
@@ -60,7 +60,7 @@ const Collab = () => {
             </h4>
           </div>
         </div>
-        <h2>Meidän Yhteistyökumppaneita</h2>
+        <h2>Yhteistyössä</h2>
       </div>
       <CollabCards />
     </div>
