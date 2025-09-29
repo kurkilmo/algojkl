@@ -120,8 +120,7 @@ const Fuksit = () => {
           <br />
           <br />
           2. Liity Algon telegram ryhmiin ja seuraa Algoa Instagramissa sekä
-          TikTokissa. Liity myös Algon Discordiin.{' '}
-          <br />
+          TikTokissa. Liity myös Algon Discordiin. <br />
           <br />
           3. Nauti Algon eduista ja pidä hauskaa tulevissa tapahtumissa :-){' '}
         </p>

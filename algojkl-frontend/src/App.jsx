@@ -20,7 +20,7 @@ import {
   KerhotoimintaPage,
   HakijatPage,
   PrevHalli,
-  VujuPage
+  VujuPage,
 } from './pages'
 import { NavBar, Footer } from './components'
 import './App.css'
@@ -38,7 +38,10 @@ function App() {
         <Route path="/ohjesaannot" element={<Ohjesaannot />} />
         <Route path="/aktiivit" element={<AktiiviPage />} />
         <Route path="/periaatteet" element={<PeriaatteetPage />} />
-        <Route path="/yhdenvertaisuus" element={<PeriaatteetPage to="/periaatteet" replace />} />
+        <Route
+          path="/yhdenvertaisuus"
+          element={<PeriaatteetPage to="/periaatteet" replace />}
+        />
         <Route path="/vujuetiketti" element={<VujuPage />} />
         <Route path="/dokumentit" element={<DokumenttiPage />} />
         <Route path="/kansainvalisyys" element={<KansainvalisyysPage />} />

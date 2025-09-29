@@ -18,7 +18,7 @@ const AktiiviPage = () => {
       <img src={starterImage} alt="starter_img_aktiivit" className="starter" />
       <div className="aktiivi-container">
         <div className="aktiivi-start">
-        <h2>MIKÄ IHMEEN AKTIIVI???</h2>
+          <h2>MIKÄ IHMEEN AKTIIVI???</h2>
           <p>
             Aktiivit koostuvat kiltamme jäsenistä, jotka haluavat auttaa ja
             vaikuttaa kiltamme toimintaan. Aktiivit auttavat hallituksemme
