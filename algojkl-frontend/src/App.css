@@ -637,6 +637,26 @@ body.modal-open {
 
 /* --------------------Overall-Page--------------------------------------------------------------------------- */
 
+
+/*-Vuju--*/
+
+.vuju-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.vuju-container h1 {
+  padding: 10px;
+  width: fit-content;
+  background-color: #fbbebd;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+
+/*-Vuju--*/
+
+
 .OverAll-container {
   border-radius: 2px;
   border: 2px solid #000;
@@ -692,7 +712,7 @@ body.modal-open {
 /* -------------------------------LakkiC+ vuju-container--------------------------------------------------------------- */
 
 .Lakki-container p,
-.Vuju-container p,
+.vuju-container p,
 .hakijalle-container p,
 .kerhotoiminta-container p,
 .Freshman-container p
@@ -742,7 +762,7 @@ body.modal-open {
 }
 
 .Lakki-container h2,
-.Vuju-container h2,
+.vuju-container h2,
 .pyt-kirja-container h2 {
   text-align: center;
   background-color: #fbbebd;
@@ -751,7 +771,12 @@ body.modal-open {
   border-radius: 10px;
   padding: 10px;
 }
-
+.Lakki-container h3 {
+  background-color: #fbbebd;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+}
 .lakki {
   width: 73%;
   padding: 10px;
@@ -1623,9 +1648,10 @@ p {
 
   .aktiivi-kuva-container p,
   .kerhotoiminta-container, 
-  .aktiivi-start p {
+  .aktiivi-start p,
+  .vuju-container p {
     font-size: small;
-    line-height: 23px;
+    line-height: 25px;
   }
 
   .aktiivi-pestit {
@@ -1658,7 +1684,7 @@ p {
   .Freshman-container p,
   .collab-container p,
   .rekryt-container p {
-    font-size: 0.7rem;
+    font-size: small;
   }
 
   .OverAll-container h2,
@@ -1676,11 +1702,11 @@ p {
   .periaate-container ul,
   .Freshman-container ul,
   .kerhotoiminta-container ul {
-    font-size: 0.7rem;
+    font-size: small
   }
 
   .kerhotoiminta-container ol {
-    font-size: 0.7rem;
+    font-size: small;
   }
 
   .kunnia-container ul {
