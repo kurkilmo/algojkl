@@ -8,9 +8,10 @@ const Merkit = () => {
   const isMobile = useDevice()
   const starterImage = isMobile ? starterMobile : starterDesktop
   return (
-    <div className="Lakki-container">
+    <div>
       <div>
         <img src={starterImage} alt="ohjesäännöt_starter" className="starter" />
+        <div className='Lakki-container'>
         <p>
           Tältä sivulta löydät tietoa teekkarilakista, haalarietiketistä sekä
           juhlanauha- ja merkkiohjesäännöstä.
@@ -111,9 +112,7 @@ const Merkit = () => {
           Se on voimassa toistaiseksi. Tämän ohjesäännön muuttamisesta päättää
           yhdistyksen kokous ehdottomalla äänienemmistöllä.
         </p>
-      </div>
 
-      <div className="Lakki-container">
         <img
           src={lakki}
           alt="Jyväskylän 8-kulmainen teekkarilakki"
@@ -269,6 +268,7 @@ const Merkit = () => {
         Haalarit pestään siten, että olet itse niiden sisällä, esimerkiksi
         järvessä tai suihkussa.
       </p>
+    </div>
     </div>
   )
 }

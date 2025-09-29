@@ -70,9 +70,7 @@ const KansainvalisyysPage = () => {
         <h3>Vaihtovinkit</h3>
         <ul>
           <li>
-            <strong>Opintopistevaatimus:</strong> ERASMUS+ -ohjelmassa
-            opiskelijan on suoritettava vähintään 20 opintopistettä (20 ECTS)
-            lukukautta kohti kohdeyliopistossa. (Pätee myös muissa kohteissa)
+            <strong>Opintopistevaatimukset:</strong>  Vaihto-ohjelmasta ja -kohteesta riippuen opiskelijan on yleensä suoritettava jokin minimimäärä opintopisteitä lukukautta kohti kohdeyliopistossa. Esimerkiksi 20 opintopistettä (20 ECTS) per lukukausi.
           </li>
           <li>
             <strong>Kurssisuunnitelma:</strong> Vaihtoa varten laaditaan

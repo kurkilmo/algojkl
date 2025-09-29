@@ -21,8 +21,8 @@ const YhteydenottoPage = () => {
             Tämä palaute ei korvaa yliopiston virallista tai opettajan antamaa
             kurssipalautelomaketta!{' '}
           </strong>
-        </p>
-        <p>
+          <br />
+          <br />
           Tätä palautetta kerää ja käyttää Algon kopo ja puheenjohtaja. Tämän
           palautteen voit antaa täysin anonyymisti tai antaa yhteystietosi jos
           haluat että sinuun ollaan yhteydessä. Palautteet viedään kuitenkin

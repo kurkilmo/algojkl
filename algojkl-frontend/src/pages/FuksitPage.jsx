@@ -19,8 +19,9 @@ const Fuksit = () => {
   if (error) return <p>Virhe ladattaessa tietoja!</p>
 
   return (
+    <div>
+    <img src={starterImage} alt="freshman_starter_img" className="starter" />
     <div className="Freshman-container">
-      <img src={starterImage} alt="freshman_starter_img" className="starter" />
       <div className="fuksi-leveys">
         <div className="header">
           <div>
@@ -130,6 +131,7 @@ const Fuksit = () => {
           <TutorList tutorit={data?.tutorit} />
         </div>
       </div>
+    </div>
     </div>
   )
 }

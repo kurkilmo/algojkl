@@ -10,6 +10,7 @@ const PeriaatteetPage = () => {
     <div>
       <img src={starterImage} alt="starter_image_rules" className="starter" />
       <div className="periaate-container">
+        <h1>Toiminnasta</h1>
         <p>
           Algon killan sisällä apua voi hakea meidän sopolta/kopolta
           (sopo@algojkl.com & kopo@algojkl.com) tai anonyymisti lomakkeella,
