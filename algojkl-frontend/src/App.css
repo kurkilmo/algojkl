@@ -598,13 +598,13 @@ body.modal-open {
 }
 
 .Freshman-container h2 {
-    font-size: medium;
-    background-color: #fbbebd;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 0 auto;
-  }
+  font-size: medium;
+  background-color: #fbbebd;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
 
 .Freshman-container ul {
   list-style: none;
@@ -616,7 +616,8 @@ body.modal-open {
   margin: 10px 0;
 }
 
-.Freshman-container a, .hakijalle-container a {
+.Freshman-container a,
+.hakijalle-container a {
   color: #fbbebd;
   text-decoration: underline;
   font-weight: bold;
@@ -638,7 +639,6 @@ body.modal-open {
 
 /* --------------------Overall-Page--------------------------------------------------------------------------- */
 
-
 /*-Vuju--*/
 
 .vuju-container {
@@ -656,7 +656,6 @@ body.modal-open {
 }
 
 /*-Vuju--*/
-
 
 .OverAll-container {
   border-radius: 2px;
@@ -716,8 +715,7 @@ body.modal-open {
 .vuju-container p,
 .hakijalle-container p,
 .kerhotoiminta-container p,
-.Freshman-container p
-{
+.Freshman-container p {
   line-height: 30px;
   position: relative;
   justify-content: center;
@@ -1326,7 +1324,7 @@ aktiivi-pestit ul {
   background-color: #005fa3;
 }
 
-.salaisuudet-page-content{
+.salaisuudet-page-content {
   width: 70%;
   margin: 0 auto;
   padding: 20px;
@@ -1341,14 +1339,14 @@ p {
   line-height: 1.5;
 }
 
-
 /*----------------------------------------------------------*/
 
 @media (min-width: 2300px) {
   .footer-nav ul {
     gap: 17rem;
   }
-  .footer-nav, .feedback-comms p {
+  .footer-nav,
+  .feedback-comms p {
     font-size: medium;
   }
 }
@@ -1357,7 +1355,8 @@ p {
   .footer-nav ul {
     gap: 13rem;
   }
-  .footer-nav, .feedback-comms p {
+  .footer-nav,
+  .feedback-comms p {
     font-size: medium;
   }
 }
@@ -1366,7 +1365,8 @@ p {
   .footer-nav ul {
     gap: 10rem;
   }
-  .footer-nav, .feedback-comms p {
+  .footer-nav,
+  .feedback-comms p {
     font-size: medium;
   }
 }
@@ -1616,7 +1616,7 @@ p {
   }
 
   .aktiivi-start h2 {
-    padding-top:10px !important;
+    padding-top: 10px !important;
     margin: 0 auto !important;
   }
 
@@ -1648,7 +1648,7 @@ p {
   }
 
   .aktiivi-kuva-container p,
-  .kerhotoiminta-container, 
+  .kerhotoiminta-container,
   .aktiivi-start p,
   .vuju-container p {
     font-size: small;
@@ -1703,7 +1703,7 @@ p {
   .periaate-container ul,
   .Freshman-container ul,
   .kerhotoiminta-container ul {
-    font-size: small
+    font-size: small;
   }
 
   .kerhotoiminta-container ol {

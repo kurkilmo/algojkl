@@ -48,7 +48,9 @@ const PestitDescription = () => (
       <br />
       <br />
       <strong>Viestintävastaava</strong> ylläpitää killan sosiaalisen median
-      tilejä ja tiedottaa jäsenille tapahtumista ja muista tärkeistä asioista. Viestintää hoitavat aktiivit: Venla Veijalainen (tg: @thevempula) ja Viola Maunuksela (tg: @violamaunuksela)
+      tilejä ja tiedottaa jäsenille tapahtumista ja muista tärkeistä asioista.
+      Viestintää hoitavat aktiivit: Venla Veijalainen (tg: @thevempula) ja Viola
+      Maunuksela (tg: @violamaunuksela)
       <br />
       <br />
       <br />

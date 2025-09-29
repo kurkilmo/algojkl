@@ -67,7 +67,7 @@ function NavBar() {
                   items: [
                     { label: 'SÄÄNNÖT', path: '/saannot' },
                     { label: 'OHJESÄÄNNÖT & ETIKETIT', path: '/ohjesaannot' },
-                    { label: 'VUOSIJUHLAT', path: '/vujuetiketti'},
+                    { label: 'VUOSIJUHLAT', path: '/vujuetiketti' },
                     { label: 'REKISTERISELOSTE', path: '/seloste' },
                     { label: 'KUNNIAGALLERIA', path: '/kunniagalleria' },
                     { label: 'TOIMINNAN PERIAATTEET', path: '/periaatteet' },
@@ -133,7 +133,7 @@ function NavBar() {
                   items: [
                     { label: 'SÄÄNNÖT', path: '/saannot' },
                     { label: 'OHJESÄÄNNÖT & ETIKETIT', path: '/ohjesaannot' },
-                    { label: 'VUOSIJUHLAT', path: '/vujuetiketti'},
+                    { label: 'VUOSIJUHLAT', path: '/vujuetiketti' },
                     { label: 'REKISTERISELOSTE', path: '/seloste' },
                     { label: 'KUNNIAGALLERIA', path: '/kunniagalleria' },
                     { label: 'TOIMINNAN PERIAATTEET', path: '/periaatteet' },

@@ -10,7 +10,9 @@ const HomePage = () => {
       <Carousel />
       <div className="container-info">
         <p>
-          Algo ry on vuonna 2022 perustettu kilta, joka yhdistää Jyväskylän yliopiston tieto- ja ohjelmistotekniikan sekä teknologiajohtamisen opiskelijat.
+          Algo ry on vuonna 2022 perustettu kilta, joka yhdistää Jyväskylän
+          yliopiston tieto- ja ohjelmistotekniikan sekä teknologiajohtamisen
+          opiskelijat.
         </p>
       </div>
       <div className="events">
