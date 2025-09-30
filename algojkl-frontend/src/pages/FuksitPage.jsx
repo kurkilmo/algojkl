@@ -102,17 +102,14 @@ const Fuksit = () => {
 
         <h2>Opintojen alku:</h2>
         <p>
-          Orientaatioviikko tieto- ja ohjelmistotekniikan sekä
-          teknologiajohtamisen koulutuksilla alkaa x x x
+          Orientaatioviikko tieto- ja ohjelmistotekniikan sekä teknologiajohtamisen koulutusohjelmissa alkaa 25.8.2025 Jyväskylän yliopiston IT-tiedekunnassa Agoralla.
         </p>
         <h2>Kiltatoiminta</h2>
         <p>
-          Algo ry on Jyväskylän Yliopiston tieto- ja ohjelmistotekniikan sekä
-          teknologiajohtamisen kilta. Algo tarjoaa jäsenilleen monia etuja ja
-          palveluita. Jäsenet pääsevät osallistumaan Algon järjestämiin
-          tapahtumiin ja saavat useita etuja. Sen lisäksi Algo edistää myös
-          opiskelijoidensa ammatillista kehitystä järjestämällä yritysvierailuja
-          ja jakamalla työpaikkailmoituksia.
+          Algo ry on Jyväskylän yliopiston tieto- ja ohjelmistotekniikan sekä
+          teknologiajohtamisen opiskelijoiden kilta. Killan tehtävänä on valvoa
+          jäsentensä etuja, järjestää monipuolisia tapahtumia sekä tehdä
+          yhteistyötä alan yritysten kanssa. Ennen kaikkea Algo on jäsenistölleen yhteisö opintojen ajalle.
         </p>
         <h2>Jäsenyys</h2>
         <p>
@@ -126,12 +123,12 @@ const Fuksit = () => {
           3. Nauti Algon eduista ja pidä hauskaa tulevissa tapahtumissa :-){' '}
         </p>
 
-        <div>
+        <div>{/*
           <h2>Tutorit 2025 esittäytyvät:</h2>
           <TutorList tutorit={data?.tutorit} />
-        </div>
+        */}</div>
+          </div>
       </div>
-    </div>
     </div>
   )
 }
