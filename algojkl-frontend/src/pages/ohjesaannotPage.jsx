@@ -241,7 +241,6 @@ const Merkit = () => {
           Ohjesääntöä voidaan muuttaa tätä ohjesääntöä ylläpitävän yhdistyksen
           kokouksessa.
         </p>
-      </div>
 
       <h1>Haalarietiketti</h1>
       <br />
@@ -268,6 +267,7 @@ const Merkit = () => {
         Haalarit pestään siten, että olet itse niiden sisällä, esimerkiksi
         järvessä tai suihkussa.
       </p>
+    </div>
     </div>
     </div>
   )
