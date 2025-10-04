@@ -43,7 +43,7 @@ const PrevHalli = () => {
             <strong>Ulkosuhdevastaava: </strong> Veeti Eloranta
           </p>
           <p>
-            <strong>Viesintävastaava: </strong> Essi Pakkala
+            <strong>Viestintävastaava: </strong> Essi Pakkala
           </p>
         </div>
       </div>

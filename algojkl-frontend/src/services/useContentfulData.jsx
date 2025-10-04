@@ -45,7 +45,7 @@ const fetchContentfulData = async () => {
       pesti: item.fields.pesti,
       lispesti: item.fields.lispesti,
       telegram: item.fields.telegram,
-      sp: item.fields.sp,
+      sahkoposti: item.fields.sahkoposti,
       nimi: item.fields.nimi,
       kuva: item.fields.kuva.fields.file.url,
       id: item.fields.halliId,
