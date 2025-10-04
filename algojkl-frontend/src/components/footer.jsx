@@ -105,15 +105,6 @@ function Footer() {
             Palautelomake
           </a>
         </div>
-        <div className="feedback">
-          <h3>Algo ry:n viestintäkanavat</h3>
-          <p>
-            <a href="https://t.me/+8y92cuFA8bozNGI0">Telegram-kanava</a>
-          </p>
-          <p>
-            <a href="https://t.me/+ewJj_alb0eo2Njc0">Telegram-ilmoituskanava</a>
-          </p>
-        </div>
       </div>
     </footer>
   )

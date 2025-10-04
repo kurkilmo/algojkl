@@ -555,7 +555,8 @@ body.modal-open {
 .Vuju-container h1,
 .Freshman-container h1,
 .kerhotoiminta-container h1,
-.rekryt-container h1 {
+.rekryt-container h1,
+.event-container h2 {
   background-color: #fbbebd;
   width: fit-content;
   position: relative;
@@ -569,7 +570,10 @@ body.modal-open {
 
 .event-container {
   padding: 0 0 10px 10px;
+  width: 70%;
+  margin: 0 auto;
 }
+
 /*-----------------------------------------------------FreshmanPage------------------------------------------------------------------------*/
 
 .fuksi-leveys, .Freshman-container {
@@ -715,7 +719,8 @@ body.modal-open {
 .vuju-container p,
 .hakijalle-container p,
 .kerhotoiminta-container p,
-.Freshman-container p {
+.Freshman-container p,
+.event-container p {
   line-height: 30px;
   position: relative;
   justify-content: center;
@@ -928,6 +933,11 @@ body.modal-open {
 }
 
 /*----------------------------------------------------------*/
+
+.prev-hallitus {
+  width: 70%;
+  margin: 0 auto;
+}
 
 .prev-hallitus h3 {
   margin-left: 20%;
@@ -1594,19 +1604,14 @@ p {
   .fuksi-leveys,
   .hakijalle-container,
   .aktiivi-container,
-  .aktiivi-consent {
+  .aktiivi-consent,
+  .prev-hallitus,
+  .event-container {
     width: 95% !important;
   }
 
-  .prev-hallitus h3 {
-    margin-left: 10%;
-  }
-
-  .prev-hallitus-info {
-    margin-left: 10%;
-    gap: 10px;
-    flex-direction: column;
-    padding-bottom: 10px;
+  .prev-hallitus {
+    margin: 0;
   }
 
   .tutor-container {

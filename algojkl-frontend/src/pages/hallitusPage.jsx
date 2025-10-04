@@ -29,7 +29,7 @@ const HallitusPage = () => {
     <div>
       <img src={starterImage} alt="hallitus_starter_img" className="starter" />
       <div className="hallitus">
-        <h1>ALGO ry:n hallitus 2025</h1>
+        <h1>Algo ry:n hallitus 2025</h1>
         <div className="hallitus-grid">
           {sortedHallitus.map((member) => (
             <HallitusCard key={member.id} member={member} />

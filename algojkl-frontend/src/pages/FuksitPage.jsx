@@ -100,7 +100,7 @@ const Fuksit = () => {
           </li>
         </ul>
 
-        <h2>Opintojen alku:</h2>
+        <h2>Opintojen alku</h2>
         <p>
           Orientaatioviikko tieto- ja ohjelmistotekniikan sekä teknologiajohtamisen koulutusohjelmissa alkaa 25.8.2025 Jyväskylän yliopiston IT-tiedekunnassa Agoralla.
         </p>

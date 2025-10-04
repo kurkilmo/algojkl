@@ -22,9 +22,9 @@ const HallitusCard = ({ member }) => {
         <strong>{member.nimi}</strong>
       </p>
       {member.telegram && <p>Telegram: {member.telegram}</p>}
-      {member.sp && (
+      {member.sahkoposti && (
         <p>
-          <a href={`mailto:${member.sp}`}>{member.sp}</a>
+          <a href={`mailto:${member.sahkoposti}`}>{member.sahkoposti}</a>
         </p>
       )}
     </div>
