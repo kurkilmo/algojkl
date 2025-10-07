@@ -4,7 +4,7 @@
 ## FAQ
 
 ### How do I can contribute
-Ask help from quild's webmaster. Webmaster will help you start your commit journey.
+Ask help from guild's webmaster. Webmaster will help you start your commit journey.
 
 ### I spotted an error, Can I report it?
 Yes, make a new issue detailing the problem in issues site.
